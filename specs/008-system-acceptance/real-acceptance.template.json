@@ -1,0 +1,105 @@
+{
+  "template_only": true,
+  "status": "human_fact_baseline_confirmed_execution_not_frozen",
+  "selected_material": {
+    "title": "平湖市胜利大桥检测报告",
+    "source_kind": "real",
+    "local_candidate_path": "/private/tmp/ontology-shengli-review/shengli-original.pdf",
+    "sha256": "29fc28b28785c94a9ab96f32b2c867d88d3c1cd7aec61255a535aa7a6dc9126a",
+    "stable_input_path": "data/s52-local-shengli-20261012-01/input/shengli-original.pdf",
+    "page_count_verified": 60,
+    "approved_pages_or_regions": [],
+    "actual_complex_formats": [
+      "cross_page_tables",
+      "merged_cells",
+      "image_only_drawing_appendices"
+    ],
+    "scan_pages_present": true
+  },
+  "authorization": {
+    "local_inspection_and_parsing": "authorized",
+    "external_destination": null,
+    "external_payload_allowlist": [],
+    "generation_budget": 0,
+    "embedding_budget": 0,
+    "raw_material_git_delivery_allowed": null,
+    "external_model_payload": "prohibited_pending_new_authorization"
+  },
+  "independent_expectations": {
+    "origin": "original_pdf_human_review_before_system_output",
+    "professional_reviewer": "用户本人",
+    "human_confirmed": true,
+    "confirmed_at": "2026-10-12",
+    "fact_fields": [
+      "id",
+      "physical_page",
+      "exact_quote",
+      "object_identity",
+      "identity_scope",
+      "polarity",
+      "qualifiers",
+      "area_raw_value",
+      "area_raw_unit",
+      "area_m2_or_unknown",
+      "observed_at_or_unknown",
+      "forbidden_inference"
+    ],
+    "facts": [],
+    "question_fields": [
+      "id",
+      "question",
+      "allowed_claims",
+      "required_sources",
+      "insufficient_evidence_behavior",
+      "forbidden_claims"
+    ],
+    "questions": [],
+    "report_assertions": [],
+    "position_checks": [],
+    "draft_manifest": "results/local-shengli-20261012-01/independent-draft-manifest.json",
+    "confirmed_item_ids": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F09",
+      "F10",
+      "F11",
+      "F12"
+    ],
+    "confirmed_baseline_manifest": "results/human-baseline-20261012-01/manifest.json",
+    "component_type_for_F04_F05": null,
+    "downstream_execution_expectations": "not_separately_confirmed",
+    "execution_comparison_manifest": "results/human-baseline-20261012-01/execution-expectations-manifest.json"
+  },
+  "acceptance": {
+    "scope_and_quality_thresholds_confirmed": false,
+    "thresholds": null,
+    "ocr_scope_and_expected_behavior": "Existing OCR disabled; image-only pages55-60 have no parsed text; future OCR scope/threshold pending",
+    "full_s52_done_unchanged": true,
+    "human_verdict": "not_run",
+    "real_historical_observations_verified": false,
+    "first_business_review_scope": [
+      "F03",
+      "F04",
+      "F05"
+    ],
+    "business_review_scope_confirmed": true,
+    "human_fact_baseline_verdict": "confirmed"
+  },
+  "execution": {
+    "run_id": null,
+    "data_root": null,
+    "dedicated_graph_container": null,
+    "dedicated_graph_volume": null,
+    "ports": null,
+    "freeze_manifest": null,
+    "request_list": [],
+    "auto_retry": false,
+    "result_directory_must_not_exist": true
+  }
+}

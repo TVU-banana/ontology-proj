@@ -1,0 +1,165 @@
+{
+  "baseline_id": "business-extraction-variants-001-v1.0",
+  "configuration_version": "1.0",
+  "fixed_on_local_date": "2026-10-11",
+  "status": "configuration_frozen_no_api_execution",
+  "reference_successful_request": "experiments/business-extraction-001/results/fresh/request.json",
+  "reference_request_sha256": "efc5ebdb1e2461fc9dc129c0a97ed34b62e710784269ed48ffe69590b10b30ad",
+  "provider": {
+    "base_url": "http://relay.example.invalid:7863/v1",
+    "endpoint": "/chat/completions",
+    "api_style": "OpenAI-compatible Chat Completions",
+    "credential_source": "experiments/business-extraction-001/.env",
+    "credentials_in_artifacts": false,
+    "live_probe_this_stage": false,
+    "upstream_model_revision": "unavailable_not_controlled_by_client"
+  },
+  "request_parameters": {
+    "model": "cn:deepseek-v4.1-flash",
+    "response_format": {
+      "type": "json_object"
+    },
+    "temperature": 0,
+    "max_tokens": 18000,
+    "thinking": {
+      "type": "disabled"
+    },
+    "stream": false
+  },
+  "schema_version": "0.1.0-draft",
+  "frozen_artifacts_sha256": {
+    "frozen/provider.py": "aa51d7770422f6fcb4cfaaa8cc8f66767e7ab050ba44d1e9f29ae2fe51b4456c",
+    "frozen/system-prompt.txt": "1c5b407b452f38c3360a4717a23da5528697cd2908ea824b537bcd5589d651db",
+    "frozen/business.schema.json": "9ac6ec663dc04e2a31b80f854b9381ee4b335eac58b8e1b81ce7b164139a9f81",
+    "frozen/extract.py": "cefbf2c195eeaa844a7ca8282e080eb38f81bb386aa4a94e5647aa9a759f680a",
+    "frozen/baseline-normalized.json": "f4bbedb13f658b092f1bcc841236f7bece5dc48a484f9932115ef3d9c56a3faa",
+    "frozen/missing-area-normalized.json": "a6fe92197ad03d1c346d6b9ee915f30d4bef4e9a2cde6926674f0d9be705d45b",
+    "frozen/additional-negative-normalized.json": "85ab8824494aca806f5d21f9a76b9fe7f3cf534c5a469797df9a6d48cc23ff7f",
+    "frozen/duplicate-row-normalized.json": "c62e2664905ce0607ae282968595e0a5ed9b988b125e1bd3e9ecc8103a896fcc",
+    "frozen/reordered-columns-normalized.json": "4835662cfd7768853e15137177bb29c5a71320a4ca1639e98b34145d4dfa54a3"
+  },
+  "input_policy": {
+    "adapter": "Exact copied baseline extract.py adapt_document/messages implementation; pinned schema and prompt",
+    "messages_roles": [
+      "system",
+      "user"
+    ],
+    "trusted_context_fields": [
+      "document_id",
+      "source_kind"
+    ],
+    "payload_keys": [
+      "trusted_context",
+      "candidate_schema",
+      "blocks_in_document_order",
+      "tables",
+      "parser_warnings"
+    ],
+    "block_order": "Preserve parsed document traversal order",
+    "raw_block_text": "Unchanged; no whitespace cleaning",
+    "block_id_policy": "doc_<pdf_sha256>_block_<sequence_4_digits>, explicit old/new mapping saved",
+    "page_no_policy": "First native location page, or null if absent",
+    "excluded_block_fields": [
+      "locations",
+      "location_status",
+      "span_basis"
+    ],
+    "candidate_schema": "CandidateBundle dependency closure, exactly as successful baseline",
+    "allowed_variation": "PDF-specific parsed blocks, document IDs, tables, parser warnings and provenance only",
+    "golden_or_expected_facts_in_model_input": false,
+    "previous_answers_or_diagnostics": false
+  },
+  "execution_policy": {
+    "cases": 5,
+    "independent_calls_per_case": 2,
+    "planned_total_calls": 10,
+    "fresh_context_every_call": true,
+    "repair_in_first_pass": false,
+    "automatic_retries": 0,
+    "automatic_model_fallback": false,
+    "output_directory_policy": "New per-run directory only; refuse overwrite; preserve raw response and failure",
+    "connection_timeout_seconds": 5,
+    "request_timeout_seconds": 180,
+    "change_rule": "Any model/schema/prompt/request/input-organization change requires new baseline version and whole-suite rerun",
+    "model_calls_this_stage": 0
+  },
+  "cases": [
+    {
+      "case_id": "baseline",
+      "pdf": "samples/synthetic/bridge-demo-001/input/bridge-demo-001.pdf",
+      "pdf_sha256": "6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968",
+      "parsed_source": "experiments/docling-parse-001/results/normalized.json",
+      "parsed_source_sha256": "f4bbedb13f658b092f1bcc841236f7bece5dc48a484f9932115ef3d9c56a3faa",
+      "native_docling": "experiments/docling-parse-001/results/docling.json",
+      "native_docling_sha256": "b1aea1a25ec2825590a897e7c74611f1dc699d39a4ce4c8ac1a96684204cbf84",
+      "parsed_snapshot": "frozen/baseline-normalized.json",
+      "planned_run_ids": [
+        "baseline-01",
+        "baseline-02"
+      ]
+    },
+    {
+      "case_id": "missing-area",
+      "pdf": "samples/synthetic/bridge-variants-001/input/missing-area.pdf",
+      "pdf_sha256": "dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "parsed_source": "experiments/docling-variants-001/results/missing-area/normalized.json",
+      "parsed_source_sha256": "a6fe92197ad03d1c346d6b9ee915f30d4bef4e9a2cde6926674f0d9be705d45b",
+      "native_docling": "experiments/docling-variants-001/results/missing-area/docling.json",
+      "native_docling_sha256": "adc7a4bfba18bf77065a73dcf180570fea60d250c87bed0f5f6da3ce5104c916",
+      "parsed_snapshot": "frozen/missing-area-normalized.json",
+      "planned_run_ids": [
+        "missing-area-01",
+        "missing-area-02"
+      ]
+    },
+    {
+      "case_id": "additional-negative",
+      "pdf": "samples/synthetic/bridge-variants-001/input/additional-negative.pdf",
+      "pdf_sha256": "d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b",
+      "parsed_source": "experiments/docling-variants-001/results/additional-negative/normalized.json",
+      "parsed_source_sha256": "85ab8824494aca806f5d21f9a76b9fe7f3cf534c5a469797df9a6d48cc23ff7f",
+      "native_docling": "experiments/docling-variants-001/results/additional-negative/docling.json",
+      "native_docling_sha256": "fa8485bc159ac9f1dec234689afbda95dd067ffbdc49f535ef9ca95f00db9043",
+      "parsed_snapshot": "frozen/additional-negative-normalized.json",
+      "planned_run_ids": [
+        "additional-negative-01",
+        "additional-negative-02"
+      ]
+    },
+    {
+      "case_id": "duplicate-row",
+      "pdf": "samples/synthetic/bridge-variants-001/input/duplicate-row.pdf",
+      "pdf_sha256": "76fd6cdc84e1683976f0f4524bfa7ffe9e0bcde22b347bcdc690d9a83272c0fb",
+      "parsed_source": "experiments/docling-variants-001/results/duplicate-row/normalized.json",
+      "parsed_source_sha256": "c62e2664905ce0607ae282968595e0a5ed9b988b125e1bd3e9ecc8103a896fcc",
+      "native_docling": "experiments/docling-variants-001/results/duplicate-row/docling.json",
+      "native_docling_sha256": "7c2c9330e1b83524ccb7ae2f0c9528fcf94cf2541973fb011da3c8bdab2ad059",
+      "parsed_snapshot": "frozen/duplicate-row-normalized.json",
+      "planned_run_ids": [
+        "duplicate-row-01",
+        "duplicate-row-02"
+      ]
+    },
+    {
+      "case_id": "reordered-columns",
+      "pdf": "samples/synthetic/bridge-variants-001/input/reordered-columns.pdf",
+      "pdf_sha256": "ff564cd30bf1b14158ff69a0431892f10cea3159308fd88885dc27730f913315",
+      "parsed_source": "experiments/docling-variants-001/results/reordered-columns/normalized.json",
+      "parsed_source_sha256": "4835662cfd7768853e15137177bb29c5a71320a4ca1639e98b34145d4dfa54a3",
+      "native_docling": "experiments/docling-variants-001/results/reordered-columns/docling.json",
+      "native_docling_sha256": "b2a7b7918c7e8267003a3126bed29fc7d526154105966c4bae1c033066d638ec",
+      "parsed_snapshot": "frozen/reordered-columns-normalized.json",
+      "planned_run_ids": [
+        "reordered-columns-01",
+        "reordered-columns-02"
+      ]
+    }
+  ],
+  "acceptance_reference": {
+    "expected_path": "samples/synthetic/bridge-variants-001/expectations.json",
+    "expected_sha256": "491fad2318afde207c8009b0052206a2f7ac14e4fca734dde9f7514b85f8d6d7",
+    "expectations_version": "1.0",
+    "not_sent_to_model": true,
+    "suite_validator_and_evaluator": "Not implemented in this configuration-only stage; current single-sample entrypoints must not be treated as suite-ready"
+  }
+}

@@ -1,0 +1,1512 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ontology-proj:business-extraction:0.1.0-draft",
+  "title": "桥梁病害最小业务契约（草案）",
+  "description": "机器结构契约，不保证语义或来源正确。候选由模型输出；正式记录/证据/状态由程序生成。待用户审阅。",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/CandidateBundle"
+    },
+    {
+      "$ref": "#/$defs/RecordBundle"
+    }
+  ],
+  "$defs": {
+    "Identifier": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "NonBlank": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "DecimalText": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)(\\.[0-9]+)?$",
+      "description": "非负十进制字符串；不接受指数形式，程序用 Decimal。"
+    },
+    "DateOrNull": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "SourceKind": {
+      "enum": [
+        "real",
+        "synthetic"
+      ]
+    },
+    "Pair": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "integer",
+          "minimum": 0
+        },
+        {
+          "type": "integer",
+          "minimum": 0
+        }
+      ],
+      "items": false,
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "BBox": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "minItems": 4,
+      "maxItems": 4,
+      "description": "左上角归一坐标 [x0,y0,x1,y1]；大小关系需要程序校验。"
+    },
+    "SourceProposal": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "block_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "exact_quote": {
+          "$ref": "#/$defs/NonBlank"
+        },
+        "target_field": {
+          "$ref": "#/$defs/NonBlank"
+        },
+        "occurrence_hint": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "block_id",
+        "exact_quote",
+        "target_field",
+        "occurrence_hint"
+      ]
+    },
+    "Issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "$ref": "#/$defs/NonBlank"
+        },
+        "severity": {
+          "enum": [
+            "info",
+            "pending",
+            "reject"
+          ]
+        },
+        "related_local_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "message": {
+          "$ref": "#/$defs/NonBlank"
+        }
+      },
+      "required": [
+        "code",
+        "severity",
+        "related_local_ids",
+        "message"
+      ]
+    },
+    "Statement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "enum": [
+            "negative",
+            "suspected",
+            "aggregate",
+            "unmapped"
+          ]
+        },
+        "component_ref": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Identifier"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "location_text": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "text": {
+          "$ref": "#/$defs/NonBlank"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/SourceProposal"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "kind",
+        "component_ref",
+        "location_text",
+        "text",
+        "sources"
+      ]
+    },
+    "BridgeCandidateData": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "bridge_code": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "bridge_code",
+        "name"
+      ]
+    },
+    "ComponentCandidateData": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "component_code": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "component_type": {
+          "anyOf": [
+            {
+              "enum": [
+                "deck_pavement",
+                "girder"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "location_text": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "component_code",
+        "name",
+        "component_type",
+        "location_text"
+      ]
+    },
+    "DefectCandidateData": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "defect_code": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "defect_type": {
+          "enum": [
+            "pothole",
+            "exposed_rebar",
+            "unknown"
+          ]
+        },
+        "defect_type_raw": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "location_text": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "defect_code",
+        "defect_type",
+        "defect_type_raw",
+        "location_text"
+      ]
+    },
+    "ObservationCandidateData": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "observation_code": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "observed_at": {
+          "$ref": "#/$defs/DateOrNull"
+        },
+        "assertion": {
+          "enum": [
+            "positive",
+            "negative",
+            "suspected",
+            "unknown"
+          ]
+        },
+        "scope": {
+          "enum": [
+            "single_defect",
+            "aggregate",
+            "unknown"
+          ]
+        },
+        "reported_count": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "description": {
+          "$ref": "#/$defs/NonBlank"
+        },
+        "area_original_value": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/DecimalText"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "area_original_unit": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "area_is_approximate": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "observation_code",
+        "observed_at",
+        "assertion",
+        "scope",
+        "reported_count",
+        "description",
+        "area_original_value",
+        "area_original_unit",
+        "area_is_approximate"
+      ]
+    },
+    "BridgeCandidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "local_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "entity_type": {
+          "const": "Bridge"
+        },
+        "data": {
+          "$ref": "#/$defs/BridgeCandidateData"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/SourceProposal"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "local_id",
+        "entity_type",
+        "data",
+        "sources"
+      ]
+    },
+    "ComponentCandidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "local_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "entity_type": {
+          "const": "Component"
+        },
+        "data": {
+          "$ref": "#/$defs/ComponentCandidateData"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/SourceProposal"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "local_id",
+        "entity_type",
+        "data",
+        "sources"
+      ]
+    },
+    "DefectCandidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "local_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "entity_type": {
+          "const": "Defect"
+        },
+        "data": {
+          "$ref": "#/$defs/DefectCandidateData"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/SourceProposal"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "local_id",
+        "entity_type",
+        "data",
+        "sources"
+      ]
+    },
+    "ObservationCandidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "local_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "entity_type": {
+          "const": "Observation"
+        },
+        "data": {
+          "$ref": "#/$defs/ObservationCandidateData"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/SourceProposal"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "local_id",
+        "entity_type",
+        "data",
+        "sources"
+      ]
+    },
+    "EntityCandidate": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/BridgeCandidate"
+        },
+        {
+          "$ref": "#/$defs/ComponentCandidate"
+        },
+        {
+          "$ref": "#/$defs/DefectCandidate"
+        },
+        {
+          "$ref": "#/$defs/ObservationCandidate"
+        }
+      ]
+    },
+    "RelationCandidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "relation_type": {
+          "enum": [
+            "HAS_COMPONENT",
+            "HAS_DEFECT",
+            "HAS_OBSERVATION"
+          ]
+        },
+        "from_ref": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "to_ref": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/SourceProposal"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "relation_type",
+        "from_ref",
+        "to_ref",
+        "sources"
+      ]
+    },
+    "CandidateBundle": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "0.1.0-draft"
+        },
+        "stage": {
+          "const": "candidate"
+        },
+        "document_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "source_kind": {
+          "$ref": "#/$defs/SourceKind"
+        },
+        "entities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/EntityCandidate"
+          },
+          "minItems": 0
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/RelationCandidate"
+          },
+          "minItems": 0
+        },
+        "statements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Statement"
+          },
+          "minItems": 0
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Issue"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema_version",
+        "stage",
+        "document_id",
+        "source_kind",
+        "entities",
+        "relations",
+        "statements",
+        "issues"
+      ]
+    },
+    "Bridge": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "bridge_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "bridge_code": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "$ref": "#/$defs/NonBlank"
+        },
+        "validation_status": {
+          "const": "passed"
+        },
+        "acceptance_status": {
+          "enum": [
+            "accepted",
+            "pending_review"
+          ]
+        },
+        "review_status": {
+          "enum": [
+            "unreviewed",
+            "confirmed"
+          ]
+        },
+        "quality_mode": {
+          "enum": [
+            "demo_accept_all",
+            "demo_one_in_ten",
+            "real"
+          ]
+        },
+        "quality_score": {
+          "type": "null"
+        },
+        "source_document_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "bridge_id",
+        "bridge_code",
+        "name",
+        "validation_status",
+        "acceptance_status",
+        "review_status",
+        "quality_mode",
+        "quality_score",
+        "source_document_id",
+        "evidence_ids"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "acceptance_status": {
+                "const": "pending_review"
+              }
+            },
+            "required": [
+              "acceptance_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "review_status": {
+                "const": "unreviewed"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "Component": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "component_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "bridge_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "component_code": {
+          "$ref": "#/$defs/NonBlank"
+        },
+        "name": {
+          "$ref": "#/$defs/NonBlank"
+        },
+        "component_type": {
+          "anyOf": [
+            {
+              "enum": [
+                "deck_pavement",
+                "girder"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "location_text": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "validation_status": {
+          "const": "passed"
+        },
+        "acceptance_status": {
+          "enum": [
+            "accepted",
+            "pending_review"
+          ]
+        },
+        "review_status": {
+          "enum": [
+            "unreviewed",
+            "confirmed"
+          ]
+        },
+        "quality_mode": {
+          "enum": [
+            "demo_accept_all",
+            "demo_one_in_ten",
+            "real"
+          ]
+        },
+        "quality_score": {
+          "type": "null"
+        },
+        "source_document_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "component_id",
+        "bridge_id",
+        "component_code",
+        "name",
+        "component_type",
+        "location_text",
+        "validation_status",
+        "acceptance_status",
+        "review_status",
+        "quality_mode",
+        "quality_score",
+        "source_document_id",
+        "evidence_ids"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "acceptance_status": {
+                "const": "pending_review"
+              }
+            },
+            "required": [
+              "acceptance_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "review_status": {
+                "const": "unreviewed"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "Defect": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "defect_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "component_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "defect_code": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "defect_type": {
+          "enum": [
+            "pothole",
+            "exposed_rebar"
+          ]
+        },
+        "defect_type_raw": {
+          "$ref": "#/$defs/NonBlank"
+        },
+        "location_text": {
+          "$ref": "#/$defs/NonBlank"
+        },
+        "identity_scope": {
+          "enum": [
+            "explicit",
+            "document_local"
+          ]
+        },
+        "validation_status": {
+          "const": "passed"
+        },
+        "acceptance_status": {
+          "enum": [
+            "accepted",
+            "pending_review"
+          ]
+        },
+        "review_status": {
+          "enum": [
+            "unreviewed",
+            "confirmed"
+          ]
+        },
+        "quality_mode": {
+          "enum": [
+            "demo_accept_all",
+            "demo_one_in_ten",
+            "real"
+          ]
+        },
+        "quality_score": {
+          "type": "null"
+        },
+        "source_document_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "defect_id",
+        "component_id",
+        "defect_code",
+        "defect_type",
+        "defect_type_raw",
+        "location_text",
+        "identity_scope",
+        "validation_status",
+        "acceptance_status",
+        "review_status",
+        "quality_mode",
+        "quality_score",
+        "source_document_id",
+        "evidence_ids"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "acceptance_status": {
+                "const": "pending_review"
+              }
+            },
+            "required": [
+              "acceptance_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "review_status": {
+                "const": "unreviewed"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "Observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "observation_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "observation_code": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "component_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "defect_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "source_kind": {
+          "$ref": "#/$defs/SourceKind"
+        },
+        "observed_at": {
+          "$ref": "#/$defs/DateOrNull"
+        },
+        "assertion": {
+          "const": "positive"
+        },
+        "scope": {
+          "const": "single_defect"
+        },
+        "reported_count": {
+          "enum": [
+            1,
+            null
+          ]
+        },
+        "description": {
+          "$ref": "#/$defs/NonBlank"
+        },
+        "area_original_value": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/DecimalText"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "area_original_unit": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NonBlank"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "area_value": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/DecimalText"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "area_unit": {
+          "const": "m²"
+        },
+        "area_conversion": {
+          "anyOf": [
+            {
+              "const": "identity"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "area_is_approximate": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "missing_fields": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "observed_at",
+              "reported_count",
+              "area_original_value",
+              "area_original_unit",
+              "area_value",
+              "area_is_approximate"
+            ]
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "validation_status": {
+          "const": "passed"
+        },
+        "acceptance_status": {
+          "enum": [
+            "accepted",
+            "pending_review"
+          ]
+        },
+        "review_status": {
+          "enum": [
+            "unreviewed",
+            "confirmed"
+          ]
+        },
+        "quality_mode": {
+          "enum": [
+            "demo_accept_all",
+            "demo_one_in_ten",
+            "real"
+          ]
+        },
+        "quality_score": {
+          "type": "null"
+        },
+        "source_document_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "observation_id",
+        "observation_code",
+        "component_id",
+        "defect_id",
+        "source_kind",
+        "observed_at",
+        "assertion",
+        "scope",
+        "reported_count",
+        "description",
+        "area_original_value",
+        "area_original_unit",
+        "area_value",
+        "area_unit",
+        "area_conversion",
+        "area_is_approximate",
+        "missing_fields",
+        "validation_status",
+        "acceptance_status",
+        "review_status",
+        "quality_mode",
+        "quality_score",
+        "source_document_id",
+        "evidence_ids"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "acceptance_status": {
+                "const": "pending_review"
+              }
+            },
+            "required": [
+              "acceptance_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "review_status": {
+                "const": "unreviewed"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "observed_at": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "observed_at"
+            ]
+          },
+          "then": {
+            "properties": {
+              "missing_fields": {
+                "contains": {
+                  "const": "observed_at"
+                }
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "missing_fields": {
+                "not": {
+                  "contains": {
+                    "const": "observed_at"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "area_value": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "area_value"
+            ]
+          },
+          "then": {
+            "properties": {
+              "area_conversion": {
+                "type": "null"
+              },
+              "missing_fields": {
+                "contains": {
+                  "const": "area_value"
+                }
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "area_original_value": {
+                "$ref": "#/$defs/DecimalText"
+              },
+              "area_original_unit": {
+                "enum": [
+                  "m²",
+                  "㎡",
+                  "m2"
+                ]
+              },
+              "area_conversion": {
+                "const": "identity"
+              },
+              "missing_fields": {
+                "not": {
+                  "contains": {
+                    "const": "area_value"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "reported_count": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "reported_count"
+            ]
+          },
+          "then": {
+            "properties": {
+              "missing_fields": {
+                "contains": {
+                  "const": "reported_count"
+                }
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "missing_fields": {
+                "not": {
+                  "contains": {
+                    "const": "reported_count"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "area_original_value": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "area_original_value"
+            ]
+          },
+          "then": {
+            "properties": {
+              "missing_fields": {
+                "contains": {
+                  "const": "area_original_value"
+                }
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "missing_fields": {
+                "not": {
+                  "contains": {
+                    "const": "area_original_value"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "area_original_unit": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "area_original_unit"
+            ]
+          },
+          "then": {
+            "properties": {
+              "missing_fields": {
+                "contains": {
+                  "const": "area_original_unit"
+                }
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "missing_fields": {
+                "not": {
+                  "contains": {
+                    "const": "area_original_unit"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "area_is_approximate": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "area_is_approximate"
+            ]
+          },
+          "then": {
+            "properties": {
+              "missing_fields": {
+                "contains": {
+                  "const": "area_is_approximate"
+                }
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "missing_fields": {
+                "not": {
+                  "contains": {
+                    "const": "area_is_approximate"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "Evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "evidence_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "document_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "block_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "page_no": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "bbox": {
+          "$ref": "#/$defs/BBox"
+        },
+        "charspan": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Pair"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "quote": {
+          "$ref": "#/$defs/NonBlank"
+        },
+        "target_field": {
+          "$ref": "#/$defs/NonBlank"
+        },
+        "location_level": {
+          "enum": [
+            "span",
+            "region"
+          ]
+        },
+        "source_ref": {
+          "$ref": "#/$defs/NonBlank"
+        }
+      },
+      "required": [
+        "evidence_id",
+        "document_id",
+        "block_id",
+        "page_no",
+        "bbox",
+        "charspan",
+        "quote",
+        "target_field",
+        "location_level",
+        "source_ref"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "location_level": {
+                "const": "span"
+              }
+            },
+            "required": [
+              "location_level"
+            ]
+          },
+          "then": {
+            "properties": {
+              "charspan": {
+                "$ref": "#/$defs/Pair"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "RecordBundle": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "0.1.0-draft"
+        },
+        "stage": {
+          "const": "records"
+        },
+        "document_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "source_kind": {
+          "$ref": "#/$defs/SourceKind"
+        },
+        "bridges": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Bridge"
+          },
+          "minItems": 0
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Component"
+          },
+          "minItems": 0
+        },
+        "defects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Defect"
+          },
+          "minItems": 0
+        },
+        "observations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Observation"
+          },
+          "minItems": 0
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "minItems": 0
+        },
+        "statements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Statement"
+          },
+          "minItems": 0
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Issue"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema_version",
+        "stage",
+        "document_id",
+        "source_kind",
+        "bridges",
+        "components",
+        "defects",
+        "observations",
+        "evidence",
+        "statements",
+        "issues"
+      ]
+    }
+  }
+}

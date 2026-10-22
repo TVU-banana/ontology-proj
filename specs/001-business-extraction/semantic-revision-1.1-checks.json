@@ -1,0 +1,23 @@
+{
+  "semantic_revision": "1.1",
+  "schema_version": "0.1.0-draft",
+  "passed": 9,
+  "failed": 0,
+  "checks": [
+    "existing_schema_valid",
+    "existing_example_candidate.json_structurally_valid",
+    "existing_example_records.json_structurally_valid",
+    "schema_unchanged",
+    "all_33_experiment_baseline_files_unchanged",
+    "execution_and_validator_sources_unchanged",
+    "original_expectations_unchanged",
+    "changed_document_file_links_valid",
+    "contract_anchors_valid"
+  ],
+  "local_file_links_checked": 71,
+  "contract_anchors_checked": 3,
+  "schema_sha256": "9ac6ec663dc04e2a31b80f854b9381ee4b335eac58b8e1b81ce7b164139a9f81",
+  "contract_sha256": "29beecbfa48b701028376b53f5c67d9d2f96a10378813d1e8d752fa2eb602939",
+  "scope": "Document/structure/integrity checks only; new semantic runtime rules not implemented or tested",
+  "model_calls": 0
+}

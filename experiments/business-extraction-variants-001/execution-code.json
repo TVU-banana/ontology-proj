@@ -1,0 +1,9 @@
+{
+  "source_sha256": {
+    "experiments/business-extraction-variants-001/run_requests.py": "f2a1f5ed12223da7760d91e57d22a9b89757746c997cb7821dc5d53df44bffb7",
+    "experiments/business-extraction-variants-001/evaluate_suite.py": "895c3c561b1d295a5fa33a89dd39f96d4b3932a62885a0ebd02632165fe06e41",
+    "experiments/business-extraction-001/validate.py": "a8c599373ca6aaf64734431fd8ed9f83a7c0ce389fd65866d453f9e942876763",
+    "experiments/business-extraction-001/provider.py": "aa51d7770422f6fcb4cfaaa8cc8f66767e7ab050ba44d1e9f29ae2fe51b4456c"
+  },
+  "note": "Execution adapter and post-call evaluator added without changing frozen requests, model configuration, expected facts or original validator; evaluator has six offline adversarial checks"
+}

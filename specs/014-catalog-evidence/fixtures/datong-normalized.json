@@ -1,0 +1,2306 @@
+{
+  "document_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed",
+  "schema_version": "normalized-0.1",
+  "source_kind": "real",
+  "import_context": {
+    "kind": "inspection_report",
+    "bridge_id": null
+  },
+  "pages": [
+    {
+      "page_no": 1,
+      "width": 595.2756,
+      "height": 841.8898,
+      "coordinate_unit": "pdf_points",
+      "rotation": 0,
+      "location_status": "available"
+    },
+    {
+      "page_no": 2,
+      "width": 595.2756,
+      "height": 841.8898,
+      "coordinate_unit": "pdf_points",
+      "rotation": 0,
+      "location_status": "available"
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000001",
+      "kind": "title",
+      "text": "大同前顾桥检测资料",
+      "source_ref": "#/texts/0",
+      "source_label": "section_header",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.07727513104854289,
+            0.06286095876206128,
+            0.3947751260088604,
+            0.08368619995103269
+          ],
+          "charspan": [
+            0,
+            9
+          ],
+          "raw_bbox": {
+            "l": 46.0,
+            "t": 788.9678,
+            "r": 235.0,
+            "b": 771.4352418604651,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "original_text": "大同前顾桥检测资料"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000002",
+      "kind": "title",
+      "text": "01 桥梁基本信息",
+      "source_ref": "#/texts/1",
+      "source_label": "section_header",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09743386088729321,
+            0.13144950799974064,
+            0.25812245622027846,
+            0.14434132397386576
+          ],
+          "charspan": [
+            0,
+            9
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 731.2238,
+            "r": 153.654,
+            "b": 720.370311627907,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "original_text": "01 桥梁基本信息"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000003",
+      "kind": "table_cell",
+      "text": "桥梁名称",
+      "source_ref": "#/tables/0/data/table_cells/0",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/0",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09407407258083482,
+            0.17851101177374998,
+            0.1632857116938776,
+            0.18957885815547856
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 56.0,
+            "t": 150.28660000000002,
+            "r": 97.2,
+            "b": 159.60450697674423,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/0",
+      "row": 0,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000004",
+      "kind": "table_cell",
+      "text": "大同前顾桥",
+      "source_ref": "#/tables/0/data/table_cells/1",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/0",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.28726190020219206,
+            0.17851101177374998,
+            0.3737764490934955,
+            0.18957885815547856
+          ],
+          "charspan": [
+            0,
+            5
+          ],
+          "raw_bbox": {
+            "l": 171.0,
+            "t": 150.28660000000002,
+            "r": 222.5,
+            "b": 159.60450697674423,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/0",
+      "row": 0,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000005",
+      "kind": "table_cell",
+      "text": "路线名称",
+      "source_ref": "#/tables/0/data/table_cells/2",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/0",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09407407258083482,
+            0.21946649074498828,
+            0.1632857116938776,
+            0.23053433712671687
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 56.0,
+            "t": 184.76660000000004,
+            "r": 97.2,
+            "b": 194.08450697674425,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/0",
+      "row": 1,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000006",
+      "kind": "table_cell",
+      "text": "泰山路",
+      "source_ref": "#/tables/0/data/table_cells/3",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/0",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.28726190020219206,
+            0.21946649074498828,
+            0.33917062953697413,
+            0.23053433712671687
+          ],
+          "charspan": [
+            0,
+            3
+          ],
+          "raw_bbox": {
+            "l": 171.0,
+            "t": 184.76660000000004,
+            "r": 201.9,
+            "b": 194.08450697674425,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/0",
+      "row": 1,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000007",
+      "kind": "table_cell",
+      "text": "结构型式",
+      "source_ref": "#/tables/0/data/table_cells/4",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/0",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09407407258083482,
+            0.26042196971622655,
+            0.1632857116938776,
+            0.2714898160979552
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 56.0,
+            "t": 219.24660000000006,
+            "r": 97.2,
+            "b": 228.56450697674427,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/0",
+      "row": 2,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000008",
+      "kind": "table_cell",
+      "text": "简支梁",
+      "source_ref": "#/tables/0/data/table_cells/5",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/0",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.28726190020219206,
+            0.26042196971622655,
+            0.33917062953697413,
+            0.2714898160979552
+          ],
+          "charspan": [
+            0,
+            3
+          ],
+          "raw_bbox": {
+            "l": 171.0,
+            "t": 219.24660000000006,
+            "r": 201.9,
+            "b": 228.56450697674427,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/0",
+      "row": 2,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000009",
+      "kind": "table_cell",
+      "text": "最大跨径",
+      "source_ref": "#/tables/0/data/table_cells/6",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/0",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09407407258083482,
+            0.30137744868746486,
+            0.1632857116938776,
+            0.3124452950691935
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 56.0,
+            "t": 253.72660000000008,
+            "r": 97.2,
+            "b": 263.0445069767443,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/0",
+      "row": 3,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000010",
+      "kind": "table_cell",
+      "text": "6.0m",
+      "source_ref": "#/tables/0/data/table_cells/7",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/0",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.28726190020219206,
+            0.30137744868746486,
+            0.3274565596170916,
+            0.3124452950691935
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 171.0,
+            "t": 253.72660000000008,
+            "r": 194.9269,
+            "b": 263.0445069767443,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/0",
+      "row": 3,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000011",
+      "kind": "table_cell",
+      "text": "桥长",
+      "source_ref": "#/tables/0/data/table_cells/8",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/0",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09407407258083482,
+            0.34233292765870316,
+            0.1286798921373562,
+            0.35340077404043174
+          ],
+          "charspan": [
+            0,
+            2
+          ],
+          "raw_bbox": {
+            "l": 56.0,
+            "t": 288.2066000000001,
+            "r": 76.6,
+            "b": 297.5245069767443,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/0",
+      "row": 4,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000012",
+      "kind": "table_cell",
+      "text": "16m",
+      "source_ref": "#/tables/0/data/table_cells/9",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/0",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.28726190020219206,
+            0.34233292765870316,
+            0.3226636536085134,
+            0.35340077404043174
+          ],
+          "charspan": [
+            0,
+            3
+          ],
+          "raw_bbox": {
+            "l": 171.0,
+            "t": 288.2066000000001,
+            "r": 192.0738,
+            "b": 297.5245069767443,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/0",
+      "row": 4,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000013",
+      "kind": "table_cell",
+      "text": "桥跨组成",
+      "source_ref": "#/tables/0/data/table_cells/10",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/0",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09407407258083482,
+            0.38328840662994135,
+            0.1632857116938776,
+            0.39435625301166993
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 56.0,
+            "t": 322.6866,
+            "r": 97.2,
+            "b": 332.0045069767442,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/0",
+      "row": 5,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000014",
+      "kind": "table_cell",
+      "text": "5m+6m+5m",
+      "source_ref": "#/tables/0/data/table_cells/11",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/0",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.28726190020219206,
+            0.38328840662994135,
+            0.38568085102093885,
+            0.39435625301166993
+          ],
+          "charspan": [
+            0,
+            8
+          ],
+          "raw_bbox": {
+            "l": 171.0,
+            "t": 322.6866,
+            "r": 229.5864,
+            "b": 332.0045069767442,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/0",
+      "row": 5,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000015",
+      "kind": "title",
+      "text": "02 上部结构病害记录",
+      "source_ref": "#/texts/2",
+      "source_label": "section_header",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09743386088729321,
+            0.4484506166959144,
+            0.30179970420423746,
+            0.46134243267003955
+          ],
+          "charspan": [
+            0,
+            11
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 464.3438,
+            "r": 179.654,
+            "b": 453.490311627907,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "original_text": "02 上部结构病害记录"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000016",
+      "kind": "table_cell",
+      "text": "构件编号",
+      "source_ref": "#/tables/1/data/table_cells/0",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/1",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09407407258083482,
+            0.4962461832890718,
+            0.1632857116938776,
+            0.5064604682531864
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 56.0,
+            "t": 417.7846,
+            "r": 97.2,
+            "b": 426.3839023255814,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/1",
+      "row": 0,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000017",
+      "kind": "table_cell",
+      "text": "病害记录",
+      "source_ref": "#/tables/1/data/table_cells/1",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/1",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.22678571068594108,
+            0.4962461832890718,
+            0.29599734979898384,
+            0.5064604682531864
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 135.0,
+            "t": 417.7846,
+            "r": 176.2,
+            "b": 426.3839023255814,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/1",
+      "row": 0,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000018",
+      "kind": "table_cell",
+      "text": "照片编号",
+      "source_ref": "#/tables/1/data/table_cells/2",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/1",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.7984127016124968,
+            0.4962461832890718,
+            0.8676243407255395,
+            0.5064604682531864
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 475.2756,
+            "t": 417.7846,
+            "r": 516.4756,
+            "b": 426.3839023255814,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/1",
+      "row": 0,
+      "column": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000019",
+      "kind": "table_cell",
+      "text": "3-29#梁",
+      "source_ref": "#/tables/1/data/table_cells/3",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/1",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09407407258083482,
+            0.5364675994411621,
+            0.158337079497295,
+            0.5475354458228906
+          ],
+          "charspan": [
+            0,
+            6
+          ],
+          "raw_bbox": {
+            "l": 56.0,
+            "t": 451.64660000000003,
+            "r": 94.2542,
+            "b": 460.96450697674425,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/1",
+      "row": 1,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000020",
+      "kind": "table_cell",
+      "text": "3-29#梁近3#台梁底处锈胀露筋1处，S=2.5×0.9㎡，混凝土碎块状",
+      "source_ref": "#/tables/1/data/table_cells/4",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/1",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.22678571068594108,
+            0.5364675994411621,
+            0.7308367754364534,
+            0.5475354458228906
+          ],
+          "charspan": [
+            0,
+            37
+          ],
+          "raw_bbox": {
+            "l": 135.0,
+            "t": 451.64660000000003,
+            "r": 435.04930000000013,
+            "b": 460.96450697674425,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/1",
+      "row": 1,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000021",
+      "kind": "table_cell",
+      "text": "图1、图2",
+      "source_ref": "#/tables/1/data/table_cells/5",
+      "source_label": "table",
+      "content_layer": "body",
+      "parent_ref": "#/tables/1",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.7984127016124968,
+            0.5364675994411621,
+            0.8694930549815916,
+            0.5475354458228906
+          ],
+          "charspan": [
+            0,
+            5
+          ],
+          "raw_bbox": {
+            "l": 475.2756,
+            "t": 451.64660000000003,
+            "r": 517.588,
+            "b": 460.96450697674425,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "table_id": "#/tables/1",
+      "row": 1,
+      "column": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000022",
+      "kind": "paragraph",
+      "text": "1 / 2",
+      "source_ref": "#/texts/3",
+      "source_label": "page_footer",
+      "content_layer": "furniture",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.8952418006046274,
+            0.9581607949163893,
+            0.9227248689514571,
+            0.9667571804555959
+          ],
+          "charspan": [
+            0,
+            5
+          ],
+          "raw_bbox": {
+            "l": 532.9156,
+            "t": 35.224000000000046,
+            "r": 549.2756,
+            "b": 27.98679069767445,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "original_text": "1 / 2"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000023",
+      "kind": "title",
+      "text": "大同前顾桥检测资料",
+      "source_ref": "#/texts/4",
+      "source_label": "section_header",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.07727513104854289,
+            0.06286095876206128,
+            0.3947751260088604,
+            0.08368619995103269
+          ],
+          "charspan": [
+            0,
+            9
+          ],
+          "raw_bbox": {
+            "l": 46.0,
+            "t": 788.9678,
+            "r": 235.0,
+            "b": 771.4352418604651,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "original_text": "大同前顾桥检测资料"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000024",
+      "kind": "title",
+      "text": "病害照片",
+      "source_ref": "#/texts/5",
+      "source_label": "section_header",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.07727513104854289,
+            0.10769342971015927,
+            0.16462962701646094,
+            0.1205852456842844
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 46.0,
+            "t": 751.2238,
+            "r": 98.0,
+            "b": 740.370311627907,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "original_text": "病害照片"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000025",
+      "kind": "paragraph",
+      "text": "图1 3-29#梁底板露筋锈蚀",
+      "source_ref": "#/texts/6",
+      "source_label": "caption",
+      "content_layer": "body",
+      "parent_ref": "#/pictures/0",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.40131999362984133,
+            0.46903573365540246,
+            0.5986800063701585,
+            0.4791508508043314
+          ],
+          "charspan": [
+            0,
+            15
+          ],
+          "raw_bbox": {
+            "l": 238.896,
+            "t": 447.0134,
+            "r": 356.3795999999999,
+            "b": 438.4975860465116,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "original_text": "图1 3-29#梁底板露筋锈蚀"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000026",
+      "kind": "paragraph",
+      "text": "图2 3-29#梁底板露筋锈蚀",
+      "source_ref": "#/texts/7",
+      "source_label": "caption",
+      "content_layer": "body",
+      "parent_ref": "#/pictures/1",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.40131999362984133,
+            0.8562598097755787,
+            0.5986800063701585,
+            0.8663749269245077
+          ],
+          "charspan": [
+            0,
+            15
+          ],
+          "raw_bbox": {
+            "l": 238.896,
+            "t": 121.01340000000005,
+            "r": 356.3795999999999,
+            "b": 112.49758604651163,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "original_text": "图2 3-29#梁底板露筋锈蚀"
+    },
+    {
+      "block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000027",
+      "kind": "paragraph",
+      "text": "2 / 2",
+      "source_ref": "#/texts/8",
+      "source_label": "page_footer",
+      "content_layer": "furniture",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.8952418006046274,
+            0.9581607949163893,
+            0.9227248689514571,
+            0.9667571804555959
+          ],
+          "charspan": [
+            0,
+            5
+          ],
+          "raw_bbox": {
+            "l": 532.9156,
+            "t": 35.224000000000046,
+            "r": 549.2756,
+            "b": 27.98679069767445,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "original_text": "2 / 2"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "#/tables/0",
+      "source_ref": "#/tables/0",
+      "parent_ref": "#/body",
+      "page_no": 1,
+      "num_rows": 6,
+      "num_cols": 2,
+      "caption_refs": [],
+      "native_data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 56.0,
+              "t": 150.28660000000002,
+              "r": 97.2,
+              "b": 159.60450697674423,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "桥梁名称",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 171.0,
+              "t": 150.28660000000002,
+              "r": 222.5,
+              "b": 159.60450697674423,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "大同前顾桥",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.0,
+              "t": 184.76660000000004,
+              "r": 97.2,
+              "b": 194.08450697674425,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "路线名称",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 171.0,
+              "t": 184.76660000000004,
+              "r": 201.9,
+              "b": 194.08450697674425,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "泰山路",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.0,
+              "t": 219.24660000000006,
+              "r": 97.2,
+              "b": 228.56450697674427,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "结构型式",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 171.0,
+              "t": 219.24660000000006,
+              "r": 201.9,
+              "b": 228.56450697674427,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "简支梁",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.0,
+              "t": 253.72660000000008,
+              "r": 97.2,
+              "b": 263.0445069767443,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "最大跨径",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 171.0,
+              "t": 253.72660000000008,
+              "r": 194.9269,
+              "b": 263.0445069767443,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "6.0m",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.0,
+              "t": 288.2066000000001,
+              "r": 76.6,
+              "b": 297.5245069767443,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "桥长",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 171.0,
+              "t": 288.2066000000001,
+              "r": 192.0738,
+              "b": 297.5245069767443,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "16m",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.0,
+              "t": 322.6866,
+              "r": 97.2,
+              "b": 332.0045069767442,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "桥跨组成",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 171.0,
+              "t": 322.6866,
+              "r": 229.5864,
+              "b": 332.0045069767442,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "5m+6m+5m",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 6,
+        "num_cols": 2,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 56.0,
+                "t": 150.28660000000002,
+                "r": 97.2,
+                "b": 159.60450697674423,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "桥梁名称",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 171.0,
+                "t": 150.28660000000002,
+                "r": 222.5,
+                "b": 159.60450697674423,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "大同前顾桥",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.0,
+                "t": 184.76660000000004,
+                "r": 97.2,
+                "b": 194.08450697674425,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "路线名称",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 171.0,
+                "t": 184.76660000000004,
+                "r": 201.9,
+                "b": 194.08450697674425,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "泰山路",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.0,
+                "t": 219.24660000000006,
+                "r": 97.2,
+                "b": 228.56450697674427,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "结构型式",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 171.0,
+                "t": 219.24660000000006,
+                "r": 201.9,
+                "b": 228.56450697674427,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "简支梁",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.0,
+                "t": 253.72660000000008,
+                "r": 97.2,
+                "b": 263.0445069767443,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "最大跨径",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 171.0,
+                "t": 253.72660000000008,
+                "r": 194.9269,
+                "b": 263.0445069767443,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "6.0m",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.0,
+                "t": 288.2066000000001,
+                "r": 76.6,
+                "b": 297.5245069767443,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "桥长",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 171.0,
+                "t": 288.2066000000001,
+                "r": 192.0738,
+                "b": 297.5245069767443,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "16m",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.0,
+                "t": 322.6866,
+                "r": 97.2,
+                "b": 332.0045069767442,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "桥跨组成",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 171.0,
+                "t": 322.6866,
+                "r": 229.5864,
+                "b": 332.0045069767442,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "5m+6m+5m",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "header_semantics": "native_flags_only_no_inferred_headers"
+    },
+    {
+      "table_id": "#/tables/1",
+      "source_ref": "#/tables/1",
+      "parent_ref": "#/body",
+      "page_no": 1,
+      "num_rows": 2,
+      "num_cols": 3,
+      "caption_refs": [],
+      "native_data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 56.0,
+              "t": 417.7846,
+              "r": 97.2,
+              "b": 426.3839023255814,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "构件编号",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 135.0,
+              "t": 417.7846,
+              "r": 176.2,
+              "b": 426.3839023255814,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "病害记录",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 475.2756,
+              "t": 417.7846,
+              "r": 516.4756,
+              "b": 426.3839023255814,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "照片编号",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 56.0,
+              "t": 451.64660000000003,
+              "r": 94.2542,
+              "b": 460.96450697674425,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "3-29#梁",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 135.0,
+              "t": 451.64660000000003,
+              "r": 435.04930000000013,
+              "b": 460.96450697674425,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "3-29#梁近3#台梁底处锈胀露筋1处，S=2.5×0.9㎡，混凝土碎块状",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 475.2756,
+              "t": 451.64660000000003,
+              "r": 517.588,
+              "b": 460.96450697674425,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "图1、图2",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 2,
+        "num_cols": 3,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 56.0,
+                "t": 417.7846,
+                "r": 97.2,
+                "b": 426.3839023255814,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "构件编号",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 135.0,
+                "t": 417.7846,
+                "r": 176.2,
+                "b": 426.3839023255814,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "病害记录",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 475.2756,
+                "t": 417.7846,
+                "r": 516.4756,
+                "b": 426.3839023255814,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "照片编号",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 56.0,
+                "t": 451.64660000000003,
+                "r": 94.2542,
+                "b": 460.96450697674425,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "3-29#梁",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 135.0,
+                "t": 451.64660000000003,
+                "r": 435.04930000000013,
+                "b": 460.96450697674425,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "3-29#梁近3#台梁底处锈胀露筋1处，S=2.5×0.9㎡，混凝土碎块状",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 475.2756,
+                "t": 451.64660000000003,
+                "r": 517.588,
+                "b": 460.96450697674425,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "图1、图2",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "header_semantics": "native_flags_only_no_inferred_headers"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "HEADER_FLAGS_ABSENT",
+      "source_ref": "#/tables/0"
+    },
+    {
+      "code": "CAPTION_LINK_ABSENT",
+      "source_ref": "#/tables/0"
+    },
+    {
+      "code": "HEADER_FLAGS_ABSENT",
+      "source_ref": "#/tables/1"
+    },
+    {
+      "code": "CAPTION_LINK_ABSENT",
+      "source_ref": "#/tables/1"
+    }
+  ],
+  "ocr": {
+    "revision": "ocr-routing-1",
+    "mode": "auto",
+    "engine": "rapidocr",
+    "backend": "onnxruntime",
+    "language": "ch",
+    "model_size": "small",
+    "force_pages": [],
+    "versions": {
+      "rapidocr": "3.10.0",
+      "onnxruntime": "1.23.2"
+    },
+    "models": {
+      "det": {
+        "file": "PP-OCRv6_det_small.onnx",
+        "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+      },
+      "rec": {
+        "file": "PP-OCRv6_rec_small.onnx",
+        "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+      },
+      "cls": {
+        "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+        "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+      }
+    },
+    "excluded_labels": [
+      "picture",
+      "chart"
+    ],
+    "scale": 3.0,
+    "pages": [
+      {
+        "page_no": 1,
+        "regions": [],
+        "reader_calls": 0,
+        "recognized_cells": 0,
+        "ocr_cells": 0,
+        "reason": "no_uncovered_text_regions",
+        "status": "skipped",
+        "elapsed_seconds": 0.002516
+      },
+      {
+        "page_no": 2,
+        "regions": [],
+        "reader_calls": 0,
+        "recognized_cells": 0,
+        "ocr_cells": 0,
+        "reason": "no_uncovered_text_regions",
+        "status": "skipped",
+        "elapsed_seconds": 0.002692
+      }
+    ]
+  },
+  "structure": {
+    "revision": "document-structure-1",
+    "native_picture_regions": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/6"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 114.81117411019243,
+              "t": 717.0784319244584,
+              "r": 480.0840218049735,
+              "b": 455.8196685286932,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "$ref": "#/texts/6"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/7"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 114.58158746986133,
+              "t": 390.9633203182048,
+              "r": 480.46527172329286,
+              "b": 129.72825834882644,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "$ref": "#/texts/7"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "annotations": []
+      }
+    ],
+    "pictures": [
+      {
+        "source_ref": "pdf:page:2:object:5",
+        "page_no": 2,
+        "bbox": [
+          0.194360057228311,
+          0.1496633282552984,
+          0.8056397704759043,
+          0.45849230977095745
+        ],
+        "pixel_size": [
+          606,
+          433
+        ],
+        "raw_bbox": [
+          115.69779968261719,
+          455.8898010253906,
+          479.57769775390625,
+          715.8897705078125
+        ],
+        "location_level": "region",
+        "picture_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:pdf:page:2:object:5",
+        "origin": "pdf_image_occurrence"
+      },
+      {
+        "source_ref": "pdf:page:2:object:7",
+        "page_no": 2,
+        "bbox": [
+          0.19385575062475524,
+          0.5368873681265759,
+          0.8061442308783633,
+          0.8457163858911337
+        ],
+        "pixel_size": [
+          607,
+          433
+        ],
+        "raw_bbox": [
+          115.39759826660156,
+          129.88980102539062,
+          479.87799072265625,
+          389.8898010253906
+        ],
+        "location_level": "region",
+        "picture_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:pdf:page:2:object:7",
+        "origin": "pdf_image_occurrence"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "picture_caption",
+        "picture_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:pdf:page:2:object:5",
+        "caption_block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000025",
+        "status": "derived",
+        "method": "native_explicit_unique_image",
+        "evidence": {
+          "native_region": "#/pictures/0"
+        }
+      },
+      {
+        "kind": "picture_caption",
+        "picture_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:pdf:page:2:object:7",
+        "caption_block_id": "doc_f929649bbdff6acb0ba602794bd95a3e69fa597dbd15bf5047eac22148b51bed:block:000026",
+        "status": "derived",
+        "method": "native_explicit_unique_image",
+        "evidence": {
+          "native_region": "#/pictures/1"
+        }
+      }
+    ],
+    "diagnostics": [],
+    "source_layout": {
+      "revision": "pdf-layout-1",
+      "pages": [
+        {
+          "page_no": 1,
+          "width": 595.2756,
+          "height": 841.8898,
+          "rotation": 0
+        },
+        {
+          "page_no": 2,
+          "width": 595.2756,
+          "height": 841.8898,
+          "rotation": 0
+        }
+      ],
+      "images": [
+        {
+          "source_ref": "pdf:page:2:object:5",
+          "page_no": 2,
+          "bbox": [
+            0.194360057228311,
+            0.1496633282552984,
+            0.8056397704759043,
+            0.45849230977095745
+          ],
+          "pixel_size": [
+            606,
+            433
+          ],
+          "raw_bbox": [
+            115.69779968261719,
+            455.8898010253906,
+            479.57769775390625,
+            715.8897705078125
+          ],
+          "location_level": "region"
+        },
+        {
+          "source_ref": "pdf:page:2:object:7",
+          "page_no": 2,
+          "bbox": [
+            0.19385575062475524,
+            0.5368873681265759,
+            0.8061442308783633,
+            0.8457163858911337
+          ],
+          "pixel_size": [
+            607,
+            433
+          ],
+          "raw_bbox": [
+            115.39759826660156,
+            129.88980102539062,
+            479.87799072265625,
+            389.8898010253906
+          ],
+          "location_level": "region"
+        }
+      ],
+      "lines": [
+        {
+          "page_no": 1,
+          "points": [
+            0.07727513104854289,
+            0.946548823848442,
+            0.9227248689514571,
+            0.946548823848442
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.07727513104854289,
+            0.16510474411259063,
+            0.9227248689514569,
+            0.16510474411259063
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.07727513104854289,
+            0.4108376179400202,
+            0.9227248689514569,
+            0.4108376179400202
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.07727513104854289,
+            0.4108376179400202,
+            0.07727513104854289,
+            0.16510474411259063
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.9227248689514569,
+            0.4108376179400202,
+            0.9227248689514569,
+            0.16510474411259063
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.07727513104854289,
+            0.2060602230838288,
+            0.9227248689514569,
+            0.2060602230838288
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.07727513104854289,
+            0.2470157020550671,
+            0.9227248689514569,
+            0.2470157020550671
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.07727513104854289,
+            0.2879711810263054,
+            0.9227248689514569,
+            0.2879711810263054
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.07727513104854289,
+            0.32892665999754367,
+            0.9227248689514569,
+            0.32892665999754367
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.07727513104854289,
+            0.36988213896878197,
+            0.9227248689514569,
+            0.36988213896878197
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.2704629586699001,
+            0.4108376179400202,
+            0.2704629586699001,
+            0.16510474411259063
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.07727513104854289,
+            0.48210585280876433,
+            0.9227248689514569,
+            0.48210585280876433
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.07727513104854289,
+            0.5640168107512409,
+            0.9227248689514569,
+            0.5640168107512409
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.07727513104854289,
+            0.5640168107512409,
+            0.07727513104854289,
+            0.48210585280876433
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.9227248689514569,
+            0.5640168107512409,
+            0.9227248689514569,
+            0.48210585280876433
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.07727513104854289,
+            0.5230613317800026,
+            0.9227248689514569,
+            0.5230613317800026
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.20998676915364914,
+            0.5640168107512409,
+            0.20998676915364914,
+            0.48210585280876433
+          ]
+        },
+        {
+          "page_no": 1,
+          "points": [
+            0.7816137600802048,
+            0.5640168107512409,
+            0.7816137600802048,
+            0.48210585280876433
+          ]
+        },
+        {
+          "page_no": 2,
+          "points": [
+            0.07727513104854289,
+            0.946548823848442,
+            0.9227248689514571,
+            0.946548823848442
+          ]
+        }
+      ],
+      "warnings": []
+    }
+  }
+}

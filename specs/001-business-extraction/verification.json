@@ -1,0 +1,210 @@
+{
+  "status": "draft_example_checks_only",
+  "passed": 26,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "draft_2020_12_meta_schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "positive_candidate.json",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "positive_records.json",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "模型注入 Cypher",
+      "passed": true,
+      "detail": {
+        "expected": "schema_reject",
+        "actual": "rejected"
+      }
+    },
+    {
+      "name": "独立测量实体",
+      "passed": true,
+      "detail": {
+        "expected": "schema_reject",
+        "actual": "rejected"
+      }
+    },
+    {
+      "name": "面积使用 JSON 浮点数",
+      "passed": true,
+      "detail": {
+        "expected": "schema_reject",
+        "actual": "rejected"
+      }
+    },
+    {
+      "name": "非法观测日期",
+      "passed": true,
+      "detail": {
+        "expected": "schema_reject",
+        "actual": "rejected"
+      }
+    },
+    {
+      "name": "候选擅自宣布接纳",
+      "passed": true,
+      "detail": {
+        "expected": "schema_reject",
+        "actual": "rejected"
+      }
+    },
+    {
+      "name": "正式观测被写成否定",
+      "passed": true,
+      "detail": {
+        "expected": "schema_reject",
+        "actual": "rejected"
+      }
+    },
+    {
+      "name": "缺日期但未记录缺项",
+      "passed": true,
+      "detail": {
+        "expected": "schema_reject",
+        "actual": "rejected"
+      }
+    },
+    {
+      "name": "bbox 超出页面",
+      "passed": true,
+      "detail": {
+        "expected": "schema_reject",
+        "actual": "rejected"
+      }
+    },
+    {
+      "name": "不存在的父对象",
+      "passed": true,
+      "detail": {
+        "expected": "schema_pass_requires_program",
+        "actual": "passed",
+        "program_validation": "not_implemented",
+        "reason": "跨对象引用存在性不由 JSON Schema 保证"
+      }
+    },
+    {
+      "name": "把编制日期当观测日期",
+      "passed": true,
+      "detail": {
+        "expected": "schema_pass_requires_program",
+        "actual": "passed",
+        "program_validation": "not_implemented",
+        "reason": "合法日期仍须有观测时间来源，不由报告日期填补"
+      }
+    },
+    {
+      "name": "合成来源冒充真实",
+      "passed": true,
+      "detail": {
+        "expected": "schema_pass_requires_program",
+        "actual": "passed",
+        "program_validation": "not_implemented",
+        "reason": "来源性质必须等于可信导入上下文"
+      }
+    },
+    {
+      "name": "无来源支撑的面积",
+      "passed": true,
+      "detail": {
+        "expected": "schema_pass_requires_program",
+        "actual": "passed",
+        "program_validation": "not_implemented",
+        "reason": "结构合法但原文没有该值"
+      }
+    },
+    {
+      "name": "未知面积单位",
+      "passed": true,
+      "detail": {
+        "expected": "schema_pass_requires_program",
+        "actual": "passed",
+        "program_validation": "not_implemented",
+        "reason": "本草案只支持 m²/㎡/m2，不猜换算"
+      }
+    },
+    {
+      "name": "汇总误作单处病害",
+      "passed": true,
+      "detail": {
+        "expected": "schema_pass_requires_program",
+        "actual": "passed",
+        "program_validation": "not_implemented",
+        "reason": "汇总陈述保留原文，不展开独立病害"
+      }
+    },
+    {
+      "name": "不存在的原文块",
+      "passed": true,
+      "detail": {
+        "expected": "schema_pass_requires_program",
+        "actual": "passed",
+        "program_validation": "not_implemented",
+        "reason": "block_id 必须存在于固定解析快照"
+      }
+    },
+    {
+      "name": "倒置的 bbox",
+      "passed": true,
+      "detail": {
+        "expected": "schema_pass_requires_program",
+        "actual": "passed",
+        "program_validation": "not_implemented",
+        "reason": "单个坐标合法但 x0 必须小于 x1"
+      }
+    },
+    {
+      "name": "document_namespace_mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidate_quotes_really_exist",
+      "passed": true,
+      "detail": 66
+    },
+    {
+      "name": "record_evidence_matches_actual_snapshot",
+      "passed": true,
+      "detail": 59
+    },
+    {
+      "name": "example_evidence_references_resolve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "example_object_references_resolve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "example_relation_end_types",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hand_authored_example_matches_frozen_facts",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "schema_sha256": "9ac6ec663dc04e2a31b80f854b9381ee4b335eac58b8e1b81ce7b164139a9f81",
+  "golden_sha256": "2df83004e29d897b295aef8aa3eb98843a33d66be91f9ad746cd6d603c3c51d5",
+  "golden_status": "agent_authored_awaiting_human_review",
+  "boundaries": {
+    "model_extraction": "not_run",
+    "production_validator": "not_implemented",
+    "neo4j": "not_run",
+    "human_approval": "pending"
+  }
+}

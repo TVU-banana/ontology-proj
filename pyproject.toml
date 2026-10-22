@@ -1,0 +1,43 @@
+[project]
+name = "ontology-proj"
+version = "0.1.0"
+description = "Bridge inspection MVP application"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "pydantic>=2,<3",
+  "pydantic-settings>=2,<3",
+  "uvicorn>=0.30,<1",
+  "docling==2.137.0",
+  "docling-core==2.101.1",
+  "docling-parse==7.22.2",
+  "docling-ibm-models==4.0.3",
+  "torch==2.14.1",
+  "transformers==5.19.0",
+  "jsonschema==4.26.0",
+  "neo4j==6.4.0",
+  "python-multipart==0.0.22",
+  "pypdf==6.1.1",
+  "pypdfium2==5.14.0",
+  "rapidocr==3.10.0",
+  "onnxruntime==1.23.2",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "httpx>=0.28,<0.29"]
+
+[build-system]
+requires = ["hatchling>=1.26,<2"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ontology_proj"]
+exclude = ["src/ontology_proj/interfaces/http/static/vendor/pdfjs/build/**"]
+
+# Git ignores build/ directories; vendored PDF.js runtime files are required.
+[tool.hatch.build.targets.wheel.force-include]
+"src/ontology_proj/interfaces/http/static/vendor/pdfjs/build" = "ontology_proj/interfaces/http/static/vendor/pdfjs/build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

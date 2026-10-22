@@ -1,0 +1,1601 @@
+{
+  "schema_version": "0.1.0-draft",
+  "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+  "source_kind": "synthetic",
+  "stage": "records",
+  "bridges": [
+    {
+      "bridge_code": "B-DEMO-001",
+      "name": "溪桥演示桥",
+      "bridge_id": "B-DEMO-001",
+      "validation_status": "passed",
+      "acceptance_status": "accepted",
+      "review_status": "unreviewed",
+      "quality_mode": "demo_accept_all",
+      "quality_score": null,
+      "source_document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "evidence_ids": [
+        "ev_60447a7c528ab576b9d432c9db4d2601bd897c8c295f24366bf6a6491514be5e",
+        "ev_c46efdcc6499328f49b4ec531a0697c70bf1b7aaf0a0df6846ed58349f637573"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "component_code": "C-DECK-01",
+      "name": "桥面铺装",
+      "component_type": "deck_pavement",
+      "location_text": "第三跨桥面、桥头区域",
+      "component_id": "cmp_b933adb4f9245d6d7c766d5100fb6f3121488e4a431e9234e7a32dd71d1d0cc4",
+      "bridge_id": "B-DEMO-001",
+      "validation_status": "passed",
+      "acceptance_status": "accepted",
+      "review_status": "unreviewed",
+      "quality_mode": "demo_accept_all",
+      "quality_score": null,
+      "source_document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "evidence_ids": [
+        "ev_055040b8d723690630f6f0c285a905f438f4adea5668516184ed724e645c78ed",
+        "ev_b660e7ac0b0b8f376d915119f8bcef7f0fd7a93137ef585c750b8d9666b800d5",
+        "ev_c658ff3e5d6967646f42fe2f0d2f518b23e1128b1b27e1225942f0a3547856e7",
+        "ev_dfa5822e0ef19e144816ec43baad8df0178d08638656407688cd99d023fea1b4",
+        "ev_f8ee2c93516f7d651b0c0385aa8763336331f92d9c84e803dcce64ce8e3def31"
+      ]
+    },
+    {
+      "component_code": "C-GIRDER-01",
+      "name": "主梁",
+      "component_type": "girder",
+      "location_text": "第三跨主梁左侧、外侧边缘",
+      "component_id": "cmp_ab4a1078c2e40ae53dcf3e1f2ad22d71a16c43b1c27c86761e00e290f1a7d6d2",
+      "bridge_id": "B-DEMO-001",
+      "validation_status": "passed",
+      "acceptance_status": "accepted",
+      "review_status": "unreviewed",
+      "quality_mode": "demo_accept_all",
+      "quality_score": null,
+      "source_document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "evidence_ids": [
+        "ev_03c842a814afd77ae63077e15c661749b6d9eec3867d52b0993c5e080c1b6822",
+        "ev_055040b8d723690630f6f0c285a905f438f4adea5668516184ed724e645c78ed",
+        "ev_2d8732155d44c6777a54358b2e02925eae7f5a5460b6f73954e926a1f17e342b",
+        "ev_4959c1566cb5542fbc60c44c69306f43aaa256709100feabbf28cf2512302dc4",
+        "ev_a9f632fc41d378c8573cc4ea222571b285a60b5d74272fa19f44f7f4992a82cf"
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "defect_code": "D-001",
+      "defect_type": "pothole",
+      "defect_type_raw": "坑槽",
+      "location_text": "第三跨桥面",
+      "defect_id": "def_1b324d6faec5567a44c2be092a3f772ded618c62d036757a0ef782f2c23827c6",
+      "component_id": "cmp_b933adb4f9245d6d7c766d5100fb6f3121488e4a431e9234e7a32dd71d1d0cc4",
+      "identity_scope": "document_local",
+      "validation_status": "passed",
+      "acceptance_status": "accepted",
+      "review_status": "unreviewed",
+      "quality_mode": "demo_accept_all",
+      "quality_score": null,
+      "source_document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "evidence_ids": [
+        "ev_6882b2cce5c2d2b071a5075b685f7ae457694b1c16338f6245d8de07eb581db0",
+        "ev_76436e1c50a00efb0a89fc7c1e78ffbd8d2830e00cb544275a764282a707f8f5",
+        "ev_9d92c6c12167a5e764e0cb1c5746ba22c184c471c0751929f7be14eddcd344e0",
+        "ev_ad9c0cf3e48060c416e6ed2a188c6d3fe3c428edea8e5a895c2640e0d19cd059",
+        "ev_ef66a444b757216601d708baa4caa8f3c5dd0cfed82d551be167f84776d14568"
+      ]
+    },
+    {
+      "defect_code": "D-002",
+      "defect_type": "exposed_rebar",
+      "defect_type_raw": "露筋",
+      "location_text": "第三跨主梁左侧",
+      "defect_id": "def_077f44ed2d37a9cf70307399d314d7d5264f46a1513282d0118e460cd1ae3fa8",
+      "component_id": "cmp_ab4a1078c2e40ae53dcf3e1f2ad22d71a16c43b1c27c86761e00e290f1a7d6d2",
+      "identity_scope": "document_local",
+      "validation_status": "passed",
+      "acceptance_status": "accepted",
+      "review_status": "unreviewed",
+      "quality_mode": "demo_accept_all",
+      "quality_score": null,
+      "source_document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "evidence_ids": [
+        "ev_1b82c8355b7405fd52748de3863cd096b0a3251f1e6ff03f9e4ba1985f2b1098",
+        "ev_2d6ab9bb7b9fb6e478a164a37ff3991ab10e7243753e3829955453672939c135",
+        "ev_2e659456555eaa7f1c9e09223d4f3b69a56242656d55dda507ecd20a19d9b59d",
+        "ev_62909dedf42bd74c39c8c52eaaa986aa6c3020003cf206ccc1e3f9b7a9100443",
+        "ev_67cf4121e8f6a83bf357f66ccd74cf1315095f582e49c8d319b89646acdbeb2e"
+      ]
+    },
+    {
+      "defect_code": "D-003",
+      "defect_type": "exposed_rebar",
+      "defect_type_raw": "露筋",
+      "location_text": "第三跨主梁外侧边缘",
+      "defect_id": "def_ecce77a9ef159ae7d319bdab2953481eb54ab616f1f12bd9e55e52f78fa6786f",
+      "component_id": "cmp_ab4a1078c2e40ae53dcf3e1f2ad22d71a16c43b1c27c86761e00e290f1a7d6d2",
+      "identity_scope": "document_local",
+      "validation_status": "passed",
+      "acceptance_status": "accepted",
+      "review_status": "unreviewed",
+      "quality_mode": "demo_accept_all",
+      "quality_score": null,
+      "source_document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "evidence_ids": [
+        "ev_62909dedf42bd74c39c8c52eaaa986aa6c3020003cf206ccc1e3f9b7a9100443",
+        "ev_75b205abfee1dbe3d060be573548e53b4839a55d35f62d228b7788767bb97dae",
+        "ev_982412c13a4e9365030755424cf4b2e157d934915112174197a04b20f8f6d154",
+        "ev_e74ca731227d02e3ff4f406ffc06641b4e8c8a7aaa8bf3a8bb8a69231232413f",
+        "ev_f3cc113d3794e6a66fbaf54974c4f5865ff107ec57250595b71a3e49c97cb8d5"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "observation_code": "O-001",
+      "observed_at": null,
+      "assertion": "positive",
+      "scope": "single_defect",
+      "reported_count": 1,
+      "description": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+      "area_original_value": "0.04",
+      "area_original_unit": "m²",
+      "area_is_approximate": false,
+      "observation_id": "obs_f30cf18b09ea9edd14448314f488824e884852a14deef2af2be9a61be51c094d",
+      "defect_id": "def_1b324d6faec5567a44c2be092a3f772ded618c62d036757a0ef782f2c23827c6",
+      "component_id": "cmp_b933adb4f9245d6d7c766d5100fb6f3121488e4a431e9234e7a32dd71d1d0cc4",
+      "source_kind": "synthetic",
+      "area_value": "0.04",
+      "area_unit": "m²",
+      "area_conversion": "identity",
+      "missing_fields": [
+        "observed_at"
+      ],
+      "validation_status": "passed",
+      "acceptance_status": "accepted",
+      "review_status": "unreviewed",
+      "quality_mode": "demo_accept_all",
+      "quality_score": null,
+      "source_document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "evidence_ids": [
+        "ev_1666705875a616a7ef465240875297a0a7e50d4bf5be295516fb4ad020a69add",
+        "ev_360f3412ee04de21bc75da3e17c3f1698215631f86d74a316ebe27dd0b7ea21a",
+        "ev_389c8356888d07259d1e179865d1209845a9f74b0aa83b27ebc422f5a4046243",
+        "ev_3ecd4af9b1d14f9a6cc35501db4bf20fb45c0ea0acf76e5afa061212b8cbe80b",
+        "ev_61ea5d073c5575b77f7e4d8afacedaaac7110d64f4ea492eaa16168b4f09d245",
+        "ev_6882b2cce5c2d2b071a5075b685f7ae457694b1c16338f6245d8de07eb581db0",
+        "ev_80b11c405cd3e785222f158290b3d5184d680d64e172387a6194988ef5a83672",
+        "ev_aad3730cd17f86455ef7144a5beeb156bb0acb79cd361c6beb99057971f200b0",
+        "ev_d0224fad08a57f4cbdfee2010a32aa3c88d339c463a125ad19d5b34b3ac0ea8d",
+        "ev_fb49009b879c1c0ccfc08c267063067acbd9b55c11d9fdfac224e654fc1baa96"
+      ]
+    },
+    {
+      "observation_code": "O-002",
+      "observed_at": null,
+      "assertion": "positive",
+      "scope": "single_defect",
+      "reported_count": 1,
+      "description": "第三跨主梁左侧有 1 处露筋，面积未提供（单位 m²）。",
+      "area_original_value": null,
+      "area_original_unit": "m²",
+      "area_is_approximate": null,
+      "observation_id": "obs_2c2fe0fd4f32976d491fe3daddb0bdf550868632fc6266f0dec1d954b86d5b79",
+      "defect_id": "def_077f44ed2d37a9cf70307399d314d7d5264f46a1513282d0118e460cd1ae3fa8",
+      "component_id": "cmp_ab4a1078c2e40ae53dcf3e1f2ad22d71a16c43b1c27c86761e00e290f1a7d6d2",
+      "source_kind": "synthetic",
+      "area_value": null,
+      "area_unit": "m²",
+      "area_conversion": null,
+      "missing_fields": [
+        "observed_at",
+        "area_original_value",
+        "area_value",
+        "area_is_approximate"
+      ],
+      "validation_status": "passed",
+      "acceptance_status": "pending_review",
+      "review_status": "unreviewed",
+      "quality_mode": "demo_accept_all",
+      "quality_score": null,
+      "source_document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "evidence_ids": [
+        "ev_1666705875a616a7ef465240875297a0a7e50d4bf5be295516fb4ad020a69add",
+        "ev_22bd19f008a430df0dc4444dae8585660116b829e995d3714dabbebe40529acc",
+        "ev_2d6ab9bb7b9fb6e478a164a37ff3991ab10e7243753e3829955453672939c135",
+        "ev_4e22f25a4d51bb5ff1fe3bab2778f28b7d30959819323f0c7a6bc18630357545",
+        "ev_5f1d3ffa3fffa41d56d2508161f2d63a1696f3e3f6744b8337ca04264451facc",
+        "ev_76964aa89498aedc3798de4a097a34de092b428adea1855da00725df6d9206d2",
+        "ev_92cb4cfbd79791be930986795863445a9710cbbcf35859679caf931f7d3c833b",
+        "ev_98651a40bcea735832854765c22fb61e36cdcf8607af614b4da026b216116ef5"
+      ]
+    },
+    {
+      "observation_code": "O-003",
+      "observed_at": null,
+      "assertion": "positive",
+      "scope": "single_defect",
+      "reported_count": 1,
+      "description": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+      "area_original_value": "0.9",
+      "area_original_unit": "m²",
+      "area_is_approximate": false,
+      "observation_id": "obs_1c08062c299e5ea8b88b0df43c5fd5bb742c9e77895beea6d729f64a73cebae9",
+      "defect_id": "def_ecce77a9ef159ae7d319bdab2953481eb54ab616f1f12bd9e55e52f78fa6786f",
+      "component_id": "cmp_ab4a1078c2e40ae53dcf3e1f2ad22d71a16c43b1c27c86761e00e290f1a7d6d2",
+      "source_kind": "synthetic",
+      "area_value": "0.9",
+      "area_unit": "m²",
+      "area_conversion": "identity",
+      "missing_fields": [
+        "observed_at"
+      ],
+      "validation_status": "passed",
+      "acceptance_status": "accepted",
+      "review_status": "unreviewed",
+      "quality_mode": "demo_accept_all",
+      "quality_score": null,
+      "source_document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "evidence_ids": [
+        "ev_00c8d7f30fa739a5528d73e3ee67366d2f0f8194586f764ffe2ecca4d083dff1",
+        "ev_1666705875a616a7ef465240875297a0a7e50d4bf5be295516fb4ad020a69add",
+        "ev_2dc6316ff33e429694465ba42ea4cecce184ac76d057fb96fd1c8088c7b442c7",
+        "ev_53a67f940497a71d70c89cbc9dc9570f4dba3c103f6406b2e43aeca413941198",
+        "ev_5415e1cb638396ef4036094f163262dbb1edf270ce05874e47dfc4d5c6546b55",
+        "ev_54cee631778d2fc40ea556d8b0602f8d5844f73452c8acdfe19e2406190d5dc4",
+        "ev_710d048283fecb6942d866b1671ad2b9b03e46d1f44d27e9240b31b6972374c0",
+        "ev_9011a28d38387119ae0026e2278f325cbcae13c787ddc6da58acb23ce6b5d858",
+        "ev_cf36321ff5b9619dd17545dcfe313f068bc62f24b016b068f2df7771fbbacd51",
+        "ev_f3cc113d3794e6a66fbaf54974c4f5865ff107ec57250595b71a3e49c97cb8d5"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000050",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.282687,
+        0.508101,
+        0.294943
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+      "target_field": "area_is_approximate",
+      "location_level": "region",
+      "source_ref": "#/texts/22",
+      "evidence_id": "ev_00c8d7f30fa739a5528d73e3ee67366d2f0f8194586f764ffe2ecca4d083dff1"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000024",
+      "page_no": 1,
+      "bbox": [
+        0.112553,
+        0.633954,
+        0.219892,
+        0.645096
+      ],
+      "charspan": [
+        0,
+        11
+      ],
+      "quote": "C-GIRDER-01",
+      "target_field": "component_code",
+      "location_level": "region",
+      "source_ref": "#/tables/1/data/table_cells/6",
+      "evidence_id": "ev_03c842a814afd77ae63077e15c661749b6d9eec3867d52b0993c5e080c1b6822"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000017",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.516362,
+        0.389586,
+        0.527503
+      ],
+      "charspan": [
+        0,
+        24
+      ],
+      "quote": "表 2 构件清单（均属于 B-DEMO-001）",
+      "target_field": "bridge_code",
+      "location_level": "region",
+      "source_ref": "#/texts/8",
+      "evidence_id": "ev_055040b8d723690630f6f0c285a905f438f4adea5668516184ed724e645c78ed"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000029",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.750682,
+        0.356138,
+        0.762938
+      ],
+      "charspan": [
+        0,
+        14
+      ],
+      "quote": "桥头铺装平顺，未见明显病害。",
+      "target_field": "description",
+      "location_level": "region",
+      "source_ref": "#/texts/11",
+      "evidence_id": "ev_11617f04bf846c421c7d5208a5c83f6f9c70df725ca9ad8a2165be08edc06ce6"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000016",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.488881,
+        0.767712,
+        0.499465
+      ],
+      "charspan": [
+        0,
+        42
+      ],
+      "quote": "所有观测日期均未知。报告编制日期不作为观测日期；实际地址、检测机构和观测人员未提供。",
+      "target_field": "observed_at",
+      "location_level": "region",
+      "source_ref": "#/texts/7",
+      "evidence_id": "ev_1666705875a616a7ef465240875297a0a7e50d4bf5be295516fb4ad020a69add"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000059",
+      "page_no": 2,
+      "bbox": [
+        0.404854,
+        0.391642,
+        0.522447,
+        0.402784
+      ],
+      "charspan": [
+        0,
+        7
+      ],
+      "quote": "第三跨主梁左侧",
+      "target_field": "location_text",
+      "location_level": "region",
+      "source_ref": "#/tables/3/data/table_cells/7",
+      "evidence_id": "ev_1b82c8355b7405fd52748de3863cd096b0a3251f1e6ff03f9e4ba1985f2b1098"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000049",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.250617,
+        0.551194,
+        0.262872
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁左侧有 1 处露筋，面积未提供（单位 m²）。",
+      "target_field": "area_original_unit",
+      "location_level": "region",
+      "source_ref": "#/texts/21",
+      "evidence_id": "ev_22bd19f008a430df0dc4444dae8585660116b829e995d3714dabbebe40529acc"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000057",
+      "page_no": 2,
+      "bbox": [
+        0.112553,
+        0.391642,
+        0.158307,
+        0.402784
+      ],
+      "charspan": [
+        0,
+        5
+      ],
+      "quote": "D-002",
+      "target_field": "defect_code",
+      "location_level": "region",
+      "source_ref": "#/tables/3/data/table_cells/5",
+      "evidence_id": "ev_2d6ab9bb7b9fb6e478a164a37ff3991ab10e7243753e3829955453672939c135"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000025",
+      "page_no": 1,
+      "bbox": [
+        0.32422,
+        0.633954,
+        0.357817,
+        0.645096
+      ],
+      "charspan": [
+        0,
+        2
+      ],
+      "quote": "主梁",
+      "target_field": "name",
+      "location_level": "region",
+      "source_ref": "#/tables/1/data/table_cells/7",
+      "evidence_id": "ev_2d8732155d44c6777a54358b2e02925eae7f5a5460b6f73954e926a1f17e342b"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000050",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.282687,
+        0.508101,
+        0.294943
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+      "target_field": "assertion",
+      "location_level": "region",
+      "source_ref": "#/texts/22",
+      "evidence_id": "ev_2dc6316ff33e429694465ba42ea4cecce184ac76d057fb96fd1c8088c7b442c7"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000049",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.250617,
+        0.551194,
+        0.262872
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁左侧有 1 处露筋，面积未提供（单位 m²）。",
+      "target_field": "defect_type_raw",
+      "location_level": "region",
+      "source_ref": "#/texts/21",
+      "evidence_id": "ev_2e659456555eaa7f1c9e09223d4f3b69a56242656d55dda507ecd20a19d9b59d"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000070",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.60577,
+        0.868402,
+        0.618026
+      ],
+      "charspan": [
+        0,
+        44
+      ],
+      "quote": "本样本仅描述病害、位置和面积，未提供评级、原因分析或处治结论。所有面积均以 m² 表示。",
+      "target_field": "kind",
+      "location_level": "region",
+      "source_ref": "#/texts/27",
+      "evidence_id": "ev_331c59a5b7bf6be40a5ebac1ec0bfb14151a6b175bdc3dea8b74c6e2f54a7a64"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000028",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.718612,
+        0.444462,
+        0.730867
+      ],
+      "charspan": [
+        0,
+        25
+      ],
+      "quote": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+      "target_field": "reported_count",
+      "location_level": "region",
+      "source_ref": "#/texts/10",
+      "evidence_id": "ev_360f3412ee04de21bc75da3e17c3f1698215631f86d74a316ebe27dd0b7ea21a"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000028",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.718612,
+        0.444462,
+        0.730867
+      ],
+      "charspan": [
+        0,
+        25
+      ],
+      "quote": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+      "target_field": "area_is_approximate",
+      "location_level": "region",
+      "source_ref": "#/texts/10",
+      "evidence_id": "ev_389c8356888d07259d1e179865d1209845a9f74b0aa83b27ebc422f5a4046243"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000028",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.718612,
+        0.444462,
+        0.730867
+      ],
+      "charspan": [
+        0,
+        25
+      ],
+      "quote": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+      "target_field": "scope",
+      "location_level": "region",
+      "source_ref": "#/texts/10",
+      "evidence_id": "ev_3ecd4af9b1d14f9a6cc35501db4bf20fb45c0ea0acf76e5afa061212b8cbe80b"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000070",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.60577,
+        0.868402,
+        0.618026
+      ],
+      "charspan": [
+        0,
+        44
+      ],
+      "quote": "本样本仅描述病害、位置和面积，未提供评级、原因分析或处治结论。所有面积均以 m² 表示。",
+      "target_field": "description",
+      "location_level": "region",
+      "source_ref": "#/texts/27",
+      "evidence_id": "ev_40d58314b7f46316811e7b932c5ce349552772eec040e7e29fa12e85968a9066"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000026",
+      "page_no": 1,
+      "bbox": [
+        0.47541,
+        0.633954,
+        0.676997,
+        0.645096
+      ],
+      "charspan": [
+        0,
+        12
+      ],
+      "quote": "第三跨主梁左侧、外侧边缘",
+      "target_field": "location_text",
+      "location_level": "region",
+      "source_ref": "#/tables/1/data/table_cells/8",
+      "evidence_id": "ev_4959c1566cb5542fbc60c44c69306f43aaa256709100feabbf28cf2512302dc4"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000016",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.488881,
+        0.767712,
+        0.499465
+      ],
+      "charspan": [
+        0,
+        42
+      ],
+      "quote": "所有观测日期均未知。报告编制日期不作为观测日期；实际地址、检测机构和观测人员未提供。",
+      "target_field": "kind",
+      "location_level": "region",
+      "source_ref": "#/texts/7",
+      "evidence_id": "ev_4ac001b06a205705859eaec2e8d6b6d3493e0c7a2cea64fcaf55305949425a0e"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000049",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.250617,
+        0.551194,
+        0.262872
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁左侧有 1 处露筋，面积未提供（单位 m²）。",
+      "target_field": "assertion",
+      "location_level": "region",
+      "source_ref": "#/texts/21",
+      "evidence_id": "ev_4e22f25a4d51bb5ff1fe3bab2778f28b7d30959819323f0c7a6bc18630357545"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000063",
+      "page_no": 2,
+      "bbox": [
+        0.258704,
+        0.432028,
+        0.305393,
+        0.443169
+      ],
+      "charspan": [
+        0,
+        5
+      ],
+      "quote": "O-003",
+      "target_field": "observation_code",
+      "location_level": "region",
+      "source_ref": "#/tables/3/data/table_cells/11",
+      "evidence_id": "ev_53a67f940497a71d70c89cbc9dc9570f4dba3c103f6406b2e43aeca413941198"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000050",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.282687,
+        0.508101,
+        0.294943
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+      "target_field": "area_original_value",
+      "location_level": "region",
+      "source_ref": "#/texts/22",
+      "evidence_id": "ev_5415e1cb638396ef4036094f163262dbb1edf270ce05874e47dfc4d5c6546b55"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000050",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.282687,
+        0.508101,
+        0.294943
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+      "target_field": "scope",
+      "location_level": "region",
+      "source_ref": "#/texts/22",
+      "evidence_id": "ev_54cee631778d2fc40ea556d8b0602f8d5844f73452c8acdfe19e2406190d5dc4"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000029",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.750682,
+        0.356138,
+        0.762938
+      ],
+      "charspan": [
+        0,
+        14
+      ],
+      "quote": "桥头铺装平顺，未见明显病害。",
+      "target_field": "kind",
+      "location_level": "region",
+      "source_ref": "#/texts/11",
+      "evidence_id": "ev_58472f566ccdb1bc51152414b30cc9da6a0ecfdeaa37fc9c8ffadea98a2908cd"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000049",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.250617,
+        0.551194,
+        0.262872
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁左侧有 1 处露筋，面积未提供（单位 m²）。",
+      "target_field": "scope",
+      "location_level": "region",
+      "source_ref": "#/texts/21",
+      "evidence_id": "ev_5f1d3ffa3fffa41d56d2508161f2d63a1696f3e3f6744b8337ca04264451facc"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000009",
+      "page_no": 1,
+      "bbox": [
+        0.305741,
+        0.328689,
+        0.389735,
+        0.33983
+      ],
+      "charspan": [
+        0,
+        5
+      ],
+      "quote": "溪桥演示桥",
+      "target_field": "name",
+      "location_level": "region",
+      "source_ref": "#/tables/0/data/table_cells/1",
+      "evidence_id": "ev_60447a7c528ab576b9d432c9db4d2601bd897c8c295f24366bf6a6491514be5e"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000037",
+      "page_no": 1,
+      "bbox": [
+        0.258704,
+        0.859637,
+        0.305393,
+        0.870779
+      ],
+      "charspan": [
+        0,
+        5
+      ],
+      "quote": "O-001",
+      "target_field": "observation_code",
+      "location_level": "region",
+      "source_ref": "#/tables/2/data/table_cells/6",
+      "evidence_id": "ev_61ea5d073c5575b77f7e4d8afacedaaac7110d64f4ea492eaa16168b4f09d245"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000051",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.314435,
+        0.379308,
+        0.325577
+      ],
+      "charspan": [
+        0,
+        24
+      ],
+      "quote": "表 4 露筋记录（构件 C-GIRDER-01）",
+      "target_field": "component_code",
+      "location_level": "region",
+      "source_ref": "#/texts/23",
+      "evidence_id": "ev_62909dedf42bd74c39c8c52eaaa986aa6c3020003cf206ccc1e3f9b7a9100443"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000049",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.250617,
+        0.551194,
+        0.262872
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁左侧有 1 处露筋，面积未提供（单位 m²）。",
+      "target_field": "defect_type",
+      "location_level": "region",
+      "source_ref": "#/texts/21",
+      "evidence_id": "ev_67cf4121e8f6a83bf357f66ccd74cf1315095f582e49c8d319b89646acdbeb2e"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000036",
+      "page_no": 1,
+      "bbox": [
+        0.112553,
+        0.859637,
+        0.158307,
+        0.870779
+      ],
+      "charspan": [
+        0,
+        5
+      ],
+      "quote": "D-001",
+      "target_field": "defect_code",
+      "location_level": "region",
+      "source_ref": "#/tables/2/data/table_cells/5",
+      "evidence_id": "ev_6882b2cce5c2d2b071a5075b685f7ae457694b1c16338f6245d8de07eb581db0"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000050",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.282687,
+        0.508101,
+        0.294943
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+      "target_field": "area_original_unit",
+      "location_level": "region",
+      "source_ref": "#/texts/22",
+      "evidence_id": "ev_710d048283fecb6942d866b1671ad2b9b03e46d1f44d27e9240b31b6972374c0"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000064",
+      "page_no": 2,
+      "bbox": [
+        0.404854,
+        0.432028,
+        0.556045,
+        0.443169
+      ],
+      "charspan": [
+        0,
+        9
+      ],
+      "quote": "第三跨主梁外侧边缘",
+      "target_field": "location_text",
+      "location_level": "region",
+      "source_ref": "#/tables/3/data/table_cells/12",
+      "evidence_id": "ev_75b205abfee1dbe3d060be573548e53b4839a55d35f62d228b7788767bb97dae"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000028",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.718612,
+        0.444462,
+        0.730867
+      ],
+      "charspan": [
+        0,
+        25
+      ],
+      "quote": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+      "target_field": "defect_type",
+      "location_level": "region",
+      "source_ref": "#/texts/10",
+      "evidence_id": "ev_76436e1c50a00efb0a89fc7c1e78ffbd8d2830e00cb544275a764282a707f8f5"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000058",
+      "page_no": 2,
+      "bbox": [
+        0.258704,
+        0.391642,
+        0.305393,
+        0.402784
+      ],
+      "charspan": [
+        0,
+        5
+      ],
+      "quote": "O-002",
+      "target_field": "observation_code",
+      "location_level": "region",
+      "source_ref": "#/tables/3/data/table_cells/6",
+      "evidence_id": "ev_76964aa89498aedc3798de4a097a34de092b428adea1855da00725df6d9206d2"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000028",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.718612,
+        0.444462,
+        0.730867
+      ],
+      "charspan": [
+        0,
+        25
+      ],
+      "quote": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+      "target_field": "area_original_value",
+      "location_level": "region",
+      "source_ref": "#/texts/10",
+      "evidence_id": "ev_80b11c405cd3e785222f158290b3d5184d680d64e172387a6194988ef5a83672"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000069",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.551131,
+        0.892024,
+        0.585955
+      ],
+      "charspan": [
+        0,
+        53
+      ],
+      "quote": "正文与表格描述相同编号的记录，不表示新增病害或新增观测。桥头的否定陈述仅针对桥头区域， 不表示全桥无病害。",
+      "target_field": "description",
+      "location_level": "region",
+      "source_ref": "#/texts/26",
+      "evidence_id": "ev_8cd78dc91f31b04eddcc36e14610acfd7716a7867304629c862ec78c82cbb2d9"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000050",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.282687,
+        0.508101,
+        0.294943
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+      "target_field": "reported_count",
+      "location_level": "region",
+      "source_ref": "#/texts/22",
+      "evidence_id": "ev_9011a28d38387119ae0026e2278f325cbcae13c787ddc6da58acb23ce6b5d858"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000049",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.250617,
+        0.551194,
+        0.262872
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁左侧有 1 处露筋，面积未提供（单位 m²）。",
+      "target_field": "reported_count",
+      "location_level": "region",
+      "source_ref": "#/texts/21",
+      "evidence_id": "ev_92cb4cfbd79791be930986795863445a9710cbbcf35859679caf931f7d3c833b"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000050",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.282687,
+        0.508101,
+        0.294943
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+      "target_field": "defect_type_raw",
+      "location_level": "region",
+      "source_ref": "#/texts/22",
+      "evidence_id": "ev_982412c13a4e9365030755424cf4b2e157d934915112174197a04b20f8f6d154"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000049",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.250617,
+        0.551194,
+        0.262872
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁左侧有 1 处露筋，面积未提供（单位 m²）。",
+      "target_field": "description",
+      "location_level": "region",
+      "source_ref": "#/texts/21",
+      "evidence_id": "ev_98651a40bcea735832854765c22fb61e36cdcf8607af614b4da026b216116ef5"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000030",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.78243,
+        0.360647,
+        0.793571
+      ],
+      "charspan": [
+        0,
+        22
+      ],
+      "quote": "表 3 坑槽记录（构件 C-DECK-01）",
+      "target_field": "component_code",
+      "location_level": "region",
+      "source_ref": "#/texts/12",
+      "evidence_id": "ev_9d92c6c12167a5e764e0cb1c5746ba22c184c471c0751929f7be14eddcd344e0"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000029",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.750682,
+        0.356138,
+        0.762938
+      ],
+      "charspan": [
+        0,
+        14
+      ],
+      "quote": "桥头铺装平顺，未见明显病害。",
+      "target_field": "component_ref",
+      "location_level": "region",
+      "source_ref": "#/texts/11",
+      "evidence_id": "ev_a959d15a574f75e30f5d698141ca1abcd3c50990f7b986ce940dfa353c8b3f3d"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000025",
+      "page_no": 1,
+      "bbox": [
+        0.32422,
+        0.633954,
+        0.357817,
+        0.645096
+      ],
+      "charspan": [
+        0,
+        2
+      ],
+      "quote": "主梁",
+      "target_field": "component_type",
+      "location_level": "region",
+      "source_ref": "#/tables/1/data/table_cells/7",
+      "evidence_id": "ev_a9f632fc41d378c8573cc4ea222571b285a60b5d74272fa19f44f7f4992a82cf"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000028",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.718612,
+        0.444462,
+        0.730867
+      ],
+      "charspan": [
+        0,
+        25
+      ],
+      "quote": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+      "target_field": "area_original_unit",
+      "location_level": "region",
+      "source_ref": "#/texts/10",
+      "evidence_id": "ev_aad3730cd17f86455ef7144a5beeb156bb0acb79cd361c6beb99057971f200b0"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000016",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.488881,
+        0.767712,
+        0.499465
+      ],
+      "charspan": [
+        0,
+        42
+      ],
+      "quote": "所有观测日期均未知。报告编制日期不作为观测日期；实际地址、检测机构和观测人员未提供。",
+      "target_field": "description",
+      "location_level": "region",
+      "source_ref": "#/texts/7",
+      "evidence_id": "ev_acb99221a8f65a3aeb06b7750e049d3763246e932a34fc9bb78e6f66275b2430"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000028",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.718612,
+        0.444462,
+        0.730867
+      ],
+      "charspan": [
+        0,
+        25
+      ],
+      "quote": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+      "target_field": "defect_type_raw",
+      "location_level": "region",
+      "source_ref": "#/texts/10",
+      "evidence_id": "ev_ad9c0cf3e48060c416e6ed2a188c6d3fe3c428edea8e5a895c2640e0d19cd059"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000069",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.551131,
+        0.892024,
+        0.585955
+      ],
+      "charspan": [
+        0,
+        53
+      ],
+      "quote": "正文与表格描述相同编号的记录，不表示新增病害或新增观测。桥头的否定陈述仅针对桥头区域， 不表示全桥无病害。",
+      "target_field": "kind",
+      "location_level": "region",
+      "source_ref": "#/texts/26",
+      "evidence_id": "ev_b1ff6eae8740f8abe207745ce07b777544a14d40391abb0c26132027d6af512d"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000022",
+      "page_no": 1,
+      "bbox": [
+        0.32422,
+        0.593569,
+        0.391415,
+        0.604711
+      ],
+      "charspan": [
+        0,
+        4
+      ],
+      "quote": "桥面铺装",
+      "target_field": "name",
+      "location_level": "region",
+      "source_ref": "#/tables/1/data/table_cells/4",
+      "evidence_id": "ev_b660e7ac0b0b8f376d915119f8bcef7f0fd7a93137ef585c750b8d9666b800d5"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000067",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.473924,
+        0.79963,
+        0.48618
+      ],
+      "charspan": [
+        0,
+        38
+      ],
+      "quote": "表中两条观测的日期均未知。两个露筋位置不同，分别保留各自病害编号与观测编号。",
+      "target_field": "kind",
+      "location_level": "region",
+      "source_ref": "#/texts/24",
+      "evidence_id": "ev_b7e12cba0fb00fdd6846ad516094124fcbae5f2298f6291723cc653b12cf20bd"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000011",
+      "page_no": 1,
+      "bbox": [
+        0.305741,
+        0.369074,
+        0.406559,
+        0.380216
+      ],
+      "charspan": [
+        0,
+        10
+      ],
+      "quote": "B-DEMO-001",
+      "target_field": "bridge_code",
+      "location_level": "region",
+      "source_ref": "#/tables/0/data/table_cells/3",
+      "evidence_id": "ev_c46efdcc6499328f49b4ec531a0697c70bf1b7aaf0a0df6846ed58349f637573"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000029",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.750682,
+        0.356138,
+        0.762938
+      ],
+      "charspan": [
+        0,
+        14
+      ],
+      "quote": "桥头铺装平顺，未见明显病害。",
+      "target_field": "location_text",
+      "location_level": "region",
+      "source_ref": "#/texts/11",
+      "evidence_id": "ev_c48c1081b1b7af990e4dcc03fd3def0b8cc0acd5b7ac490568331f3f07f74670"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000021",
+      "page_no": 1,
+      "bbox": [
+        0.112553,
+        0.593569,
+        0.201231,
+        0.604711
+      ],
+      "charspan": [
+        0,
+        9
+      ],
+      "quote": "C-DECK-01",
+      "target_field": "component_code",
+      "location_level": "region",
+      "source_ref": "#/tables/1/data/table_cells/3",
+      "evidence_id": "ev_c658ff3e5d6967646f42fe2f0d2f518b23e1128b1b27e1225942f0a3547856e7"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000067",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.473924,
+        0.79963,
+        0.48618
+      ],
+      "charspan": [
+        0,
+        38
+      ],
+      "quote": "表中两条观测的日期均未知。两个露筋位置不同，分别保留各自病害编号与观测编号。",
+      "target_field": "description",
+      "location_level": "region",
+      "source_ref": "#/texts/24",
+      "evidence_id": "ev_c7718e53fa0df789eea89826cf4451302e703e367d334200a965548143f361db"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000050",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.282687,
+        0.508101,
+        0.294943
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+      "target_field": "description",
+      "location_level": "region",
+      "source_ref": "#/texts/22",
+      "evidence_id": "ev_cf36321ff5b9619dd17545dcfe313f068bc62f24b016b068f2df7771fbbacd51"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000028",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.718612,
+        0.444462,
+        0.730867
+      ],
+      "charspan": [
+        0,
+        25
+      ],
+      "quote": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+      "target_field": "description",
+      "location_level": "region",
+      "source_ref": "#/texts/10",
+      "evidence_id": "ev_d0224fad08a57f4cbdfee2010a32aa3c88d339c463a125ad19d5b34b3ac0ea8d"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000023",
+      "page_no": 1,
+      "bbox": [
+        0.47541,
+        0.593569,
+        0.643399,
+        0.604711
+      ],
+      "charspan": [
+        0,
+        10
+      ],
+      "quote": "第三跨桥面、桥头区域",
+      "target_field": "location_text",
+      "location_level": "region",
+      "source_ref": "#/tables/1/data/table_cells/5",
+      "evidence_id": "ev_dfa5822e0ef19e144816ec43baad8df0178d08638656407688cd99d023fea1b4"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000050",
+      "page_no": 2,
+      "bbox": [
+        0.097434,
+        0.282687,
+        0.508101,
+        0.294943
+      ],
+      "charspan": [
+        0,
+        28
+      ],
+      "quote": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+      "target_field": "defect_type",
+      "location_level": "region",
+      "source_ref": "#/texts/22",
+      "evidence_id": "ev_e74ca731227d02e3ff4f406ffc06641b4e8c8a7aaa8bf3a8bb8a69231232413f"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000038",
+      "page_no": 1,
+      "bbox": [
+        0.404854,
+        0.859637,
+        0.488849,
+        0.870779
+      ],
+      "charspan": [
+        0,
+        5
+      ],
+      "quote": "第三跨桥面",
+      "target_field": "location_text",
+      "location_level": "region",
+      "source_ref": "#/tables/2/data/table_cells/7",
+      "evidence_id": "ev_ef66a444b757216601d708baa4caa8f3c5dd0cfed82d551be167f84776d14568"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000062",
+      "page_no": 2,
+      "bbox": [
+        0.112553,
+        0.432028,
+        0.158307,
+        0.443169
+      ],
+      "charspan": [
+        0,
+        5
+      ],
+      "quote": "D-003",
+      "target_field": "defect_code",
+      "location_level": "region",
+      "source_ref": "#/tables/3/data/table_cells/10",
+      "evidence_id": "ev_f3cc113d3794e6a66fbaf54974c4f5865ff107ec57250595b71a3e49c97cb8d5"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000022",
+      "page_no": 1,
+      "bbox": [
+        0.32422,
+        0.593569,
+        0.391415,
+        0.604711
+      ],
+      "charspan": [
+        0,
+        4
+      ],
+      "quote": "桥面铺装",
+      "target_field": "component_type",
+      "location_level": "region",
+      "source_ref": "#/tables/1/data/table_cells/4",
+      "evidence_id": "ev_f8ee2c93516f7d651b0c0385aa8763336331f92d9c84e803dcce64ce8e3def31"
+    },
+    {
+      "document_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+      "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000028",
+      "page_no": 1,
+      "bbox": [
+        0.097434,
+        0.718612,
+        0.444462,
+        0.730867
+      ],
+      "charspan": [
+        0,
+        25
+      ],
+      "quote": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+      "target_field": "assertion",
+      "location_level": "region",
+      "source_ref": "#/texts/10",
+      "evidence_id": "ev_fb49009b879c1c0ccfc08c267063067acbd9b55c11d9fdfac224e654fc1baa96"
+    }
+  ],
+  "statements": [
+    {
+      "kind": "negative",
+      "component_ref": "cmp_b933adb4f9245d6d7c766d5100fb6f3121488e4a431e9234e7a32dd71d1d0cc4",
+      "location_text": "桥头区域",
+      "text": "桥头铺装平顺，未见明显病害。",
+      "sources": [
+        {
+          "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000029",
+          "exact_quote": "桥头铺装平顺，未见明显病害。",
+          "target_field": "description",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000029",
+          "exact_quote": "桥头铺装平顺，未见明显病害。",
+          "target_field": "kind",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000029",
+          "exact_quote": "桥头铺装平顺，未见明显病害。",
+          "target_field": "component_ref",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000029",
+          "exact_quote": "桥头铺装平顺，未见明显病害。",
+          "target_field": "location_text",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "kind": "unmapped",
+      "component_ref": null,
+      "location_text": null,
+      "text": "所有观测日期均未知。报告编制日期不作为观测日期；实际地址、检测机构和观测人员未提供。",
+      "sources": [
+        {
+          "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000016",
+          "exact_quote": "所有观测日期均未知。报告编制日期不作为观测日期；实际地址、检测机构和观测人员未提供。",
+          "target_field": "description",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000016",
+          "exact_quote": "所有观测日期均未知。报告编制日期不作为观测日期；实际地址、检测机构和观测人员未提供。",
+          "target_field": "kind",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "kind": "unmapped",
+      "component_ref": null,
+      "location_text": null,
+      "text": "表中两条观测的日期均未知。两个露筋位置不同，分别保留各自病害编号与观测编号。",
+      "sources": [
+        {
+          "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000067",
+          "exact_quote": "表中两条观测的日期均未知。两个露筋位置不同，分别保留各自病害编号与观测编号。",
+          "target_field": "description",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000067",
+          "exact_quote": "表中两条观测的日期均未知。两个露筋位置不同，分别保留各自病害编号与观测编号。",
+          "target_field": "kind",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "kind": "unmapped",
+      "component_ref": null,
+      "location_text": null,
+      "text": "正文与表格描述相同编号的记录，不表示新增病害或新增观测。",
+      "sources": [
+        {
+          "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000069",
+          "exact_quote": "正文与表格描述相同编号的记录，不表示新增病害或新增观测。桥头的否定陈述仅针对桥头区域， 不表示全桥无病害。",
+          "target_field": "description",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000069",
+          "exact_quote": "正文与表格描述相同编号的记录，不表示新增病害或新增观测。桥头的否定陈述仅针对桥头区域， 不表示全桥无病害。",
+          "target_field": "kind",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "kind": "unmapped",
+      "component_ref": null,
+      "location_text": null,
+      "text": "桥头的否定陈述仅针对桥头区域， 不表示全桥无病害。",
+      "sources": [
+        {
+          "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000069",
+          "exact_quote": "正文与表格描述相同编号的记录，不表示新增病害或新增观测。桥头的否定陈述仅针对桥头区域， 不表示全桥无病害。",
+          "target_field": "description",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000069",
+          "exact_quote": "正文与表格描述相同编号的记录，不表示新增病害或新增观测。桥头的否定陈述仅针对桥头区域， 不表示全桥无病害。",
+          "target_field": "kind",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "kind": "unmapped",
+      "component_ref": null,
+      "location_text": null,
+      "text": "本样本仅描述病害、位置和面积，未提供评级、原因分析或处治结论。所有面积均以 m² 表示。",
+      "sources": [
+        {
+          "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000070",
+          "exact_quote": "本样本仅描述病害、位置和面积，未提供评级、原因分析或处治结论。所有面积均以 m² 表示。",
+          "target_field": "description",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c:block:000070",
+          "exact_quote": "本样本仅描述病害、位置和面积，未提供评级、原因分析或处治结论。所有面积均以 m² 表示。",
+          "target_field": "kind",
+          "occurrence_hint": null
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "code": "AREA_UNNORMALIZABLE",
+      "severity": "pending",
+      "related_local_ids": [
+        "Observation:O-002"
+      ],
+      "message": "Area is missing or its evidenced unit is unsupported"
+    }
+  ]
+}

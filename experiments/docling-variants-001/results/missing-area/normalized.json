@@ -1,0 +1,2722 @@
+{
+  "document_id": "dc71de59bb16221de7f0c2a44e3ecff18c346f2f522361403a1c4bf44eee510c",
+  "schema_version": "experiment-1",
+  "source_kind": "synthetic",
+  "pages": [
+    {
+      "page_no": 1,
+      "width": 595.2756,
+      "height": 841.8898,
+      "coordinate_unit": "pdf_points",
+      "rotation": 0,
+      "location_status": "available"
+    },
+    {
+      "page_no": 2,
+      "width": 595.2756,
+      "height": 841.8898,
+      "coordinate_unit": "pdf_points",
+      "rotation": 0,
+      "location_status": "available"
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "49e318cc271c80d92618078d19b7be3fde6508a29062b101142d4ae03eafc6a1",
+      "kind": "paragraph",
+      "text": "SYNTHETIC / 演示样本",
+      "source_ref": "#/texts/0",
+      "source_label": "page_header",
+      "content_layer": "furniture",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.08735449596791804,
+            0.03260255000119973,
+            0.24611187456700725,
+            0.04262986450245631
+          ],
+          "charspan": [
+            0,
+            16
+          ],
+          "raw_bbox": {
+            "l": 52.0,
+            "t": 814.4420457,
+            "r": 146.5043938,
+            "b": 806.0001519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "ec0837e44d77c9b46c813d0b726dc49aae93c02658b023b812ef4d10b02d8723",
+      "kind": "paragraph",
+      "text": "B-DEMO-001",
+      "source_ref": "#/texts/1",
+      "source_label": "page_header",
+      "content_layer": "furniture",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.8219090451548828,
+            0.03260255000119973,
+            0.9126454742979554,
+            0.04262986450245631
+          ],
+          "charspan": [
+            0,
+            10
+          ],
+          "raw_bbox": {
+            "l": 489.2624,
+            "t": 814.4420457,
+            "r": 543.2755823,
+            "b": 806.0001519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "e93e009ddf42a022abb529dad21d294b5710db1a992651963d1e07baaf85d4f1",
+      "kind": "title",
+      "text": "桥梁病害与观测记录",
+      "source_ref": "#/texts/2",
+      "source_label": "section_header",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09743386088729321,
+            0.0941398412238752,
+            0.44517195060573617,
+            0.11976520050486421
+          ],
+          "charspan": [
+            0,
+            9
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 762.6344279,
+            "r": 265.0,
+            "b": 741.0606993,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "f8558f3c0d16eadd979e7ba1d8d4b81d42134303d42c4dd3b2b46c5c56b4eedd",
+      "kind": "paragraph",
+      "text": "溪桥演示桥 · 首份简化样本",
+      "source_ref": "#/texts/3",
+      "source_label": "text",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09743386088729321,
+            0.14252661060865687,
+            0.3161030890565647,
+            0.15478221722130384
+          ],
+          "charspan": [
+            0,
+            14
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 721.8981003,
+            "r": 188.168456,
+            "b": 711.5802301,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "0c5e3a411b3c14d57b6372625a3f705bb60f6127d0631bab85a8fecfb2114655",
+      "kind": "paragraph",
+      "text": "演示声明 本文件为 synthetic（合成）样本。桥梁身份和编号均为虚构，内容不代表任何实际桥梁的 检测结论。",
+      "source_ref": "#/texts/4",
+      "source_label": "text",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.11255290826635594,
+            0.18852791303564911,
+            0.8991485775664246,
+            0.2186742362242659
+          ],
+          "charspan": [
+            0,
+            56
+          ],
+          "raw_bbox": {
+            "l": 67.0,
+            "t": 683.170073,
+            "r": 535.241209,
+            "b": 657.790191,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "a3734c3b42b72851fcb9e84f5d4330169a873ec94eef7e550e4706805f545c4c",
+      "kind": "title",
+      "text": "1 基本信息",
+      "source_ref": "#/texts/5",
+      "source_label": "section_header",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09743386088729321,
+            0.25666018343493413,
+            0.21924259032286889,
+            0.27337237427036176
+          ],
+          "charspan": [
+            0,
+            6
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 625.8102095,
+            "r": 130.5097645,
+            "b": 611.7403865,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "269baf85b55fee6c4cd134a65d0c1740c6ccc17fec942935ed4d851c00a912c9",
+      "kind": "title",
+      "text": "表 1 桥梁与日期",
+      "source_ref": "#/texts/6",
+      "source_label": "section_header",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09743386088729321,
+            0.29186685359532805,
+            0.21690484709939395,
+            0.30300831415227975
+          ],
+          "charspan": [
+            0,
+            9
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 596.170073,
+            "r": 129.118163,
+            "b": 586.790191,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "a59501caeb891b95604e0d0fd88b54641060941fb9d1f7535cbea3d66057b45c",
+      "kind": "table_cell",
+      "text": "桥梁名称",
+      "source_ref": "#/tables/0/data/table_cells/0",
+      "parent_ref": "#/tables/0",
+      "table_id": "#/tables/0",
+      "row": 0,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.11255290826635594,
+            0.3286887749441793,
+            0.17974867439552367,
+            0.339830235501131
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 67.0,
+            "t": 276.71972700000015,
+            "r": 107.0,
+            "b": 286.0996090000001,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "3c32f8a201994f9cccb4817cf2bdab4ab1f7ddba37ad5a13cb8f36206c52e8ed",
+      "kind": "table_cell",
+      "text": "溪桥演示桥",
+      "source_ref": "#/tables/0/data/table_cells/1",
+      "parent_ref": "#/tables/0",
+      "table_id": "#/tables/0",
+      "row": 0,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.30574073588771317,
+            0.3286887749441793,
+            0.38973544354917283,
+            0.339830235501131
+          ],
+          "charspan": [
+            0,
+            5
+          ],
+          "raw_bbox": {
+            "l": 182.0,
+            "t": 276.71972700000015,
+            "r": 232.0,
+            "b": 286.0996090000001,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "b74eb5efd9fe3442498babafe34b20909bb4b311b8c3f7866f4e9c815a9cba98",
+      "kind": "table_cell",
+      "text": "桥梁编号",
+      "source_ref": "#/tables/0/data/table_cells/2",
+      "parent_ref": "#/tables/0",
+      "table_id": "#/tables/0",
+      "row": 1,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.11255290826635594,
+            0.3690741080364676,
+            0.17974867439552367,
+            0.3802155685934193
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 67.0,
+            "t": 310.71972700000015,
+            "r": 107.0,
+            "b": 320.0996090000001,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "f6bad3009288b34ced288600e32a1a6c070f6f7cfccd510b245ae9f2423d48e7",
+      "kind": "table_cell",
+      "text": "B-DEMO-001",
+      "source_ref": "#/tables/0/data/table_cells/3",
+      "parent_ref": "#/tables/0",
+      "table_id": "#/tables/0",
+      "row": 1,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.30574073588771317,
+            0.3690741080364676,
+            0.4065589904911271,
+            0.3802155685934193
+          ],
+          "charspan": [
+            0,
+            10
+          ],
+          "raw_bbox": {
+            "l": 182.0,
+            "t": 310.71972700000015,
+            "r": 242.014647,
+            "b": 320.0996090000001,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "f0315b44c7bbc0d8bf7bf3d56abbf0ef613b0eeff21479171764ee7e52f73732",
+      "kind": "table_cell",
+      "text": "报告编制日期",
+      "source_ref": "#/tables/0/data/table_cells/4",
+      "parent_ref": "#/tables/0",
+      "table_id": "#/tables/0",
+      "row": 2,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.11255290826635594,
+            0.4094594411287558,
+            0.21334655746010753,
+            0.4206009016857076
+          ],
+          "charspan": [
+            0,
+            6
+          ],
+          "raw_bbox": {
+            "l": 67.0,
+            "t": 344.71972700000003,
+            "r": 127.0,
+            "b": 354.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "1773c7718ff1cce66abf07fb71b0e852e9946807527ae33c2ede046b7b016bf1",
+      "kind": "table_cell",
+      "text": "2026-10-10（演示样本编制日期）",
+      "source_ref": "#/tables/0/data/table_cells/5",
+      "parent_ref": "#/tables/0",
+      "table_id": "#/tables/0",
+      "row": 2,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.30574073588771317,
+            0.4094594411287558,
+            0.5596606681006242,
+            0.4206009016857076
+          ],
+          "charspan": [
+            0,
+            20
+          ],
+          "raw_bbox": {
+            "l": 182.0,
+            "t": 344.71972700000003,
+            "r": 333.15234,
+            "b": 354.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "a56e27076a0086ecdaf1b8578f0d91828fc17a97ebca0ab64d873523ac826e3b",
+      "kind": "table_cell",
+      "text": "观测日期",
+      "source_ref": "#/tables/0/data/table_cells/6",
+      "parent_ref": "#/tables/0",
+      "table_id": "#/tables/0",
+      "row": 3,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.11255290826635594,
+            0.44984477422104413,
+            0.17974867439552367,
+            0.46098623477799594
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 67.0,
+            "t": 378.71972700000003,
+            "r": 107.0,
+            "b": 388.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "2edeaaf3bf3101659348ce0246cae285ce1df3a866c6d4057c886c27158f472d",
+      "kind": "table_cell",
+      "text": "未知",
+      "source_ref": "#/tables/0/data/table_cells/7",
+      "parent_ref": "#/tables/0",
+      "table_id": "#/tables/0",
+      "row": 3,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.30574073588771317,
+            0.44984477422104413,
+            0.339338618952297,
+            0.46098623477799594
+          ],
+          "charspan": [
+            0,
+            2
+          ],
+          "raw_bbox": {
+            "l": 182.0,
+            "t": 378.71972700000003,
+            "r": 202.0,
+            "b": 388.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "1091ce5a8126d99809dddc0241613a31c18b7c2924bcbb71822cb0624ab380c8",
+      "kind": "paragraph",
+      "text": "所有观测日期均未知。报告编制日期不作为观测日期；实际地址、检测机构和观测人员未提供。",
+      "source_ref": "#/texts/7",
+      "source_label": "text",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09743386088729321,
+            0.4888807782800077,
+            0.7677116280257413,
+            0.4994651658091119
+          ],
+          "charspan": [
+            0,
+            42
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 430.30605935,
+            "r": 457.0,
+            "b": 421.39517144999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "442d2a8a344e4a2d44baf7614605ed900e86982fbd02e5bc0ba9ee4cae79c5d3",
+      "kind": "title",
+      "text": "表 2 构件清单（均属于 B-DEMO-001）",
+      "source_ref": "#/texts/8",
+      "source_label": "section_header",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09743386088729321,
+            0.5163617934318719,
+            0.3895861513557753,
+            0.5275032539888237
+          ],
+          "charspan": [
+            0,
+            24
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 407.170073,
+            "r": 231.91112999999999,
+            "b": 397.790191,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "3552f391644380aac0924870457e51501dabe71616a529a1dbce12a295c85310",
+      "kind": "table_cell",
+      "text": "构件编号",
+      "source_ref": "#/tables/1/data/table_cells/0",
+      "parent_ref": "#/tables/1",
+      "table_id": "#/tables/1",
+      "row": 0,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.11255290826635594,
+            0.5531837147807231,
+            0.17974867439552367,
+            0.5643251753376749
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 67.0,
+            "t": 465.71972700000003,
+            "r": 107.0,
+            "b": 475.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "2c81f73d1e2bff49e7fb68ea6f6b215e6359bb5e30a80f295b127b5e2fa8fedf",
+      "kind": "table_cell",
+      "text": "构件名称",
+      "source_ref": "#/tables/1/data/table_cells/1",
+      "parent_ref": "#/tables/1",
+      "table_id": "#/tables/1",
+      "row": 0,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.3242195715732343,
+            0.5531837147807231,
+            0.391415337702402,
+            0.5643251753376749
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 193.0,
+            "t": 465.71972700000003,
+            "r": 233.0,
+            "b": 475.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "379459c9603ad1cbc021c7263e0d489fabb7e9df0acb111b7ad494d7f03d8399",
+      "kind": "table_cell",
+      "text": "本样本描述范围",
+      "source_ref": "#/tables/1/data/table_cells/2",
+      "parent_ref": "#/tables/1",
+      "table_id": "#/tables/1",
+      "row": 0,
+      "column": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.47541004536386167,
+            0.5531837147807231,
+            0.5930026360899052,
+            0.5643251753376749
+          ],
+          "charspan": [
+            0,
+            7
+          ],
+          "raw_bbox": {
+            "l": 283.0,
+            "t": 465.71972700000003,
+            "r": 353.0,
+            "b": 475.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "2bd89726d846963293ffbf254314ea93f4b0318324bec9af93c202eef5eb7cce",
+      "kind": "table_cell",
+      "text": "C-DECK-01",
+      "source_ref": "#/tables/1/data/table_cells/3",
+      "parent_ref": "#/tables/1",
+      "table_id": "#/tables/1",
+      "row": 1,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.11255290826635594,
+            0.5935690478730115,
+            0.20123130529791575,
+            0.6047105084299632
+          ],
+          "charspan": [
+            0,
+            9
+          ],
+          "raw_bbox": {
+            "l": 67.0,
+            "t": 499.71972700000003,
+            "r": 119.78808599999999,
+            "b": 509.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "65c71d826c87640db79573d4219ea13cc1072c0cfd9ecfa72a1b0e7eb506bd2e",
+      "kind": "table_cell",
+      "text": "桥面铺装",
+      "source_ref": "#/tables/1/data/table_cells/4",
+      "parent_ref": "#/tables/1",
+      "table_id": "#/tables/1",
+      "row": 1,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.3242195715732343,
+            0.5935690478730115,
+            0.391415337702402,
+            0.6047105084299632
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 193.0,
+            "t": 499.71972700000003,
+            "r": 233.0,
+            "b": 509.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "3b9ec05b2ef1b6511effefcebd60d6b4e2a7e7c6c7cc1b38558d1c50be8e6c1a",
+      "kind": "table_cell",
+      "text": "第三跨桥面、桥头区域",
+      "source_ref": "#/tables/1/data/table_cells/5",
+      "parent_ref": "#/tables/1",
+      "table_id": "#/tables/1",
+      "row": 1,
+      "column": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.47541004536386167,
+            0.5935690478730115,
+            0.643399460686781,
+            0.6047105084299632
+          ],
+          "charspan": [
+            0,
+            10
+          ],
+          "raw_bbox": {
+            "l": 283.0,
+            "t": 499.71972700000003,
+            "r": 383.0,
+            "b": 509.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "e21cea932e4b9e8a6c69b85e4435d9e12874a2216e2a2022ccab74d0d0d37b2e",
+      "kind": "table_cell",
+      "text": "C-GIRDER-01",
+      "source_ref": "#/tables/1/data/table_cells/6",
+      "parent_ref": "#/tables/1",
+      "table_id": "#/tables/1",
+      "row": 2,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.11255290826635594,
+            0.6339543809652998,
+            0.21989223814985862,
+            0.6450958415222515
+          ],
+          "charspan": [
+            0,
+            11
+          ],
+          "raw_bbox": {
+            "l": 67.0,
+            "t": 533.719727,
+            "r": 130.896484,
+            "b": 543.0996090000001,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "eb6abcd85081e1d408d52d7968b1dae8c399fe3787916c490fb1e30ae449efb1",
+      "kind": "table_cell",
+      "text": "主梁",
+      "source_ref": "#/tables/1/data/table_cells/7",
+      "parent_ref": "#/tables/1",
+      "table_id": "#/tables/1",
+      "row": 2,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.3242195715732343,
+            0.6339543809652998,
+            0.35781745463781817,
+            0.6450958415222515
+          ],
+          "charspan": [
+            0,
+            2
+          ],
+          "raw_bbox": {
+            "l": 193.0,
+            "t": 533.719727,
+            "r": 213.0,
+            "b": 543.0996090000001,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "592570467e431887b0843e095ac1c75b8325f9eaaeb83e30fbc48dd99b81a77e",
+      "kind": "table_cell",
+      "text": "第三跨主梁左侧、外侧边缘",
+      "source_ref": "#/tables/1/data/table_cells/8",
+      "parent_ref": "#/tables/1",
+      "table_id": "#/tables/1",
+      "row": 2,
+      "column": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.47541004536386167,
+            0.6339543809652998,
+            0.6769973437513649,
+            0.6450958415222515
+          ],
+          "charspan": [
+            0,
+            12
+          ],
+          "raw_bbox": {
+            "l": 283.0,
+            "t": 533.719727,
+            "r": 403.0,
+            "b": 543.0996090000001,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "27d83f88b2c49bd7fa4768842807169df09dd7d1ac006cb5f779280c709f5946",
+      "kind": "title",
+      "text": "2 桥面铺装观测",
+      "source_ref": "#/texts/9",
+      "source_label": "section_header",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09743386088729321,
+            0.6830817887329197,
+            0.2696394149197447,
+            0.6997939795683473
+          ],
+          "charspan": [
+            0,
+            8
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 266.81020950000004,
+            "r": 160.5097645,
+            "b": 252.7403865,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "b94eb295dfc6416e4b3c60cdb0eebf7e4c4e4864e3b81b9c69d4a3032bee5e08",
+      "kind": "paragraph",
+      "text": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+      "source_ref": "#/texts/10",
+      "source_label": "text",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09743386088729321,
+            0.718611509131005,
+            0.4444624184159404,
+            0.7308671157436519
+          ],
+          "charspan": [
+            0,
+            25
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 236.8981003,
+            "r": 264.5776328,
+            "b": 226.5802301,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "483f30e1d9f63105620ba408b80f75bbdd9c21ef21760c51bbfdf0d783e59271",
+      "kind": "paragraph",
+      "text": "桥头铺装平顺，未见明显病害。",
+      "source_ref": "#/texts/11",
+      "source_label": "text",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09743386088729321,
+            0.7506822148219399,
+            0.35613756048458894,
+            0.7629378214345868
+          ],
+          "charspan": [
+            0,
+            14
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 209.8981003,
+            "r": 212.0,
+            "b": 199.5802301,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "0705a5b8305c45ad46ba5023eb6853b422a0217ca1b85831c520cf03fb27cf65",
+      "kind": "title",
+      "text": "表 3 坑槽记录（构件 C-DECK-01）",
+      "source_ref": "#/texts/12",
+      "source_label": "section_header",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.09743386088729321,
+            0.7824298702751833,
+            0.3606473522516293,
+            0.7935713308321349
+          ],
+          "charspan": [
+            0,
+            22
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 183.170073,
+            "r": 214.684569,
+            "b": 173.79019100000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "8e4950335a76925bd639caa42a26a2882b3a58a7c6bc344d9c6c12e63f9d5869",
+      "kind": "table_cell",
+      "text": "病害编号",
+      "source_ref": "#/tables/2/data/table_cells/0",
+      "parent_ref": "#/tables/2",
+      "table_id": "#/tables/2",
+      "row": 0,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.11255290826635594,
+            0.819251839136191,
+            0.17974867439552367,
+            0.8303932996931427
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 67.0,
+            "t": 689.719767,
+            "r": 107.0,
+            "b": 699.099649,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "d2ef42c3f40a3f05f16aacdcda46b54f2fb000149ffdf624b4448e1a0876f4c0",
+      "kind": "table_cell",
+      "text": "观测编号",
+      "source_ref": "#/tables/2/data/table_cells/1",
+      "parent_ref": "#/tables/2",
+      "table_id": "#/tables/2",
+      "row": 0,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.2587036995972958,
+            0.819251839136191,
+            0.3258994657264635,
+            0.8303932996931427
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 154.0,
+            "t": 689.719767,
+            "r": 194.0,
+            "b": 699.099649,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "bbc07a260bb705e671497d084538e6cfc92576e32aa45d4b60d0040a1807dde4",
+      "kind": "table_cell",
+      "text": "位置",
+      "source_ref": "#/tables/2/data/table_cells/2",
+      "parent_ref": "#/tables/2",
+      "table_id": "#/tables/2",
+      "row": 0,
+      "column": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.40485449092823556,
+            0.819251839136191,
+            0.43845237399281944,
+            0.8303932996931427
+          ],
+          "charspan": [
+            0,
+            2
+          ],
+          "raw_bbox": {
+            "l": 241.0,
+            "t": 689.719767,
+            "r": 261.0,
+            "b": 699.099649,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "c367eced1ccd2bf4ddcfa6f9a62c5b0a9c857f4c14a800462c00c8dd450ae526",
+      "kind": "table_cell",
+      "text": "数量",
+      "source_ref": "#/tables/2/data/table_cells/3",
+      "parent_ref": "#/tables/2",
+      "table_id": "#/tables/2",
+      "row": 0,
+      "column": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.6484391431464686,
+            0.819251839136191,
+            0.6820370262110524,
+            0.8303932996931427
+          ],
+          "charspan": [
+            0,
+            2
+          ],
+          "raw_bbox": {
+            "l": 386.0,
+            "t": 689.719767,
+            "r": 406.0,
+            "b": 699.099649,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "e24353c1ef7ca023245f4abbb35a60fabe10d06d8a778d4f19319b5bea0069eb",
+      "kind": "table_cell",
+      "text": "面积",
+      "source_ref": "#/tables/2/data/table_cells/4",
+      "parent_ref": "#/tables/2",
+      "table_id": "#/tables/2",
+      "row": 0,
+      "column": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.7559523689531369,
+            0.819251839136191,
+            0.7895502520177208,
+            0.8303932996931427
+          ],
+          "charspan": [
+            0,
+            2
+          ],
+          "raw_bbox": {
+            "l": 450.0,
+            "t": 689.719767,
+            "r": 470.0,
+            "b": 699.099649,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "a772ab7011bfa247a9eea410d8035a4a141fa012b06e1e0de589bf3c5e8d309a",
+      "kind": "table_cell",
+      "text": "D-001",
+      "source_ref": "#/tables/2/data/table_cells/5",
+      "parent_ref": "#/tables/2",
+      "table_id": "#/tables/2",
+      "row": 1,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.11255290826635594,
+            0.8596371722284794,
+            0.15830705474909437,
+            0.870778632785431
+          ],
+          "charspan": [
+            0,
+            5
+          ],
+          "raw_bbox": {
+            "l": 67.0,
+            "t": 723.719767,
+            "r": 94.236327,
+            "b": 733.099649,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "6348de4d4171c1a187d71214a0f195db91cc583874a9584ef1d6e04db1a93274",
+      "kind": "table_cell",
+      "text": "O-001",
+      "source_ref": "#/tables/2/data/table_cells/6",
+      "parent_ref": "#/tables/2",
+      "table_id": "#/tables/2",
+      "row": 1,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.2587036995972958,
+            0.8596371722284794,
+            0.3053929423614877,
+            0.870778632785431
+          ],
+          "charspan": [
+            0,
+            5
+          ],
+          "raw_bbox": {
+            "l": 154.0,
+            "t": 723.719767,
+            "r": 181.792967,
+            "b": 733.099649,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "69580043c4b137e391557dc274d2792985ee55e8328d892683a511fe54d851b5",
+      "kind": "table_cell",
+      "text": "第三跨桥面",
+      "source_ref": "#/tables/2/data/table_cells/7",
+      "parent_ref": "#/tables/2",
+      "table_id": "#/tables/2",
+      "row": 1,
+      "column": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.40485449092823556,
+            0.8596371722284794,
+            0.4888491985896952,
+            0.870778632785431
+          ],
+          "charspan": [
+            0,
+            5
+          ],
+          "raw_bbox": {
+            "l": 241.0,
+            "t": 723.719767,
+            "r": 291.0,
+            "b": 733.099649,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "69e7d088320198ad9dd2c4e481d96a031499767b666d13941be3d905da372cde",
+      "kind": "table_cell",
+      "text": "1 处",
+      "source_ref": "#/tables/2/data/table_cells/8",
+      "parent_ref": "#/tables/2",
+      "table_id": "#/tables/2",
+      "row": 1,
+      "column": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.6484391431464686,
+            0.8596371722284794,
+            0.6792481381733099,
+            0.870778632785431
+          ],
+          "charspan": [
+            0,
+            3
+          ],
+          "raw_bbox": {
+            "l": 386.0,
+            "t": 723.719767,
+            "r": 404.339843,
+            "b": 733.099649,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "659214a4297ed0665938d54b8c8ebfc51f2b39a967d22bf8cbee58817449ad6a",
+      "kind": "table_cell",
+      "text": "0.04 m²",
+      "source_ref": "#/tables/2/data/table_cells/9",
+      "parent_ref": "#/tables/2",
+      "table_id": "#/tables/2",
+      "row": 1,
+      "column": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.7559523689531369,
+            0.8596371722284794,
+            0.8129030738031258,
+            0.870778632785431
+          ],
+          "charspan": [
+            0,
+            7
+          ],
+          "raw_bbox": {
+            "l": 450.0,
+            "t": 723.719767,
+            "r": 483.901365,
+            "b": 733.099649,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "88132274a3c276f0a302d3cf8bf8df3ea42ab5b8e514af03bd139966514e5425",
+      "kind": "paragraph",
+      "text": "虚构桥梁与记录，仅用于学习演示",
+      "source_ref": "#/texts/13",
+      "source_label": "page_footer",
+      "content_layer": "furniture",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.08735449596791804,
+            0.954639868483975,
+            0.30154100050464017,
+            0.9641101099573839
+          ],
+          "charspan": [
+            0,
+            15
+          ],
+          "raw_bbox": {
+            "l": 52.0,
+            "t": 38.18823205000001,
+            "r": 179.5,
+            "b": 30.21533235000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "66d8288f96137d2caa31c10881071ad17d2cf9d57a0dfb298d15f5d4c19e487f",
+      "kind": "paragraph",
+      "text": "第 1 页 / 共 2 页",
+      "source_ref": "#/texts/14",
+      "source_label": "page_footer",
+      "content_layer": "furniture",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 1,
+          "bbox": [
+            0.8118760453141368,
+            0.954639868483975,
+            0.9126454924408125,
+            0.9641101099573839
+          ],
+          "charspan": [
+            0,
+            13
+          ],
+          "raw_bbox": {
+            "l": 483.29,
+            "t": 38.18823205000001,
+            "r": 543.2755931000002,
+            "b": 30.21533235000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "dbaaeba275d60f15f7b3909c5a184744cd6e2d8360b39023e966f07bd27cb2d5",
+      "kind": "paragraph",
+      "text": "SYNTHETIC / 演示样本",
+      "source_ref": "#/texts/15",
+      "source_label": "page_header",
+      "content_layer": "furniture",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.08735449596791804,
+            0.03260255000119973,
+            0.24611187456700725,
+            0.04262986450245631
+          ],
+          "charspan": [
+            0,
+            16
+          ],
+          "raw_bbox": {
+            "l": 52.0,
+            "t": 814.4420457,
+            "r": 146.5043938,
+            "b": 806.0001519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "fe79c01f398007428829eb62ab3e77790fe8805312659b85fb3b9f08e6bd5f83",
+      "kind": "paragraph",
+      "text": "B-DEMO-001",
+      "source_ref": "#/texts/16",
+      "source_label": "page_header",
+      "content_layer": "furniture",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.8219090451548828,
+            0.03260255000119973,
+            0.9126454742979554,
+            0.04262986450245631
+          ],
+          "charspan": [
+            0,
+            10
+          ],
+          "raw_bbox": {
+            "l": 489.2624,
+            "t": 814.4420457,
+            "r": 543.2755823,
+            "b": 806.0001519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "7ab420abc67a5a55d1c8114cb83a23cb3df11ffd6b7b87ce70ff55a7661cc1a4",
+      "kind": "title",
+      "text": "主梁观测与记录说明",
+      "source_ref": "#/texts/17",
+      "source_label": "section_header",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.09743386088729321,
+            0.0941398412238752,
+            0.44517195060573617,
+            0.11976520050486421
+          ],
+          "charspan": [
+            0,
+            9
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 762.6344279,
+            "r": 265.0,
+            "b": 741.0606993,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "89ddf396292e6c8d52dc0664853ece94ac6a55ce0ae6693d1623d8cea5c638bd",
+      "kind": "paragraph",
+      "text": "溪桥演示桥 · B-DEMO-001",
+      "source_ref": "#/texts/18",
+      "source_label": "text",
+      "content_layer": "body",
+      "parent_ref": "#/groups/0",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.09743386088729321,
+            0.14252661060865687,
+            0.31613015500719327,
+            0.15478221722130384
+          ],
+          "charspan": [
+            0,
+            18
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 721.8981003,
+            "r": 188.1845677,
+            "b": 711.5802301,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "1ad0b5f7d4702ce0f3098fe2c705d54680525d6d8cb5f1c1b3e362992cca7051",
+      "kind": "title",
+      "text": "3 主梁观测",
+      "source_ref": "#/texts/19",
+      "source_label": "section_header",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.09743386088729321,
+            0.18301634073723186,
+            0.21924259032286889,
+            0.19972853157265955
+          ],
+          "charspan": [
+            0,
+            6
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 687.8102095,
+            "r": 130.5097645,
+            "b": 673.7403865,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "9d4cb767760f151c423999344b25531ce36affd05a80c5387a4e46bca9adcdb4",
+      "kind": "paragraph",
+      "text": "本节观测对象为主梁，构件编号 C-GIRDER-01。",
+      "source_ref": "#/texts/20",
+      "source_label": "text",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.09743386088729321,
+            0.21854606113531724,
+            0.49782367091814284,
+            0.2308016677479642
+          ],
+          "charspan": [
+            0,
+            27
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 657.8981003,
+            "r": 296.34228440000004,
+            "b": 647.5802301,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "bca03115166fc3d9f730317411745dc5e47f9c2373485efe984906148bd571ae",
+      "kind": "paragraph",
+      "text": "第三跨主梁左侧有 1 处露筋，面积未提供（单位 m²）。",
+      "source_ref": "#/texts/21",
+      "source_label": "text",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.09743386088729321,
+            0.2506167668262521,
+            0.5511939392442761,
+            0.2628723734388991
+          ],
+          "charspan": [
+            0,
+            28
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 630.8981003,
+            "r": 328.11230290000003,
+            "b": 620.5802301,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "f7d6f4114ab86bdeab29c21a4adb8817c43de5cb84dccc7bcb36a5d230d238c5",
+      "kind": "paragraph",
+      "text": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+      "source_ref": "#/texts/22",
+      "source_label": "text",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.09743386088729321,
+            0.28268747251718696,
+            0.5081007141902002,
+            0.2949430791298339
+          ],
+          "charspan": [
+            0,
+            28
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 603.8981003,
+            "r": 302.4599575,
+            "b": 593.5802301,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "2bd6b5151553a39a6936c73d9ae8c545b572fc8113552b5041b91fccbd081942",
+      "kind": "paragraph",
+      "text": "表 4 露筋记录（构件 C-GIRDER-01）",
+      "source_ref": "#/texts/23",
+      "source_label": "text",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.09743386088729321,
+            0.3144351279704304,
+            0.3793082851035721,
+            0.3255765885273821
+          ],
+          "charspan": [
+            0,
+            24
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 577.170073,
+            "r": 225.79296699999998,
+            "b": 567.790191,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "b8cfc645e225d5de15c7b091de4ab6e20f5642db6aed0eb240b05e49fbe8505e",
+      "kind": "table_cell",
+      "text": "病害编号",
+      "source_ref": "#/tables/3/data/table_cells/0",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 0,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.11255290826635594,
+            0.3512570493192816,
+            0.17974867439552367,
+            0.3623985098762333
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 67.0,
+            "t": 295.71972700000015,
+            "r": 107.0,
+            "b": 305.0996090000001,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "3c4c27052a51ad1f79cdb6df2e6dc3ec7349bc133e3fda33642dc33d830badd4",
+      "kind": "table_cell",
+      "text": "观测编号",
+      "source_ref": "#/tables/3/data/table_cells/1",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 0,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.2587036995972958,
+            0.3512570493192816,
+            0.3258994657264635,
+            0.3623985098762333
+          ],
+          "charspan": [
+            0,
+            4
+          ],
+          "raw_bbox": {
+            "l": 154.0,
+            "t": 295.71972700000015,
+            "r": 194.0,
+            "b": 305.0996090000001,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "9498a50fb1ca86e630682f5d87fa2a2758e4eadb87ec254ea5a91c7708245e7d",
+      "kind": "table_cell",
+      "text": "位置",
+      "source_ref": "#/tables/3/data/table_cells/2",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 0,
+      "column": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.40485449092823556,
+            0.3512570493192816,
+            0.43845237399281944,
+            0.3623985098762333
+          ],
+          "charspan": [
+            0,
+            2
+          ],
+          "raw_bbox": {
+            "l": 241.0,
+            "t": 295.71972700000015,
+            "r": 261.0,
+            "b": 305.0996090000001,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "a466b8db32b815bd0b7c9b643e4e2fbe8999883c352fb3f17079cc242106fc9b",
+      "kind": "table_cell",
+      "text": "数量",
+      "source_ref": "#/tables/3/data/table_cells/3",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 0,
+      "column": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.6484391431464686,
+            0.3512570493192816,
+            0.6820370262110524,
+            0.3623985098762333
+          ],
+          "charspan": [
+            0,
+            2
+          ],
+          "raw_bbox": {
+            "l": 386.0,
+            "t": 295.71972700000015,
+            "r": 406.0,
+            "b": 305.0996090000001,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "15153bf0cd7bb8720cbb46d4ac5e83061c6808bcace6b280c72d720538ef88ab",
+      "kind": "table_cell",
+      "text": "面积",
+      "source_ref": "#/tables/3/data/table_cells/4",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 0,
+      "column": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.7559523689531369,
+            0.3512570493192816,
+            0.7895502520177208,
+            0.3623985098762333
+          ],
+          "charspan": [
+            0,
+            2
+          ],
+          "raw_bbox": {
+            "l": 450.0,
+            "t": 295.71972700000015,
+            "r": 470.0,
+            "b": 305.0996090000001,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "b25027643c5026273100047228583e45ca2dcded36eb7b9da78375e5264badee",
+      "kind": "table_cell",
+      "text": "D-002",
+      "source_ref": "#/tables/3/data/table_cells/5",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 1,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.11255290826635594,
+            0.3916423824115698,
+            0.15830705474909437,
+            0.40278384296852154
+          ],
+          "charspan": [
+            0,
+            5
+          ],
+          "raw_bbox": {
+            "l": 67.0,
+            "t": 329.71972700000003,
+            "r": 94.236327,
+            "b": 339.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "1461600fc5e852fdb34dd2d938248996fcc048f27799be01cc8106886c544fab",
+      "kind": "table_cell",
+      "text": "O-002",
+      "source_ref": "#/tables/3/data/table_cells/6",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 1,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.2587036995972958,
+            0.3916423824115698,
+            0.3053929423614877,
+            0.40278384296852154
+          ],
+          "charspan": [
+            0,
+            5
+          ],
+          "raw_bbox": {
+            "l": 154.0,
+            "t": 329.71972700000003,
+            "r": 181.792967,
+            "b": 339.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "064785ab00423a73547eed042b577a47d3f4c9363a85882a5309b225085eef93",
+      "kind": "table_cell",
+      "text": "第三跨主梁左侧",
+      "source_ref": "#/tables/3/data/table_cells/7",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 1,
+      "column": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.40485449092823556,
+            0.3916423824115698,
+            0.5224470816542791,
+            0.40278384296852154
+          ],
+          "charspan": [
+            0,
+            7
+          ],
+          "raw_bbox": {
+            "l": 241.0,
+            "t": 329.71972700000003,
+            "r": 311.0,
+            "b": 339.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "3a973afa43ef58ec6c71abff2dcafc29cfe3ae9eb5bbe4d311630bc8ebaa1278",
+      "kind": "table_cell",
+      "text": "1 处",
+      "source_ref": "#/tables/3/data/table_cells/8",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 1,
+      "column": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.6484391431464686,
+            0.3916423824115698,
+            0.6792481381733099,
+            0.40278384296852154
+          ],
+          "charspan": [
+            0,
+            3
+          ],
+          "raw_bbox": {
+            "l": 386.0,
+            "t": 329.71972700000003,
+            "r": 404.339843,
+            "b": 339.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "5cb6402ded797875975b853b1cf08f9ea7502e1733f1addc9f6a23c9f064e86b",
+      "kind": "table_cell",
+      "text": "未提供（单位 m²）",
+      "source_ref": "#/tables/3/data/table_cells/9",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 1,
+      "column": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.7559523689531369,
+            0.3916423824115698,
+            0.8978000710931205,
+            0.40278384296852154
+          ],
+          "charspan": [
+            0,
+            10
+          ],
+          "raw_bbox": {
+            "l": 450.0,
+            "t": 329.71972700000003,
+            "r": 534.438476,
+            "b": 339.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "75c95155dddb7f4935c30a964bb37e02ef00e87ae56fb5bbb5ed8b3530f74f63",
+      "kind": "table_cell",
+      "text": "D-003",
+      "source_ref": "#/tables/3/data/table_cells/10",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 2,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.11255290826635594,
+            0.4320277155038581,
+            0.15830705474909437,
+            0.4431691760608099
+          ],
+          "charspan": [
+            0,
+            5
+          ],
+          "raw_bbox": {
+            "l": 67.0,
+            "t": 363.71972700000003,
+            "r": 94.236327,
+            "b": 373.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "6c8bf3ffd88999abc4715595fb65efc25425f88d5c8913ff33a3ac780a05fa65",
+      "kind": "table_cell",
+      "text": "O-003",
+      "source_ref": "#/tables/3/data/table_cells/11",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 2,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.2587036995972958,
+            0.4320277155038581,
+            0.3053929423614877,
+            0.4431691760608099
+          ],
+          "charspan": [
+            0,
+            5
+          ],
+          "raw_bbox": {
+            "l": 154.0,
+            "t": 363.71972700000003,
+            "r": 181.792967,
+            "b": 373.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "18f419580868b951f049b16b65c6c63d2def4b6559bc15c0ad80f4cf579e548c",
+      "kind": "table_cell",
+      "text": "第三跨主梁外侧边缘",
+      "source_ref": "#/tables/3/data/table_cells/12",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 2,
+      "column": 2,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.40485449092823556,
+            0.4320277155038581,
+            0.5560449647188629,
+            0.4431691760608099
+          ],
+          "charspan": [
+            0,
+            9
+          ],
+          "raw_bbox": {
+            "l": 241.0,
+            "t": 363.71972700000003,
+            "r": 331.0,
+            "b": 373.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "f10629cbc90be20e454e536f8d5ddd1ee8fd0a97a8e3ce0ee74a6a0ad371da5d",
+      "kind": "table_cell",
+      "text": "1 处",
+      "source_ref": "#/tables/3/data/table_cells/13",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 2,
+      "column": 3,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.6484391431464686,
+            0.4320277155038581,
+            0.6792481381733099,
+            0.4431691760608099
+          ],
+          "charspan": [
+            0,
+            3
+          ],
+          "raw_bbox": {
+            "l": 386.0,
+            "t": 363.71972700000003,
+            "r": 404.339843,
+            "b": 373.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "84ce0ad2799b17ed6ee67ee50f275f34ff00ef51eefbb1e7c445cfc9a49ab46f",
+      "kind": "table_cell",
+      "text": "0.9 m²",
+      "source_ref": "#/tables/3/data/table_cells/14",
+      "parent_ref": "#/tables/3",
+      "table_id": "#/tables/3",
+      "row": 2,
+      "column": 4,
+      "row_span": 1,
+      "column_span": 1,
+      "column_header": false,
+      "row_header": false,
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.7559523689531369,
+            0.4320277155038581,
+            0.803560303832376,
+            0.4431691760608099
+          ],
+          "charspan": [
+            0,
+            6
+          ],
+          "raw_bbox": {
+            "l": 450.0,
+            "t": 363.71972700000003,
+            "r": 478.339842,
+            "b": 373.09960900000004,
+            "coord_origin": "TOPLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available",
+      "span_basis": "application_owned_cell_text_not_native_table_provenance"
+    },
+    {
+      "block_id": "ee39f60eb2f1bfd0a9bea3f4cb7e5808f8401843b0e5d8c799226e1dafd381f5",
+      "kind": "paragraph",
+      "text": "表中两条观测的日期均未知。两个露筋位置不同，分别保留各自病害编号与观测编号。",
+      "source_ref": "#/texts/24",
+      "source_label": "text",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.09743386088729321,
+            0.473923902748317,
+            0.799629616937096,
+            0.4861795093609639
+          ],
+          "charspan": [
+            0,
+            38
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 442.89810029999995,
+            "r": 476.0,
+            "b": 432.5802301,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "02e47846a81ade1d69f35de9dcf6db1f9cfab533dac3388a63a28a1d683ea598",
+      "kind": "title",
+      "text": "4 记录说明",
+      "source_ref": "#/texts/25",
+      "source_label": "section_header",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.09743386088729321,
+            0.515601436791371,
+            0.21924259032286889,
+            0.5323136276267987
+          ],
+          "charspan": [
+            0,
+            6
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 407.8102095,
+            "r": 130.5097645,
+            "b": 393.7403865,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "d9d248b00dc7a20e1c76ef2a7709b684604b9277db28cb6348ed6657f84f7c84",
+      "kind": "paragraph",
+      "text": "正文与表格描述相同编号的记录，不表示新增病害或新增观测。桥头的否定陈述仅针对桥头区域， 不表示全桥无病害。",
+      "source_ref": "#/texts/26",
+      "source_label": "text",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.09743386088729321,
+            0.5511311571894564,
+            0.8920237953647016,
+            0.5859550381772056
+          ],
+          "charspan": [
+            0,
+            53
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 377.8981003,
+            "r": 531.0,
+            "b": 348.5802301,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "722cf784c41ca923ad95bf380f23cd622d86db66a7b36362cf1f6021e76368c9",
+      "kind": "paragraph",
+      "text": "本样本仅描述病害、位置和面积，未提供评级、原因分析或处治结论。所有面积均以 m² 表示。",
+      "source_ref": "#/texts/27",
+      "source_label": "text",
+      "content_layer": "body",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.09743386088729321,
+            0.6057701372554936,
+            0.8684019227396519,
+            0.6180257438681405
+          ],
+          "charspan": [
+            0,
+            44
+          ],
+          "raw_bbox": {
+            "l": 58.0,
+            "t": 331.89810029999995,
+            "r": 516.9384756,
+            "b": 321.5802301,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "9480d19c60e6d6c2432dd4b1b117030d56bc6e2fa1ef6cab86b254fd29584834",
+      "kind": "paragraph",
+      "text": "虚构桥梁与记录，仅用于学习演示",
+      "source_ref": "#/texts/28",
+      "source_label": "page_footer",
+      "content_layer": "furniture",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.08735449596791804,
+            0.954639868483975,
+            0.30154100050464017,
+            0.9641101099573839
+          ],
+          "charspan": [
+            0,
+            15
+          ],
+          "raw_bbox": {
+            "l": 52.0,
+            "t": 38.18823205000001,
+            "r": 179.5,
+            "b": 30.21533235000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    },
+    {
+      "block_id": "67c64047689458e41148eb7ea291d153e39097ece256323a6b07ce87c3af52db",
+      "kind": "paragraph",
+      "text": "第 2 页 / 共 2 页",
+      "source_ref": "#/texts/29",
+      "source_label": "page_footer",
+      "content_layer": "furniture",
+      "parent_ref": "#/body",
+      "locations": [
+        {
+          "page_no": 2,
+          "bbox": [
+            0.8118760453141368,
+            0.954639868483975,
+            0.9126454924408125,
+            0.9641101099573839
+          ],
+          "charspan": [
+            0,
+            13
+          ],
+          "raw_bbox": {
+            "l": 483.29,
+            "t": 38.18823205000001,
+            "r": 543.2755931000002,
+            "b": 30.21533235000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "location_level": "region"
+        }
+      ],
+      "location_status": "available"
+    }
+  ],
+  "tables": [
+    {
+      "source_ref": "#/tables/0",
+      "page_no": 1,
+      "num_rows": 4,
+      "num_cols": 2,
+      "caption_refs": [],
+      "header_semantics": "native_flags_only_no_inferred_headers"
+    },
+    {
+      "source_ref": "#/tables/1",
+      "page_no": 1,
+      "num_rows": 3,
+      "num_cols": 3,
+      "caption_refs": [],
+      "header_semantics": "native_flags_only_no_inferred_headers"
+    },
+    {
+      "source_ref": "#/tables/2",
+      "page_no": 1,
+      "num_rows": 2,
+      "num_cols": 5,
+      "caption_refs": [],
+      "header_semantics": "native_flags_only_no_inferred_headers"
+    },
+    {
+      "source_ref": "#/tables/3",
+      "page_no": 2,
+      "num_rows": 3,
+      "num_cols": 5,
+      "caption_refs": [],
+      "header_semantics": "native_flags_only_no_inferred_headers"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "HEADER_FLAGS_ABSENT",
+      "source_ref": "#/tables/0"
+    },
+    {
+      "code": "CAPTION_LINK_ABSENT",
+      "source_ref": "#/tables/0"
+    },
+    {
+      "code": "HEADER_FLAGS_ABSENT",
+      "source_ref": "#/tables/1"
+    },
+    {
+      "code": "CAPTION_LINK_ABSENT",
+      "source_ref": "#/tables/1"
+    },
+    {
+      "code": "HEADER_FLAGS_ABSENT",
+      "source_ref": "#/tables/2"
+    },
+    {
+      "code": "CAPTION_LINK_ABSENT",
+      "source_ref": "#/tables/2"
+    },
+    {
+      "code": "HEADER_FLAGS_ABSENT",
+      "source_ref": "#/tables/3"
+    },
+    {
+      "code": "CAPTION_LINK_ABSENT",
+      "source_ref": "#/tables/3"
+    }
+  ],
+  "note": "Experimental structural adaptation only; raw text preserved, no inferred headers or business entities"
+}

@@ -1,0 +1,75 @@
+{
+  "suite_id": "bridge-variants-001",
+  "expectations_version": "1.0",
+  "fixed_on_local_date": "2026-10-11",
+  "artifacts_sha256": {
+    "expected-facts.md": "afdbee50e56c1f9cd1e6580bad4507de03c566bba0f57a957f802e810390ba9b",
+    "expectations.json": "491fad2318afde207c8009b0052206a2f7ac14e4fca734dde9f7514b85f8d6d7"
+  },
+  "checks": [
+    {
+      "name": "five_unique_cases",
+      "passed": true
+    },
+    {
+      "name": "baseline_pdf_and_golden_unchanged",
+      "passed": true
+    },
+    {
+      "name": "no_variant_pdfs_or_input_directory_created",
+      "passed": true
+    },
+    {
+      "name": "baseline_facts_agree_with_independent_golden",
+      "passed": true
+    },
+    {
+      "name": "other_three_variants_keep_all_positive_facts",
+      "passed": true
+    },
+    {
+      "name": "only_missing_area_fact_differs",
+      "passed": true
+    },
+    {
+      "name": "missing_area_nulls_unit_flags_and_routing",
+      "passed": true
+    },
+    {
+      "name": "new_negative_only_adds_statement",
+      "passed": true
+    },
+    {
+      "name": "duplicate_and_columns_change_one_structure",
+      "passed": true
+    },
+    {
+      "name": "column_permutation_retains_correct_rows",
+      "passed": true
+    },
+    {
+      "name": "counts_dates_and_statuses_consistent",
+      "passed": true
+    },
+    {
+      "name": "all_15_expected_observation_shapes_fit_current_schema",
+      "passed": true
+    },
+    {
+      "name": "execution_is_plan_only",
+      "passed": true
+    },
+    {
+      "name": "schema_and_prompt_baseline_unchanged",
+      "passed": true
+    },
+    {
+      "name": "frozen_prompt_hash_matches_successful_request",
+      "passed": true
+    }
+  ],
+  "passed": 15,
+  "failed": 0,
+  "validation_scope": "Expectation consistency and current schema compatibility only; no PDF generation, parser or API execution",
+  "amendment_rule": "Change version and record reason; re-freeze before generating affected PDFs or running models"
+}

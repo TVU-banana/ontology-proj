@@ -1,0 +1,688 @@
+{
+  "schema_version": "0.1.0-draft",
+  "stage": "candidate",
+  "document_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968",
+  "source_kind": "synthetic",
+  "entities": [
+    {
+      "local_id": "bridge_B-DEMO-001",
+      "entity_type": "Bridge",
+      "data": {
+        "bridge_code": "B-DEMO-001",
+        "name": "溪桥演示桥"
+      },
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0009",
+          "exact_quote": "溪桥演示桥",
+          "target_field": "name",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0011",
+          "exact_quote": "B-DEMO-001",
+          "target_field": "bridge_code",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "local_id": "component_C-DECK-01",
+      "entity_type": "Component",
+      "data": {
+        "component_code": "C-DECK-01",
+        "name": "桥面铺装",
+        "component_type": "deck_pavement",
+        "location_text": "第三跨桥面、桥头区域"
+      },
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0021",
+          "exact_quote": "C-DECK-01",
+          "target_field": "component_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0022",
+          "exact_quote": "桥面铺装",
+          "target_field": "name",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0022",
+          "exact_quote": "桥面铺装",
+          "target_field": "component_type",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0023",
+          "exact_quote": "第三跨桥面、桥头区域",
+          "target_field": "location_text",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "local_id": "component_C-GIRDER-01",
+      "entity_type": "Component",
+      "data": {
+        "component_code": "C-GIRDER-01",
+        "name": "主梁",
+        "component_type": "girder",
+        "location_text": "第三跨主梁左侧、外侧边缘"
+      },
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0024",
+          "exact_quote": "C-GIRDER-01",
+          "target_field": "component_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0025",
+          "exact_quote": "主梁",
+          "target_field": "name",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0025",
+          "exact_quote": "主梁",
+          "target_field": "component_type",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0026",
+          "exact_quote": "第三跨主梁左侧、外侧边缘",
+          "target_field": "location_text",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "local_id": "defect_D-001",
+      "entity_type": "Defect",
+      "data": {
+        "defect_code": "D-001",
+        "defect_type": "pothole",
+        "defect_type_raw": "坑槽",
+        "location_text": "第三跨桥面"
+      },
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0036",
+          "exact_quote": "D-001",
+          "target_field": "defect_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0028",
+          "exact_quote": "坑槽",
+          "target_field": "defect_type_raw",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0028",
+          "exact_quote": "坑槽",
+          "target_field": "defect_type",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0038",
+          "exact_quote": "第三跨桥面",
+          "target_field": "location_text",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "local_id": "defect_D-002",
+      "entity_type": "Defect",
+      "data": {
+        "defect_code": "D-002",
+        "defect_type": "exposed_rebar",
+        "defect_type_raw": "露筋",
+        "location_text": "第三跨主梁左侧"
+      },
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0057",
+          "exact_quote": "D-002",
+          "target_field": "defect_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0049",
+          "exact_quote": "露筋",
+          "target_field": "defect_type_raw",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0049",
+          "exact_quote": "露筋",
+          "target_field": "defect_type",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0059",
+          "exact_quote": "第三跨主梁左侧",
+          "target_field": "location_text",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "local_id": "defect_D-003",
+      "entity_type": "Defect",
+      "data": {
+        "defect_code": "D-003",
+        "defect_type": "exposed_rebar",
+        "defect_type_raw": "露筋",
+        "location_text": "第三跨主梁外侧边缘"
+      },
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0062",
+          "exact_quote": "D-003",
+          "target_field": "defect_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0050",
+          "exact_quote": "露筋",
+          "target_field": "defect_type_raw",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0050",
+          "exact_quote": "露筋",
+          "target_field": "defect_type",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0064",
+          "exact_quote": "第三跨主梁外侧边缘",
+          "target_field": "location_text",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "local_id": "observation_O-001",
+      "entity_type": "Observation",
+      "data": {
+        "observation_code": "O-001",
+        "observed_at": null,
+        "assertion": "positive",
+        "scope": "single_defect",
+        "reported_count": 1,
+        "description": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+        "area_original_value": "0.04",
+        "area_original_unit": "m²",
+        "area_is_approximate": false
+      },
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0037",
+          "exact_quote": "O-001",
+          "target_field": "observation_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0016",
+          "exact_quote": "所有观测日期均未知。",
+          "target_field": "observed_at",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0028",
+          "exact_quote": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+          "target_field": "assertion",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0028",
+          "exact_quote": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+          "target_field": "scope",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0028",
+          "exact_quote": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+          "target_field": "reported_count",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0028",
+          "exact_quote": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+          "target_field": "description",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0040",
+          "exact_quote": "0.04 m²",
+          "target_field": "area_original_value",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0040",
+          "exact_quote": "m²",
+          "target_field": "area_original_unit",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0028",
+          "exact_quote": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+          "target_field": "area_is_approximate",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "local_id": "observation_O-002",
+      "entity_type": "Observation",
+      "data": {
+        "observation_code": "O-002",
+        "observed_at": null,
+        "assertion": "positive",
+        "scope": "single_defect",
+        "reported_count": 1,
+        "description": "第三跨主梁左侧有 1 处露筋，面积为 2.6 m²。",
+        "area_original_value": "2.6",
+        "area_original_unit": "m²",
+        "area_is_approximate": false
+      },
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0058",
+          "exact_quote": "O-002",
+          "target_field": "observation_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0067",
+          "exact_quote": "表中两条观测的日期均未知。",
+          "target_field": "observed_at",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0049",
+          "exact_quote": "第三跨主梁左侧有 1 处露筋，面积为 2.6 m²。",
+          "target_field": "assertion",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0049",
+          "exact_quote": "第三跨主梁左侧有 1 处露筋，面积为 2.6 m²。",
+          "target_field": "scope",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0049",
+          "exact_quote": "第三跨主梁左侧有 1 处露筋，面积为 2.6 m²。",
+          "target_field": "reported_count",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0049",
+          "exact_quote": "第三跨主梁左侧有 1 处露筋，面积为 2.6 m²。",
+          "target_field": "description",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0061",
+          "exact_quote": "2.6 m²",
+          "target_field": "area_original_value",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0061",
+          "exact_quote": "m²",
+          "target_field": "area_original_unit",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0049",
+          "exact_quote": "第三跨主梁左侧有 1 处露筋，面积为 2.6 m²。",
+          "target_field": "area_is_approximate",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "local_id": "observation_O-003",
+      "entity_type": "Observation",
+      "data": {
+        "observation_code": "O-003",
+        "observed_at": null,
+        "assertion": "positive",
+        "scope": "single_defect",
+        "reported_count": 1,
+        "description": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+        "area_original_value": "0.9",
+        "area_original_unit": "m²",
+        "area_is_approximate": false
+      },
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0063",
+          "exact_quote": "O-003",
+          "target_field": "observation_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0067",
+          "exact_quote": "表中两条观测的日期均未知。",
+          "target_field": "observed_at",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0050",
+          "exact_quote": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+          "target_field": "assertion",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0050",
+          "exact_quote": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+          "target_field": "scope",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0050",
+          "exact_quote": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+          "target_field": "reported_count",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0050",
+          "exact_quote": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+          "target_field": "description",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0066",
+          "exact_quote": "0.9 m²",
+          "target_field": "area_original_value",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0066",
+          "exact_quote": "m²",
+          "target_field": "area_original_unit",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0050",
+          "exact_quote": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+          "target_field": "area_is_approximate",
+          "occurrence_hint": null
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "relation_type": "HAS_COMPONENT",
+      "from_ref": "bridge_B-DEMO-001",
+      "to_ref": "component_C-DECK-01",
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0017",
+          "exact_quote": "表 2 构件清单（均属于 B-DEMO-001）",
+          "target_field": "bridge_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0021",
+          "exact_quote": "C-DECK-01",
+          "target_field": "component_code",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "relation_type": "HAS_COMPONENT",
+      "from_ref": "bridge_B-DEMO-001",
+      "to_ref": "component_C-GIRDER-01",
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0017",
+          "exact_quote": "表 2 构件清单（均属于 B-DEMO-001）",
+          "target_field": "bridge_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0024",
+          "exact_quote": "C-GIRDER-01",
+          "target_field": "component_code",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "relation_type": "HAS_DEFECT",
+      "from_ref": "component_C-DECK-01",
+      "to_ref": "defect_D-001",
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0030",
+          "exact_quote": "表 3 坑槽记录（构件 C-DECK-01）",
+          "target_field": "component_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0036",
+          "exact_quote": "D-001",
+          "target_field": "defect_code",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "relation_type": "HAS_DEFECT",
+      "from_ref": "component_C-GIRDER-01",
+      "to_ref": "defect_D-002",
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0051",
+          "exact_quote": "表 4 露筋记录（构件 C-GIRDER-01）",
+          "target_field": "component_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0057",
+          "exact_quote": "D-002",
+          "target_field": "defect_code",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "relation_type": "HAS_DEFECT",
+      "from_ref": "component_C-GIRDER-01",
+      "to_ref": "defect_D-003",
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0051",
+          "exact_quote": "表 4 露筋记录（构件 C-GIRDER-01）",
+          "target_field": "component_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0062",
+          "exact_quote": "D-003",
+          "target_field": "defect_code",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "relation_type": "HAS_OBSERVATION",
+      "from_ref": "defect_D-001",
+      "to_ref": "observation_O-001",
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0036",
+          "exact_quote": "D-001",
+          "target_field": "defect_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0037",
+          "exact_quote": "O-001",
+          "target_field": "observation_code",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "relation_type": "HAS_OBSERVATION",
+      "from_ref": "defect_D-002",
+      "to_ref": "observation_O-002",
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0057",
+          "exact_quote": "D-002",
+          "target_field": "defect_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0058",
+          "exact_quote": "O-002",
+          "target_field": "observation_code",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "relation_type": "HAS_OBSERVATION",
+      "from_ref": "defect_D-003",
+      "to_ref": "observation_O-003",
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0062",
+          "exact_quote": "D-003",
+          "target_field": "defect_code",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0063",
+          "exact_quote": "O-003",
+          "target_field": "observation_code",
+          "occurrence_hint": null
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "kind": "negative",
+      "component_ref": "component_C-DECK-01",
+      "location_text": "桥头",
+      "text": "桥头铺装平顺，未见明显病害。",
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0029",
+          "exact_quote": "桥头铺装平顺，未见明显病害。",
+          "target_field": "description",
+          "occurrence_hint": null
+        },
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0029",
+          "exact_quote": "桥头",
+          "target_field": "location_text",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "kind": "unmapped",
+      "component_ref": null,
+      "location_text": null,
+      "text": "所有观测日期均未知。报告编制日期不作为观测日期；实际地址、检测机构和观测人员未提供。",
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0016",
+          "exact_quote": "所有观测日期均未知。报告编制日期不作为观测日期；实际地址、检测机构和观测人员未提供。",
+          "target_field": "description",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "kind": "unmapped",
+      "component_ref": null,
+      "location_text": null,
+      "text": "正文与表格描述相同编号的记录，不表示新增病害或新增观测。桥头的否定陈述仅针对桥头区域， 不表示全桥无病害。",
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0069",
+          "exact_quote": "正文与表格描述相同编号的记录，不表示新增病害或新增观测。桥头的否定陈述仅针对桥头区域， 不表示全桥无病害。",
+          "target_field": "description",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "kind": "unmapped",
+      "component_ref": null,
+      "location_text": null,
+      "text": "本样本仅描述病害、位置和面积，未提供评级、原因分析或处治结论。所有面积均以 m² 表示。",
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0070",
+          "exact_quote": "本样本仅描述病害、位置和面积，未提供评级、原因分析或处治结论。所有面积均以 m² 表示。",
+          "target_field": "description",
+          "occurrence_hint": null
+        }
+      ]
+    },
+    {
+      "kind": "unmapped",
+      "component_ref": null,
+      "location_text": null,
+      "text": "表中两条观测的日期均未知。两个露筋位置不同，分别保留各自病害编号与观测编号。",
+      "sources": [
+        {
+          "block_id": "doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968_block_0067",
+          "exact_quote": "表中两条观测的日期均未知。两个露筋位置不同，分别保留各自病害编号与观测编号。",
+          "target_field": "description",
+          "occurrence_hint": null
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "code": "HEADER_FLAGS_ABSENT",
+      "severity": "info",
+      "related_local_ids": [],
+      "message": "四张表格原生 header_flags 均为 false，表 1/2/3/4 的列头关联需下游按位置复核。"
+    },
+    {
+      "code": "CAPTION_LINK_ABSENT",
+      "severity": "info",
+      "related_local_ids": [],
+      "message": "表题（表 1 至表 4）作为邻近文本保留，无原生 caption 引用，关系来源以邻近标题加编号单元格表达。"
+    },
+    {
+      "code": "DECK_LOCATION_SCOPE_AMBIGUOUS",
+      "severity": "pending",
+      "related_local_ids": [
+        "component_C-DECK-01",
+        "defect_D-001"
+      ],
+      "message": "构件 C-DECK-01 的位置范围为“第三跨桥面、桥头区域”，而病害 D-001 位置为“第三跨桥面”，两者范围不完全重合。"
+    },
+    {
+      "code": "OBSERVED_AT_UNKNOWN",
+      "severity": "pending",
+      "related_local_ids": [
+        "observation_O-001",
+        "observation_O-002",
+        "observation_O-003"
+      ],
+      "message": "原文明确所有观测日期均未知，三个观测的 observed_at 均为 null，观测日期来源引用原文未知说明。"
+    }
+  ]
+}

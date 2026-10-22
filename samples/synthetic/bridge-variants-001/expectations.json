@@ -1,0 +1,771 @@
+{
+  "suite_id": "bridge-variants-001",
+  "expectations_version": "1.0",
+  "fixed_on_local_date": "2026-10-11",
+  "status": "fixed_agent_authored_under_user_approved_plan",
+  "scope": "expected_lists_only_no_pdf_generation_or_execution",
+  "future_work_requires_next_user_instruction": true,
+  "derived_from": {
+    "golden_path": "samples/synthetic/bridge-demo-001/golden.json",
+    "golden_sha256": "2df83004e29d897b295aef8aa3eb98843a33d66be91f9ad746cd6d603c3c51d5",
+    "baseline_pdf_sha256": "6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968",
+    "baseline_human_confirmation_path": "experiments/business-extraction-001/results/baseline-approval.json",
+    "business_expectations_derived_from_model_output": false
+  },
+  "common": {
+    "source_kind": "synthetic",
+    "expected_page_count": 2,
+    "report_date": "2026-10-10",
+    "bridge": {
+      "bridge_code": "B-DEMO-001",
+      "name": "溪桥演示桥",
+      "expected_page_no": 1
+    },
+    "components": [
+      {
+        "component_code": "C-DECK-01",
+        "bridge_code": "B-DEMO-001",
+        "name": "桥面铺装",
+        "component_type": "deck_pavement",
+        "location_text": "第三跨桥面、桥头区域",
+        "expected_page_no": 1
+      },
+      {
+        "component_code": "C-GIRDER-01",
+        "bridge_code": "B-DEMO-001",
+        "name": "主梁",
+        "component_type": "girder",
+        "location_text": "第三跨主梁左侧、外侧边缘",
+        "expected_page_no": 1
+      }
+    ],
+    "validation_status": "passed",
+    "review_status": "unreviewed",
+    "quality_mode": "demo_accept_all",
+    "quality_score": null,
+    "defect_identity_scope": "document_local",
+    "area_value_type": "decimal_string_or_null",
+    "forbidden_document_text": [
+      "平湖市胜利大桥",
+      "5 来源与改编",
+      "原报告页码"
+    ],
+    "required_date_statements": [
+      "所有观测日期均未知。",
+      "表中两条观测的日期均未知。"
+    ],
+    "allowed_other_statement_kind": "unmapped",
+    "exact_evidence_count_required": false,
+    "description_text_comparison": "Unicode whitespace normalization only; evidence always matches unmodified raw block text",
+    "location_comparison": "positive locations exact after whitespace normalization; negative aliases explicitly listed",
+    "missing_fields_comparison": "set equality; ordering irrelevant",
+    "do_not_match_production_ids_to_raw_codes": true,
+    "cross_document_defect_or_observation_id_equality_required": false,
+    "generator_must_not_import_expectations_as_authoring_data": true
+  },
+  "cases": [
+    {
+      "case_id": "baseline",
+      "title": "原件对照",
+      "factor": "none",
+      "planned_pdf": "samples/synthetic/bridge-demo-001/input/bridge-demo-001.pdf",
+      "artifact_state": "existing_baseline",
+      "planned_input_sha256": "6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968",
+      "changes": [],
+      "expected": {
+        "counts": {
+          "bridges": 1,
+          "components": 2,
+          "defects": 3,
+          "positive_observations": 3,
+          "negative_statements": 1,
+          "unknown_date_positive_observations": 3,
+          "accepted_business_records": 9,
+          "pending_review_business_records": 0
+        },
+        "positive_facts": [
+          {
+            "defect_code": "D-001",
+            "observation_code": "O-001",
+            "component_code": "C-DECK-01",
+            "defect_type": "pothole",
+            "defect_type_raw": "坑槽",
+            "location_text": "第三跨桥面",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+            "area_original_value": "0.04",
+            "area_original_unit": "m²",
+            "area_value": "0.04",
+            "area_unit": "m²",
+            "area_conversion": "identity",
+            "area_is_approximate": false,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at"
+            ],
+            "acceptance_status": "accepted",
+            "expected_page_no": 1
+          },
+          {
+            "defect_code": "D-002",
+            "observation_code": "O-002",
+            "component_code": "C-GIRDER-01",
+            "defect_type": "exposed_rebar",
+            "defect_type_raw": "露筋",
+            "location_text": "第三跨主梁左侧",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨主梁左侧有 1 处露筋，面积为 2.6 m²。",
+            "area_original_value": "2.6",
+            "area_original_unit": "m²",
+            "area_value": "2.6",
+            "area_unit": "m²",
+            "area_conversion": "identity",
+            "area_is_approximate": false,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at"
+            ],
+            "acceptance_status": "accepted",
+            "expected_page_no": 2
+          },
+          {
+            "defect_code": "D-003",
+            "observation_code": "O-003",
+            "component_code": "C-GIRDER-01",
+            "defect_type": "exposed_rebar",
+            "defect_type_raw": "露筋",
+            "location_text": "第三跨主梁外侧边缘",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+            "area_original_value": "0.9",
+            "area_original_unit": "m²",
+            "area_value": "0.9",
+            "area_unit": "m²",
+            "area_conversion": "identity",
+            "area_is_approximate": false,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at"
+            ],
+            "acceptance_status": "accepted",
+            "expected_page_no": 2
+          }
+        ],
+        "negative_statements": [
+          {
+            "component_code": "C-DECK-01",
+            "kind": "negative",
+            "text": "桥头铺装平顺，未见明显病害。",
+            "location_text": "桥头区域",
+            "allowed_location_text": [
+              "桥头区域",
+              "桥头"
+            ],
+            "expected_page_no": 1,
+            "creates_defect": false,
+            "creates_defect_linked_observation": false
+          }
+        ],
+        "pending_observation_codes": []
+      }
+    },
+    {
+      "case_id": "missing-area",
+      "title": "O-002 面积数值缺失",
+      "factor": "area_value_missing",
+      "planned_pdf": "samples/synthetic/bridge-variants-001/input/missing-area.pdf",
+      "artifact_state": "expectations_only_pdf_not_generated",
+      "planned_input_sha256": null,
+      "changes": [
+        {
+          "operation": "replace_paragraph",
+          "page_no": 2,
+          "old_text": "第三跨主梁左侧有 1 处露筋，面积为 2.6 m²。",
+          "new_text": "第三跨主梁左侧有 1 处露筋，面积未提供（单位 m²）。"
+        },
+        {
+          "operation": "replace_table_cell",
+          "page_no": 2,
+          "table_caption": "表 4 露筋记录（构件 C-GIRDER-01）",
+          "row_identity": {
+            "defect_code": "D-002",
+            "observation_code": "O-002"
+          },
+          "column_header": "面积",
+          "old_text": "2.6 m²",
+          "new_text": "未提供（单位 m²）"
+        }
+      ],
+      "expected": {
+        "counts": {
+          "bridges": 1,
+          "components": 2,
+          "defects": 3,
+          "positive_observations": 3,
+          "negative_statements": 1,
+          "unknown_date_positive_observations": 3,
+          "accepted_business_records": 8,
+          "pending_review_business_records": 1
+        },
+        "positive_facts": [
+          {
+            "defect_code": "D-001",
+            "observation_code": "O-001",
+            "component_code": "C-DECK-01",
+            "defect_type": "pothole",
+            "defect_type_raw": "坑槽",
+            "location_text": "第三跨桥面",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+            "area_original_value": "0.04",
+            "area_original_unit": "m²",
+            "area_value": "0.04",
+            "area_unit": "m²",
+            "area_conversion": "identity",
+            "area_is_approximate": false,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at"
+            ],
+            "acceptance_status": "accepted",
+            "expected_page_no": 1
+          },
+          {
+            "defect_code": "D-002",
+            "observation_code": "O-002",
+            "component_code": "C-GIRDER-01",
+            "defect_type": "exposed_rebar",
+            "defect_type_raw": "露筋",
+            "location_text": "第三跨主梁左侧",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨主梁左侧有 1 处露筋，面积未提供（单位 m²）。",
+            "area_original_value": null,
+            "area_original_unit": "m²",
+            "area_value": null,
+            "area_unit": "m²",
+            "area_conversion": null,
+            "area_is_approximate": null,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at",
+              "area_original_value",
+              "area_value",
+              "area_is_approximate"
+            ],
+            "acceptance_status": "pending_review",
+            "expected_page_no": 2
+          },
+          {
+            "defect_code": "D-003",
+            "observation_code": "O-003",
+            "component_code": "C-GIRDER-01",
+            "defect_type": "exposed_rebar",
+            "defect_type_raw": "露筋",
+            "location_text": "第三跨主梁外侧边缘",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+            "area_original_value": "0.9",
+            "area_original_unit": "m²",
+            "area_value": "0.9",
+            "area_unit": "m²",
+            "area_conversion": "identity",
+            "area_is_approximate": false,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at"
+            ],
+            "acceptance_status": "accepted",
+            "expected_page_no": 2
+          }
+        ],
+        "negative_statements": [
+          {
+            "component_code": "C-DECK-01",
+            "kind": "negative",
+            "text": "桥头铺装平顺，未见明显病害。",
+            "location_text": "桥头区域",
+            "allowed_location_text": [
+              "桥头区域",
+              "桥头"
+            ],
+            "expected_page_no": 1,
+            "creates_defect": false,
+            "creates_defect_linked_observation": false
+          }
+        ],
+        "pending_observation_codes": [
+          "O-002"
+        ]
+      },
+      "must_not_retain_document_text": [
+        "2.6"
+      ]
+    },
+    {
+      "case_id": "additional-negative",
+      "title": "增加主梁中部否定句",
+      "factor": "additional_negative_statement",
+      "planned_pdf": "samples/synthetic/bridge-variants-001/input/additional-negative.pdf",
+      "artifact_state": "expectations_only_pdf_not_generated",
+      "planned_input_sha256": null,
+      "changes": [
+        {
+          "operation": "insert_paragraph",
+          "page_no": 2,
+          "after_text": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+          "before_table_caption": "表 4 露筋记录（构件 C-GIRDER-01）",
+          "new_text": "第三跨主梁中部未见露筋。"
+        }
+      ],
+      "expected": {
+        "counts": {
+          "bridges": 1,
+          "components": 2,
+          "defects": 3,
+          "positive_observations": 3,
+          "negative_statements": 2,
+          "unknown_date_positive_observations": 3,
+          "accepted_business_records": 9,
+          "pending_review_business_records": 0
+        },
+        "positive_facts": [
+          {
+            "defect_code": "D-001",
+            "observation_code": "O-001",
+            "component_code": "C-DECK-01",
+            "defect_type": "pothole",
+            "defect_type_raw": "坑槽",
+            "location_text": "第三跨桥面",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+            "area_original_value": "0.04",
+            "area_original_unit": "m²",
+            "area_value": "0.04",
+            "area_unit": "m²",
+            "area_conversion": "identity",
+            "area_is_approximate": false,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at"
+            ],
+            "acceptance_status": "accepted",
+            "expected_page_no": 1
+          },
+          {
+            "defect_code": "D-002",
+            "observation_code": "O-002",
+            "component_code": "C-GIRDER-01",
+            "defect_type": "exposed_rebar",
+            "defect_type_raw": "露筋",
+            "location_text": "第三跨主梁左侧",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨主梁左侧有 1 处露筋，面积为 2.6 m²。",
+            "area_original_value": "2.6",
+            "area_original_unit": "m²",
+            "area_value": "2.6",
+            "area_unit": "m²",
+            "area_conversion": "identity",
+            "area_is_approximate": false,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at"
+            ],
+            "acceptance_status": "accepted",
+            "expected_page_no": 2
+          },
+          {
+            "defect_code": "D-003",
+            "observation_code": "O-003",
+            "component_code": "C-GIRDER-01",
+            "defect_type": "exposed_rebar",
+            "defect_type_raw": "露筋",
+            "location_text": "第三跨主梁外侧边缘",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+            "area_original_value": "0.9",
+            "area_original_unit": "m²",
+            "area_value": "0.9",
+            "area_unit": "m²",
+            "area_conversion": "identity",
+            "area_is_approximate": false,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at"
+            ],
+            "acceptance_status": "accepted",
+            "expected_page_no": 2
+          }
+        ],
+        "negative_statements": [
+          {
+            "component_code": "C-DECK-01",
+            "kind": "negative",
+            "text": "桥头铺装平顺，未见明显病害。",
+            "location_text": "桥头区域",
+            "allowed_location_text": [
+              "桥头区域",
+              "桥头"
+            ],
+            "expected_page_no": 1,
+            "creates_defect": false,
+            "creates_defect_linked_observation": false
+          },
+          {
+            "component_code": "C-GIRDER-01",
+            "kind": "negative",
+            "text": "第三跨主梁中部未见露筋。",
+            "location_text": "第三跨主梁中部",
+            "allowed_location_text": [
+              "第三跨主梁中部"
+            ],
+            "expected_page_no": 2,
+            "creates_defect": false,
+            "creates_defect_linked_observation": false
+          }
+        ],
+        "pending_observation_codes": []
+      }
+    },
+    {
+      "case_id": "duplicate-row",
+      "title": "重复 O-001 同编号表行",
+      "factor": "same_code_repeated_mention",
+      "planned_pdf": "samples/synthetic/bridge-variants-001/input/duplicate-row.pdf",
+      "artifact_state": "expectations_only_pdf_not_generated",
+      "planned_input_sha256": null,
+      "changes": [
+        {
+          "operation": "duplicate_table_row_once",
+          "page_no": 1,
+          "table_caption": "表 3 坑槽记录（构件 C-DECK-01）",
+          "row_identity": {
+            "defect_code": "D-001",
+            "observation_code": "O-001"
+          },
+          "column_headers": [
+            "病害编号",
+            "观测编号",
+            "位置",
+            "数量",
+            "面积"
+          ],
+          "row_cells": [
+            "D-001",
+            "O-001",
+            "第三跨桥面",
+            "1 处",
+            "0.04 m²"
+          ],
+          "insert_after_original_row": true,
+          "expected_data_row_count": 2
+        }
+      ],
+      "expected": {
+        "counts": {
+          "bridges": 1,
+          "components": 2,
+          "defects": 3,
+          "positive_observations": 3,
+          "negative_statements": 1,
+          "unknown_date_positive_observations": 3,
+          "accepted_business_records": 9,
+          "pending_review_business_records": 0
+        },
+        "positive_facts": [
+          {
+            "defect_code": "D-001",
+            "observation_code": "O-001",
+            "component_code": "C-DECK-01",
+            "defect_type": "pothole",
+            "defect_type_raw": "坑槽",
+            "location_text": "第三跨桥面",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+            "area_original_value": "0.04",
+            "area_original_unit": "m²",
+            "area_value": "0.04",
+            "area_unit": "m²",
+            "area_conversion": "identity",
+            "area_is_approximate": false,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at"
+            ],
+            "acceptance_status": "accepted",
+            "expected_page_no": 1
+          },
+          {
+            "defect_code": "D-002",
+            "observation_code": "O-002",
+            "component_code": "C-GIRDER-01",
+            "defect_type": "exposed_rebar",
+            "defect_type_raw": "露筋",
+            "location_text": "第三跨主梁左侧",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨主梁左侧有 1 处露筋，面积为 2.6 m²。",
+            "area_original_value": "2.6",
+            "area_original_unit": "m²",
+            "area_value": "2.6",
+            "area_unit": "m²",
+            "area_conversion": "identity",
+            "area_is_approximate": false,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at"
+            ],
+            "acceptance_status": "accepted",
+            "expected_page_no": 2
+          },
+          {
+            "defect_code": "D-003",
+            "observation_code": "O-003",
+            "component_code": "C-GIRDER-01",
+            "defect_type": "exposed_rebar",
+            "defect_type_raw": "露筋",
+            "location_text": "第三跨主梁外侧边缘",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+            "area_original_value": "0.9",
+            "area_original_unit": "m²",
+            "area_value": "0.9",
+            "area_unit": "m²",
+            "area_conversion": "identity",
+            "area_is_approximate": false,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at"
+            ],
+            "acceptance_status": "accepted",
+            "expected_page_no": 2
+          }
+        ],
+        "negative_statements": [
+          {
+            "component_code": "C-DECK-01",
+            "kind": "negative",
+            "text": "桥头铺装平顺，未见明显病害。",
+            "location_text": "桥头区域",
+            "allowed_location_text": [
+              "桥头区域",
+              "桥头"
+            ],
+            "expected_page_no": 1,
+            "creates_defect": false,
+            "creates_defect_linked_observation": false
+          }
+        ],
+        "pending_observation_codes": []
+      }
+    },
+    {
+      "case_id": "reordered-columns",
+      "title": "仅调整表 4 列顺序",
+      "factor": "table_column_order",
+      "planned_pdf": "samples/synthetic/bridge-variants-001/input/reordered-columns.pdf",
+      "artifact_state": "expectations_only_pdf_not_generated",
+      "planned_input_sha256": null,
+      "changes": [
+        {
+          "operation": "reorder_columns",
+          "page_no": 2,
+          "table_caption": "表 4 露筋记录（构件 C-GIRDER-01）",
+          "old_column_headers": [
+            "病害编号",
+            "观测编号",
+            "位置",
+            "数量",
+            "面积"
+          ],
+          "new_column_headers": [
+            "观测编号",
+            "面积",
+            "位置",
+            "病害编号",
+            "数量"
+          ],
+          "new_rows": [
+            [
+              "O-002",
+              "2.6 m²",
+              "第三跨主梁左侧",
+              "D-002",
+              "1 处"
+            ],
+            [
+              "O-003",
+              "0.9 m²",
+              "第三跨主梁外侧边缘",
+              "D-003",
+              "1 处"
+            ]
+          ],
+          "row_order_unchanged": true,
+          "table_3_unchanged": true
+        }
+      ],
+      "expected": {
+        "counts": {
+          "bridges": 1,
+          "components": 2,
+          "defects": 3,
+          "positive_observations": 3,
+          "negative_statements": 1,
+          "unknown_date_positive_observations": 3,
+          "accepted_business_records": 9,
+          "pending_review_business_records": 0
+        },
+        "positive_facts": [
+          {
+            "defect_code": "D-001",
+            "observation_code": "O-001",
+            "component_code": "C-DECK-01",
+            "defect_type": "pothole",
+            "defect_type_raw": "坑槽",
+            "location_text": "第三跨桥面",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。",
+            "area_original_value": "0.04",
+            "area_original_unit": "m²",
+            "area_value": "0.04",
+            "area_unit": "m²",
+            "area_conversion": "identity",
+            "area_is_approximate": false,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at"
+            ],
+            "acceptance_status": "accepted",
+            "expected_page_no": 1
+          },
+          {
+            "defect_code": "D-002",
+            "observation_code": "O-002",
+            "component_code": "C-GIRDER-01",
+            "defect_type": "exposed_rebar",
+            "defect_type_raw": "露筋",
+            "location_text": "第三跨主梁左侧",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨主梁左侧有 1 处露筋，面积为 2.6 m²。",
+            "area_original_value": "2.6",
+            "area_original_unit": "m²",
+            "area_value": "2.6",
+            "area_unit": "m²",
+            "area_conversion": "identity",
+            "area_is_approximate": false,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at"
+            ],
+            "acceptance_status": "accepted",
+            "expected_page_no": 2
+          },
+          {
+            "defect_code": "D-003",
+            "observation_code": "O-003",
+            "component_code": "C-GIRDER-01",
+            "defect_type": "exposed_rebar",
+            "defect_type_raw": "露筋",
+            "location_text": "第三跨主梁外侧边缘",
+            "assertion": "positive",
+            "scope": "single_defect",
+            "reported_count": 1,
+            "description_text": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。",
+            "area_original_value": "0.9",
+            "area_original_unit": "m²",
+            "area_value": "0.9",
+            "area_unit": "m²",
+            "area_conversion": "identity",
+            "area_is_approximate": false,
+            "observed_at": null,
+            "missing_fields": [
+              "observed_at"
+            ],
+            "acceptance_status": "accepted",
+            "expected_page_no": 2
+          }
+        ],
+        "negative_statements": [
+          {
+            "component_code": "C-DECK-01",
+            "kind": "negative",
+            "text": "桥头铺装平顺，未见明显病害。",
+            "location_text": "桥头区域",
+            "allowed_location_text": [
+              "桥头区域",
+              "桥头"
+            ],
+            "expected_page_no": 1,
+            "creates_defect": false,
+            "creates_defect_linked_observation": false
+          }
+        ],
+        "pending_observation_codes": []
+      }
+    }
+  ],
+  "future_execution_baseline": {
+    "model": "cn:deepseek-v4.1-flash",
+    "provider": "existing_user_local_relay_private_config",
+    "schema_path": "specs/001-business-extraction/business.schema.json",
+    "schema_sha256": "9ac6ec663dc04e2a31b80f854b9381ee4b335eac58b8e1b81ce7b164139a9f81",
+    "prompt_baseline_request_path": "experiments/business-extraction-001/results/fresh/request.json",
+    "system_prompt_sha256": "1c5b407b452f38c3360a4717a23da5528697cd2908ea824b537bcd5589d651db",
+    "parameters": {
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0,
+      "max_tokens": 18000,
+      "thinking": {
+        "type": "disabled"
+      },
+      "stream": false
+    },
+    "independent_calls_per_case": 2,
+    "planned_total_calls": 10,
+    "repair_in_first_pass_allowed": false,
+    "golden_or_prior_outputs_in_model_input_allowed": false,
+    "model_initiated": false,
+    "results": null
+  },
+  "pass_rules": [
+    "Each case produces exactly the listed business codes, fields, associations and statuses in both independent calls",
+    "Negative statements retained at their own component and location; no positive defect or observation created",
+    "Missing area remains null with the exact missing-field set and pending_review routing; no zero or baseline-value substitution",
+    "Duplicate row creates no additional business object; all source text remains available for evidence",
+    "Column reordering does not swap measurements or identifiers across rows",
+    "Every required field and relation has actual source support; evidence positions come from each newly parsed PDF",
+    "PDF content agrees with planned mutations before parser/model evaluation; failed authoring is not counted as extraction failure",
+    "Parsing failure, model/format failure and validator failure are reported separately; rejected or missing records cannot count as a passed case",
+    "Metadata explanation classified as unmapped; fabricated facts or erroneous aggregate conclusions are not acceptable",
+    "First-pass failures retained even if later repair succeeds; a changed prompt/schema/rule requires a new recorded experiment revision and complete suite rerun"
+  ]
+}

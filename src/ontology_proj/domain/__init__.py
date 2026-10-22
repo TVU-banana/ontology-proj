@@ -1,0 +1,1 @@
+"""Service-independent business vocabulary."""

@@ -1,0 +1,141 @@
+{
+  "version": "business-rules-1.0",
+  "area_units": {
+    "m²": {
+      "unit": "m²",
+      "factor": "1"
+    },
+    "㎡": {
+      "unit": "m²",
+      "factor": "1"
+    },
+    "m2": {
+      "unit": "m²",
+      "factor": "1"
+    },
+    "平方米": {
+      "unit": "m²",
+      "factor": "1"
+    },
+    "cm²": {
+      "unit": "cm²",
+      "factor": "0.0001"
+    },
+    "cm2": {
+      "unit": "cm²",
+      "factor": "0.0001"
+    },
+    "平方厘米": {
+      "unit": "cm²",
+      "factor": "0.0001"
+    },
+    "mm²": {
+      "unit": "mm²",
+      "factor": "0.000001"
+    },
+    "mm2": {
+      "unit": "mm²",
+      "factor": "0.000001"
+    },
+    "平方毫米": {
+      "unit": "mm²",
+      "factor": "0.000001"
+    }
+  },
+  "length_units": {
+    "m": {
+      "unit": "m",
+      "factor": "1"
+    },
+    "米": {
+      "unit": "m",
+      "factor": "1"
+    },
+    "cm": {
+      "unit": "cm",
+      "factor": "0.01"
+    },
+    "厘米": {
+      "unit": "cm",
+      "factor": "0.01"
+    },
+    "mm": {
+      "unit": "mm",
+      "factor": "0.001"
+    },
+    "毫米": {
+      "unit": "mm",
+      "factor": "0.001"
+    }
+  },
+  "type_aliases": {
+    "pothole": [
+      "坑槽"
+    ],
+    "exposed_rebar": [
+      "露筋",
+      "钢筋外露",
+      "钢筋裸露"
+    ],
+    "deck_pavement": [
+      "桥面铺装"
+    ],
+    "girder": [
+      "主梁"
+    ]
+  },
+  "area_markers": [
+    "病害面积",
+    "缺损面积",
+    "面积",
+    "S"
+  ],
+  "negative_terms": [
+    "未见",
+    "未发现",
+    "无明显",
+    "没有",
+    "未检出"
+  ],
+  "suspected_terms": [
+    "疑似",
+    "可能",
+    "待确认",
+    "待核实"
+  ],
+  "aggregate_terms": [
+    "全桥",
+    "合计",
+    "累计",
+    "若干",
+    "多处",
+    "总面积",
+    "两个",
+    "多个"
+  ],
+  "approximate_terms": [
+    "约",
+    "大约",
+    "近似"
+  ],
+  "unsupported_dimension_terms": [
+    "不规则",
+    "最大",
+    "上限",
+    "范围",
+    "不小于",
+    "不大于",
+    "不少于",
+    "不超过",
+    "至",
+    "~",
+    "～"
+  ],
+  "product_operators": [
+    "×",
+    "乘以",
+    "*"
+  ],
+  "max_expression_chars": 600,
+  "max_number_chars": 32
+}

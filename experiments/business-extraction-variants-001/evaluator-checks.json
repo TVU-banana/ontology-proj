@@ -1,0 +1,13 @@
+{
+  "passed": 6,
+  "failed": 0,
+  "checks": [
+    "fresh_baseline_passes_all_frozen_facts",
+    "wrong_area_rejected",
+    "missing_negative_rejected",
+    "wrong_routing_rejected",
+    "invented_date_rejected",
+    "explanation_as_aggregate_rejected"
+  ],
+  "model_calls": 0
+}

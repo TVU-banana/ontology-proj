@@ -1,0 +1,202 @@
+{
+  "input": "samples/synthetic/bridge-variants-001/input/reordered-columns.pdf",
+  "input_sha256": "ff564cd30bf1b14158ff69a0431892f10cea3159308fd88885dc27730f913315",
+  "source_kind": "synthetic",
+  "status": "ConversionStatus.SUCCESS",
+  "elapsed_seconds": 1.642634458024986,
+  "python": "3.12.14",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "versions": {
+    "docling": "2.137.0",
+    "docling-core": "2.101.1",
+    "docling-parse": "7.22.2",
+    "docling-ibm-models": "4.0.3",
+    "torch": "2.14.1",
+    "transformers": "5.19.0"
+  },
+  "pipeline_options": {
+    "document_timeout": null,
+    "accelerator_options": {
+      "num_threads": 4,
+      "device": "cpu",
+      "cuda_use_flash_attention2": false
+    },
+    "enable_remote_services": false,
+    "allow_external_plugins": false,
+    "artifacts_path": null,
+    "do_picture_classification": false,
+    "picture_classification_options": {
+      "engine_options": {
+        "engine_type": "transformers",
+        "top_k": null
+      },
+      "model_spec": {
+        "name": "document_figure_classifier_v2",
+        "repo_id": "docling-project/DocumentFigureClassifier-v2.5",
+        "revision": "main",
+        "engine_overrides": {}
+      }
+    },
+    "do_picture_description": false,
+    "picture_description_options": {
+      "batch_size": 8,
+      "scale": 2.0,
+      "picture_area_threshold": 0.05,
+      "classification_allow": null,
+      "classification_deny": null,
+      "classification_min_confidence": 0.0
+    },
+    "do_chart_extraction": false,
+    "chart_extraction_options": {
+      "engine_options": {
+        "engine_type": "auto_inline",
+        "prefer_vllm": false
+      },
+      "model_spec": {
+        "name": "Granite-Vision-4.1-4B",
+        "default_repo_id": "ibm-granite/granite-vision-4.1-4b",
+        "revision": "dd48e97503de471803850df70843cf9eb5da8712",
+        "prompt": "<chart2csv>",
+        "response_format": "plaintext",
+        "supported_engines": [
+          "transformers",
+          "api_ollama",
+          "api_openai",
+          "mlx",
+          "api_lmstudio"
+        ],
+        "engine_overrides": {
+          "transformers": {
+            "repo_id": null,
+            "revision": null,
+            "torch_dtype": "bfloat16",
+            "min_engine_version": null,
+            "extra_config": {
+              "transformers_model_type": "automodel-imagetexttotext"
+            }
+          },
+          "mlx": {
+            "repo_id": null,
+            "revision": null,
+            "torch_dtype": null,
+            "min_engine_version": "0.7.0",
+            "extra_config": {}
+          }
+        },
+        "api_overrides": {
+          "api_lmstudio": {
+            "params": {
+              "model": "granite-vision-4.1-4b"
+            }
+          },
+          "api_ollama": {
+            "params": {
+              "model": "granite-vision-4.1-4b"
+            }
+          },
+          "api_openai": {
+            "params": {
+              "model": "granite-vision-4.1-4b"
+            }
+          }
+        },
+        "trust_remote_code": true,
+        "stop_strings": [],
+        "temperature": 0.0,
+        "max_new_tokens": 4096,
+        "extra_generation_config": {}
+      },
+      "chart2csv": true,
+      "chart2summary": false,
+      "chart2code": false,
+      "output_format": "granite_vision_charts",
+      "use_natural_language_prompts": false
+    },
+    "images_scale": 1.0,
+    "generate_page_images": false,
+    "generate_picture_images": false,
+    "do_table_structure": true,
+    "do_ocr": false,
+    "do_code_enrichment": false,
+    "do_formula_enrichment": false,
+    "force_backend_text": false,
+    "table_structure_options": {},
+    "ocr_options": {
+      "mode": "default",
+      "lang": [],
+      "scale": 3.0,
+      "force_full_page_ocr": false
+    },
+    "layout_options": {
+      "keep_empty_clusters": false,
+      "skip_cell_assignment": false,
+      "create_orphan_clusters": true
+    },
+    "code_formula_options": {
+      "engine_options": {
+        "engine_type": "auto_inline",
+        "prefer_vllm": false
+      },
+      "model_spec": {
+        "name": "CodeFormulaV2",
+        "default_repo_id": "docling-project/CodeFormulaV2",
+        "revision": "main",
+        "prompt": "",
+        "response_format": "plaintext",
+        "supported_engines": null,
+        "engine_overrides": {
+          "transformers": {
+            "repo_id": null,
+            "revision": null,
+            "torch_dtype": null,
+            "min_engine_version": null,
+            "extra_config": {
+              "transformers_model_type": "automodel-imagetexttotext",
+              "extra_generation_config": {
+                "skip_special_tokens": false
+              },
+              "torch_dtype": "bfloat16"
+            }
+          }
+        },
+        "api_overrides": {},
+        "trust_remote_code": false,
+        "stop_strings": [
+          "</doctag>",
+          "<end_of_utterance>"
+        ],
+        "temperature": 0.0,
+        "max_new_tokens": 4096,
+        "extra_generation_config": {}
+      },
+      "scale": 2.0,
+      "max_size": null,
+      "extract_code": true,
+      "extract_formulas": true,
+      "expansion_factor": 0.18,
+      "stop_on_repetition": true
+    },
+    "generate_table_images": false,
+    "generate_parsed_pages": false,
+    "use_reading_order_separators": true,
+    "heading_hierarchy_options": {
+      "enabled": false,
+      "use_bookmarks": true,
+      "use_numbering": true,
+      "use_style": true,
+      "use_font_style": true,
+      "style_size_tolerance": 0.05,
+      "numbering_schemes": null,
+      "max_level": 6,
+      "bookmark_match_threshold": 0.8
+    },
+    "ocr_batch_size": 4,
+    "layout_batch_size": 4,
+    "table_batch_size": 4,
+    "batch_polling_interval_seconds": 0.5,
+    "queue_max_size": 100,
+    "stage_shutdown_timeout_seconds": 15.0
+  },
+  "errors": [],
+  "note": "No golden/model business extractor/Neo4j; source code unmodified. Timing includes pipeline initialization, not installation."
+}

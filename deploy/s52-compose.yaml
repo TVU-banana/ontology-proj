@@ -1,0 +1,20 @@
+name: ontology-s52
+services:
+  neo4j:
+    image: neo4j:5.26-community@sha256:c7d25c0eeebfe125718d58b72ed5d663c85d0479047733845eb2237c67ce8069
+    container_name: ${S52_CONTAINER:?dedicated container required}
+    ports:
+      - "127.0.0.1:${S52_HTTP_PORT:-18474}:7474"
+      - "127.0.0.1:${S52_BOLT_PORT:-18687}:7687"
+    env_file:
+      - ${S52_NEO4J_ENV_FILE:?private env file required}
+    environment:
+      NEO4J_server_memory_heap_initial__size: 256m
+      NEO4J_server_memory_heap_max__size: 512m
+      NEO4J_server_memory_pagecache_size: 256m
+    volumes:
+      - graph-data:/data
+    restart: "no"
+volumes:
+  graph-data:
+    name: ${S52_VOLUME:?dedicated volume required}

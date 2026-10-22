@@ -1,0 +1,16 @@
+{
+  "scope": "synthetic service smoke cases, not business golden facts or model comparison",
+  "documents": [
+    "溪桥演示桥的桥面铺装有一处坑槽，面积为0.04平方米。",
+    "Embedding接口支持批量输入：input字段传入字符串数组，每段文本返回一个向量。",
+    "缓存复用：相同文本且模型版本相同时可以复用已有向量；更换模型后需要重新计算。",
+    "番茄种植需要充足日照，浇水时应避免土壤长期积水。"
+  ],
+  "queries": [
+    {"text": "桥面发现坑洞的面积是多少？", "expected_document_index": 0},
+    {"text": "接口如何提交一组待编码的文本？", "expected_document_index": 1},
+    {"text": "How do I send multiple texts to the embedding API?", "expected_document_index": 1},
+    {"text": "如何避免同样的文本反复计算向量？", "expected_document_index": 2}
+  ],
+  "query_instruction": "Given a search query, retrieve relevant passages that answer the query"
+}

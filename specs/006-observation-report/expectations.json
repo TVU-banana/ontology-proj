@@ -1,0 +1,13 @@
+{
+  "fixed_before_implementation": "2026-10-11",
+  "basis": "human-authored synthetic expected facts; not generated-report-derived",
+  "original": {"bridge_id":"B-DEMO-001","document_id":"doc_6b4e8e6959081d7e8c9cec06ebe69d60b7913e47b00ac4ef79dcfe16b764b968","observations":3,"areas":{"O-001":"0.04","O-002":"2.6","O-003":"0.9"},"unit":"m²","all_dates":null,"negative_quote":"桥头铺装平顺，未见明显病害。"},
+  "missing_area": {"accepted_observations":2,"pending_observations":1,"never_fill_zero":true},
+  "date_filtered": {"observations":0,"excluded_unknown_dates":3},
+  "sections":["scope","sources","observations","limitations","evidence_index"],
+  "professional_review":"not_run",
+  "checks":["schema","references","assertions","artifacts"],
+  "forbidden":["professional rating chapter","treatment chapter","automatic cross-document defect merge","generation time as observed_at","pending as accepted","empty conflicts as no conflicts proven"],
+  "mechanisms":["out-of-scope or mismatched field citation rejected","revocation before registration rejected","registration failure not published; explicit retry reuses bytes","duplicate retry single Report/AuditEvent","restart interrupted then explicit registration retry","artifact tampering/missing rejected","later rejection shown without rewriting snapshot","HTML/table/link injection escaped"],
+  "calls":{"parsing":0,"extraction":0,"indexing":0,"generation":0,"embedding":0}
+}

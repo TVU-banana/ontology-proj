@@ -1,0 +1,60 @@
+/* 工作台布局：共享范围 + 录入 → 问答 → 报告。令牌与基础控件样式见 query.css。 */
+main{max-width:1440px;margin:auto;display:grid;grid-template-columns:280px minmax(0,1fr);gap:var(--space-5) var(--space-6);padding:0 var(--space-6) var(--space-6);align-items:start}
+main>section{grid-column:2;padding:var(--space-5) var(--space-6);scroll-margin-top:var(--space-5)}
+#scope-panel{grid-column:1;grid-row:1/4;background:transparent;padding:var(--space-2) 0}
+#scope-panel h2{font-size:17px;margin-bottom:var(--space-2)}
+#scope-panel p{font-size:13px;line-height:1.7}
+#scope-panel .scope-grid{display:grid;grid-template-columns:1fr;gap:var(--space-3);margin-top:var(--space-5)}
+#scope-panel .scope-grid label{margin:0}
+#scope-panel .fields{grid-template-columns:1fr;margin-top:var(--space-3);gap:0}
+#scope-panel .checks{display:grid;gap:var(--space-3);margin-top:var(--space-3)}
+#scope-panel .checks .check{margin:0;font-size:13px;align-items:flex-start}
+#scope-panel .check input{margin-top:3px}
+#scope-panel>p:last-child{margin-top:var(--space-4);padding-top:var(--space-4);border-top:1px solid var(--line-soft)}
+.ingestion-layout{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:var(--space-5)}
+.upload-area,.processing-area{min-width:0}
+.processing-area{border-left:1px solid var(--line-soft);padding-left:var(--space-5)}
+.ingestion-layout label:first-child{margin-top:0}
+.upload-area .fields{grid-template-columns:1fr;gap:0}
+#ingest form,#knowledge form{margin:0}
+#knowledge textarea{min-height:100px}
+#knowledge details,#ingest>details{margin-bottom:0}
+#report>label{margin-top:var(--space-5)}
+#document-output:not(:empty),#answer-output:not(:empty),#report-output:not(:empty){margin-top:var(--space-5);padding-top:var(--space-4);border-top:1px solid var(--line-soft)}
+
+pre{max-height:400px;overflow:auto}
+table{border-collapse:collapse;width:100%;font-size:14px}
+td,th{border-bottom:1px solid var(--line-soft);padding:var(--space-2);text-align:left;vertical-align:top;overflow-wrap:anywhere}
+caption{text-align:left;font-weight:600;color:var(--muted);padding:var(--space-2) 0}
+.table-scroll{overflow:auto;max-width:100%}
+.table-scroll table{min-width:680px}
+.table-scroll th{white-space:nowrap}
+.evidence-links{display:flex;gap:var(--space-2);flex-wrap:wrap}
+.evidence-links a{display:inline-flex;align-items:center;min-height:44px}
+.agent-event{border-top:1px solid var(--line-soft);margin-top:var(--space-3);padding-top:var(--space-3)}
+
+#download{display:inline-flex;align-items:center;min-height:44px;margin:var(--space-2) 0;font-weight:600}
+#download[hidden]{display:none}
+
+@media(max-width:1100px){
+  main{grid-template-columns:240px minmax(0,1fr);gap:var(--space-5)}
+  main>section{padding:var(--space-5)}
+  #scope-panel{padding:var(--space-2) 0}
+  .ingestion-layout{grid-template-columns:1fr}
+  .processing-area{border-left:0;padding-left:0;border-top:1px solid var(--line-soft);padding-top:var(--space-5)}
+}
+@media(max-width:800px){
+  main{grid-template-columns:1fr;padding:0 var(--space-4) var(--space-5);gap:var(--space-5)}
+  main>section{grid-column:1;padding:var(--space-4)}
+  #scope-panel{grid-column:1;grid-row:auto;padding:var(--space-4) 0}
+  #scope-panel .scope-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:var(--space-4)}
+  #scope-panel .scope-grid label:first-child{grid-column:1/-1}
+  #scope-panel .fields{grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-3)}
+  #scope-panel .checks{display:flex;flex-wrap:wrap;gap:var(--space-4)}
+  #scope-panel>p:last-child{padding-top:0;border-top:0}
+}
+@media(max-width:480px){
+  #scope-panel .scope-grid,#scope-panel .fields{grid-template-columns:1fr}
+  .actions{gap:var(--space-2)}
+  .actions button{padding:10px 12px}
+}

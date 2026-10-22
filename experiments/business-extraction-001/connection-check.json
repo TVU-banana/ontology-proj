@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-10T15:51:12Z",
+  "base_url": "http://relay.example.invalid:7863/v1",
+  "requested_model": "cn:deepseek-v4.1-flash",
+  "probe": {
+    "method": "GET",
+    "path": "/models",
+    "authenticated": false,
+    "http_status": 401
+  },
+  "reachability": "verified",
+  "model_availability": "unverified",
+  "chat_completions_compatibility": "unverified",
+  "extraction_run": "not_started"
+}

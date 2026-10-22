@@ -1,0 +1,27 @@
+{
+  "fixture_id": "bridge-demo-001",
+  "fixture_version": "v1.1",
+  "status": "agent_authored_awaiting_human_review",
+  "fixed_before_pdf_generation": true,
+  "source_kind": "synthetic",
+  "target_pdf": "samples/synthetic/bridge-demo-001/input/bridge-demo-001.pdf",
+  "forbidden_document_text": ["平湖市胜利大桥", "5 来源与改编", "原报告页码"],
+  "expected_page_count": 2,
+  "report_date": "2026-10-10",
+  "bridge": {"bridge_id": "B-DEMO-001", "name": "溪桥演示桥", "page_no": 1},
+  "components": [
+    {"component_id": "C-DECK-01", "bridge_id": "B-DEMO-001", "name": "桥面铺装", "page_no": 1},
+    {"component_id": "C-GIRDER-01", "bridge_id": "B-DEMO-001", "name": "主梁", "page_no": 1}
+  ],
+  "positive_facts": [
+    {"defect_id": "D-001", "observation_id": "O-001", "component_id": "C-DECK-01", "defect_type": "坑槽", "location_text": "第三跨桥面", "count": 1, "area_value": "0.04", "original_unit": "m²", "normalized_unit": "m²", "unit_conversion": "identity", "observed_at": null, "missing_fields": ["observed_at"], "source_kind": "synthetic", "polarity": "positive", "approximate": false, "page_no": 1, "target_text": "第三跨桥面有 1 处坑槽，面积为 0.04 m²。"},
+    {"defect_id": "D-002", "observation_id": "O-002", "component_id": "C-GIRDER-01", "defect_type": "露筋", "location_text": "第三跨主梁左侧", "count": 1, "area_value": "2.6", "original_unit": "m²", "normalized_unit": "m²", "unit_conversion": "identity", "observed_at": null, "missing_fields": ["observed_at"], "source_kind": "synthetic", "polarity": "positive", "approximate": false, "page_no": 2, "target_text": "第三跨主梁左侧有 1 处露筋，面积为 2.6 m²。"},
+    {"defect_id": "D-003", "observation_id": "O-003", "component_id": "C-GIRDER-01", "defect_type": "露筋", "location_text": "第三跨主梁外侧边缘", "count": 1, "area_value": "0.9", "original_unit": "m²", "normalized_unit": "m²", "unit_conversion": "identity", "observed_at": null, "missing_fields": ["observed_at"], "source_kind": "synthetic", "polarity": "positive", "approximate": false, "page_no": 2, "target_text": "第三跨主梁外侧边缘有 1 处露筋，面积为 0.9 m²。"}
+  ],
+  "negative_facts": [
+    {"component_id": "C-DECK-01", "location_text": "桥头区域", "polarity": "negative", "target_text": "桥头铺装平顺，未见明显病害。", "observed_at": null, "area_value": null, "positive_count": null, "page_no": 1, "create_defect": false, "create_defect_linked_observation": false}
+  ],
+  "expected_counts": {"bridges": 1, "components": 2, "defects": 3, "positive_observations": 3, "negative_text_facts": 1, "unknown_date_positive_observations": 3},
+  "evidence_status": "page_and_target_text_expectations_only_no_bbox_or_block_ids",
+  "notes": "Fixture expectations, not the production entity schema or model extraction output. Missing observation dates must never be filled from report_date."
+}

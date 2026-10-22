@@ -1,0 +1,156 @@
+[
+  {
+    "name": "模型注入 Cypher",
+    "base": "candidate.json",
+    "operation": "add",
+    "path": "/cypher",
+    "value": "MATCH (n) DELETE n",
+    "expected_layer": "schema",
+    "reason": "顶层禁止额外字段"
+  },
+  {
+    "name": "独立测量实体",
+    "base": "candidate.json",
+    "operation": "replace",
+    "path": "/entities/0/entity_type",
+    "value": "Measurement",
+    "expected_layer": "schema",
+    "reason": "只允许四类候选实体"
+  },
+  {
+    "name": "面积使用 JSON 浮点数",
+    "base": "candidate.json",
+    "operation": "replace",
+    "path": "/entities/4/data/area_original_value",
+    "value": 0.04,
+    "expected_layer": "schema",
+    "reason": "面积必须是十进制字符串或 null"
+  },
+  {
+    "name": "非法观测日期",
+    "base": "candidate.json",
+    "operation": "replace",
+    "path": "/entities/4/data/observed_at",
+    "value": "2026-02-30",
+    "expected_layer": "schema",
+    "reason": "需要启用 format 检查"
+  },
+  {
+    "name": "候选擅自宣布接纳",
+    "base": "candidate.json",
+    "operation": "add",
+    "path": "/entities/4/data/acceptance_status",
+    "value": "accepted",
+    "expected_layer": "schema",
+    "reason": "候选 data 禁止系统状态"
+  },
+  {
+    "name": "正式观测被写成否定",
+    "base": "records.json",
+    "operation": "replace",
+    "path": "/observations/0/assertion",
+    "value": "negative",
+    "expected_layer": "schema",
+    "reason": "否定陈述不建立该模型的肯定病害观测"
+  },
+  {
+    "name": "缺日期但未记录缺项",
+    "base": "records.json",
+    "operation": "replace",
+    "path": "/observations/0/missing_fields",
+    "value": [],
+    "expected_layer": "schema",
+    "reason": "null observed_at 必须有缺项记录"
+  },
+  {
+    "name": "bbox 超出页面",
+    "base": "records.json",
+    "operation": "replace",
+    "path": "/evidence/0/bbox",
+    "value": [
+      0,
+      0,
+      2,
+      1
+    ],
+    "expected_layer": "schema",
+    "reason": "归一坐标只允许 0..1"
+  },
+  {
+    "name": "不存在的父对象",
+    "base": "candidate.json",
+    "operation": "replace",
+    "path": "/relations/0/from_ref",
+    "value": "no-such-bridge",
+    "expected_layer": "program",
+    "reason": "跨对象引用存在性不由 JSON Schema 保证"
+  },
+  {
+    "name": "把编制日期当观测日期",
+    "base": "candidate.json",
+    "operation": "replace",
+    "path": "/entities/4/data/observed_at",
+    "value": "2026-10-10",
+    "expected_layer": "program",
+    "reason": "合法日期仍须有观测时间来源，不由报告日期填补"
+  },
+  {
+    "name": "合成来源冒充真实",
+    "base": "candidate.json",
+    "operation": "replace",
+    "path": "/source_kind",
+    "value": "real",
+    "expected_layer": "program",
+    "reason": "来源性质必须等于可信导入上下文"
+  },
+  {
+    "name": "无来源支撑的面积",
+    "base": "candidate.json",
+    "operation": "replace",
+    "path": "/entities/4/data/area_original_value",
+    "value": "999",
+    "expected_layer": "program",
+    "reason": "结构合法但原文没有该值"
+  },
+  {
+    "name": "未知面积单位",
+    "base": "candidate.json",
+    "operation": "replace",
+    "path": "/entities/4/data/area_original_unit",
+    "value": "cm²",
+    "expected_layer": "program",
+    "reason": "本草案只支持 m²/㎡/m2，不猜换算"
+  },
+  {
+    "name": "汇总误作单处病害",
+    "base": "candidate.json",
+    "operation": "replace",
+    "path": "/entities/4/data/scope",
+    "value": "aggregate",
+    "expected_layer": "program",
+    "reason": "汇总陈述保留原文，不展开独立病害"
+  },
+  {
+    "name": "不存在的原文块",
+    "base": "candidate.json",
+    "operation": "replace",
+    "path": "/entities/4/sources/0/block_id",
+    "value": "missing-block",
+    "expected_layer": "program",
+    "reason": "block_id 必须存在于固定解析快照"
+  },
+  {
+    "name": "倒置的 bbox",
+    "base": "records.json",
+    "operation": "replace",
+    "path": "/evidence/0/bbox",
+    "value": [
+      0.7,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "expected_layer": "program",
+    "reason": "单个坐标合法但 x0 必须小于 x1"
+  }
+]

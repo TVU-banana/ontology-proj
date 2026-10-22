@@ -1,0 +1,20 @@
+name: ontology-proj
+services:
+  neo4j:
+    image: neo4j:5.26-community@sha256:c7d25c0eeebfe125718d58b72ed5d663c85d0479047733845eb2237c67ce8069
+    container_name: ontology-proj-neo4j
+    ports:
+      - "127.0.0.1:17474:7474"
+      - "127.0.0.1:17687:7687"
+    env_file:
+      - .env.neo4j
+    environment:
+      NEO4J_server_memory_heap_initial__size: 256m
+      NEO4J_server_memory_heap_max__size: 512m
+      NEO4J_server_memory_pagecache_size: 256m
+    volumes:
+      - graph-data:/data
+    restart: unless-stopped
+volumes:
+  graph-data:
+    name: ontology-proj-neo4j-data

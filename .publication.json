@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "allowed_roots": [
+    "src",
+    "tests",
+    "scripts",
+    "deploy",
+    "samples",
+    "experiments",
+    "specs",
+    "docs",
+    "input-pdfs",
+    ".github"
+  ],
+  "allowed_root_files": [
+    ".env.example",
+    ".gitignore",
+    ".python-version",
+    ".publication.json",
+    "AGENTS.md",
+    "PRD.md",
+    "README.md",
+    "SECURITY.md",
+    "pyproject.toml",
+    "uv.lock",
+    "spec.md",
+    "MVP范围与业务建模讨论交接.md",
+    "规则配置快速阅读指南.md"
+  ],
+  "private_prefixes": [
+    "docs/audits/",
+    "docs/reviews/",
+    "docs/demo/"
+  ],
+  "synthetic_fixtures": [
+    "experiments/business-extraction-001/results/fresh/candidate.json",
+    "experiments/business-extraction-001/results/fresh/input-document.json",
+    "experiments/docling-parse-001/results/docling.json",
+    "experiments/docling-variants-001/results/additional-negative/docling.json",
+    "experiments/docling-variants-001/results/additional-negative/normalized.json",
+    "experiments/docling-variants-001/results/additional-negative/run.json",
+    "experiments/docling-variants-001/results/duplicate-row/docling.json",
+    "experiments/docling-variants-001/results/duplicate-row/normalized.json",
+    "experiments/docling-variants-001/results/duplicate-row/run.json",
+    "experiments/docling-variants-001/results/missing-area/docling.json",
+    "experiments/docling-variants-001/results/missing-area/normalized.json",
+    "experiments/docling-variants-001/results/missing-area/run.json",
+    "experiments/docling-variants-001/results/reordered-columns/docling.json",
+    "experiments/docling-variants-001/results/reordered-columns/normalized.json",
+    "experiments/docling-variants-001/results/reordered-columns/run.json",
+    "specs/002-ingestion-foundation/results/s2.1/t06-run-003/docling.json",
+    "specs/002-ingestion-foundation/results/s2.2/baseline-1.1.4/baseline-normalized.json",
+    "specs/002-ingestion-foundation/results/s2.2/baseline-1.1.4/missing-area-normalized.json",
+    "specs/002-ingestion-foundation/results/s2.2/baseline-1.1.4/results/baseline-01/candidate.json",
+    "specs/002-ingestion-foundation/results/s2.2/baseline-1.1.4/results/baseline-01/records.json",
+    "specs/002-ingestion-foundation/results/s2.2/baseline-1.1.4/results/missing-area-01/records.json",
+    "specs/002-ingestion-foundation/results/s2.2/baseline-1.1/missing-area-normalized.json",
+    "specs/002-ingestion-foundation/results/s2.2/baseline-1.1/results/missing-area-01/candidate.json",
+    "specs/002-ingestion-foundation/results/s2.2/baseline-1.1/results/missing-area-01/records.json"
+  ],
+  "required_files": [
+    "README.md",
+    "SECURITY.md",
+    ".env.example",
+    ".publication.json",
+    ".github/workflows/security.yml",
+    "src/ontology_proj/resources/business.schema.json",
+    "src/ontology_proj/interfaces/http/static/vendor/pdfjs/build/pdf.mjs",
+    "src/ontology_proj/interfaces/http/static/vendor/pdfjs/build/pdf.worker.mjs"
+  ]
+}

@@ -1,0 +1,367 @@
+[
+  {
+    "original_block_id": "305b886371efd3eeb4185f113872628bea6e0c729204212b4962c933f847b5fc",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0001",
+    "source_ref": "#/texts/0"
+  },
+  {
+    "original_block_id": "4319ded674f379dfa197704b3e46b21b15e7c5a3e355c5b731a422e419299e73",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0002",
+    "source_ref": "#/texts/1"
+  },
+  {
+    "original_block_id": "401af67c788a13fc7f463229d1377e5a4a278178c9d28de4ee15c87bf3bfae51",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0003",
+    "source_ref": "#/texts/2"
+  },
+  {
+    "original_block_id": "d9194dbf14a808b7098daaeaff19bf16ea2b6aa4909aa6c1be249d929dfe4547",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0004",
+    "source_ref": "#/texts/3"
+  },
+  {
+    "original_block_id": "4f0d87dc54b6c4647c2f40c67e4ef91a44aa4a69396d1edca659be6f113f21ae",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0005",
+    "source_ref": "#/texts/4"
+  },
+  {
+    "original_block_id": "5402a051363c24d9a2db4bdc3d1b20e73d1d5959b78a69a2d780b6e49c47abf5",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0006",
+    "source_ref": "#/texts/5"
+  },
+  {
+    "original_block_id": "7845d0911f833f5c4f9fa741dfbd3f25987841fd9b0cc8f8bcf00f71b4895351",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0007",
+    "source_ref": "#/texts/6"
+  },
+  {
+    "original_block_id": "b88929e7ad6e987ba0fe85686c59c596d927b0d0dc08e41d9d1fd6af0e8f76b6",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0008",
+    "source_ref": "#/tables/0/data/table_cells/0"
+  },
+  {
+    "original_block_id": "80b48aedf94eb18e0ccb52f6e7711d47c0a6fe457034510e0b1a91ccefec72be",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0009",
+    "source_ref": "#/tables/0/data/table_cells/1"
+  },
+  {
+    "original_block_id": "c36a7a2cfaa30b31d31d015c4685bcad0a05675d0138a9d1ffe4ccfe9fdf9287",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0010",
+    "source_ref": "#/tables/0/data/table_cells/2"
+  },
+  {
+    "original_block_id": "af2e426c914e3b528c4c522024e5a0593e376d4163dd86256b8a1e22f1d884cf",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0011",
+    "source_ref": "#/tables/0/data/table_cells/3"
+  },
+  {
+    "original_block_id": "6e3011150338b8ede8c3d238aa6242827b9ba661e7da6f40f288462ee6b862bd",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0012",
+    "source_ref": "#/tables/0/data/table_cells/4"
+  },
+  {
+    "original_block_id": "64bd5015796699411847ecef4b3c74b90b7ee7030221c57e9a56dc00c6761f36",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0013",
+    "source_ref": "#/tables/0/data/table_cells/5"
+  },
+  {
+    "original_block_id": "37908ac3ae0395790b4c9b93fb82eba71532fee7d115f492be7b24a03b364296",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0014",
+    "source_ref": "#/tables/0/data/table_cells/6"
+  },
+  {
+    "original_block_id": "9c08059f55a9715915150071038198daefebfe6214ca8fab63331acabdeb0e43",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0015",
+    "source_ref": "#/tables/0/data/table_cells/7"
+  },
+  {
+    "original_block_id": "a78992f69844b71678512871d0569147961888961a13ea275890a1be7c720f7b",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0016",
+    "source_ref": "#/texts/7"
+  },
+  {
+    "original_block_id": "ba71a7ee5d56eed42218c79cf1f90be1b38f084dd713c2e8c3bf783bf4ebcfad",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0017",
+    "source_ref": "#/texts/8"
+  },
+  {
+    "original_block_id": "f442482d00994bbcc98b9bc7a73a282d86a7e3fdf2c3e6d8ed93b259f76b612b",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0018",
+    "source_ref": "#/tables/1/data/table_cells/0"
+  },
+  {
+    "original_block_id": "c45f04e0fa16aedb3895819b1bf7a613e3f8f7b6013cfdf53c8e84c7ad8206cb",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0019",
+    "source_ref": "#/tables/1/data/table_cells/1"
+  },
+  {
+    "original_block_id": "956057b7388a2244202b2ede323c1c4d9e14059c3ddadf17f83cc630b01b68cc",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0020",
+    "source_ref": "#/tables/1/data/table_cells/2"
+  },
+  {
+    "original_block_id": "952fb981af75b00abb1fbdc3c5fa344f884c7fcfe471b587f73e45d06ba08263",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0021",
+    "source_ref": "#/tables/1/data/table_cells/3"
+  },
+  {
+    "original_block_id": "eda0eb5ef04375656a12af9c9e604e53d554f2c794043295e378e70fd9d5ba4b",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0022",
+    "source_ref": "#/tables/1/data/table_cells/4"
+  },
+  {
+    "original_block_id": "0b2d5fb2b4aefb6ba51410590dd5b9b355b0d7d0b0a990b930da168bf7bdd710",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0023",
+    "source_ref": "#/tables/1/data/table_cells/5"
+  },
+  {
+    "original_block_id": "675e03a4fbc47cec95f577853a38fa12b9e4973bad2e539f046c11c10f231395",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0024",
+    "source_ref": "#/tables/1/data/table_cells/6"
+  },
+  {
+    "original_block_id": "10d6912f2ce710925da32bed0f823ce613489aec33e826ca28e2b6fa80f0e138",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0025",
+    "source_ref": "#/tables/1/data/table_cells/7"
+  },
+  {
+    "original_block_id": "ecee9576bf71b0570292d91f8d8610da330aa2fbb1d0cc687da441d7ff73e7b9",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0026",
+    "source_ref": "#/tables/1/data/table_cells/8"
+  },
+  {
+    "original_block_id": "0cf6c1dc4e2bf2e24a42d3964fbc7347ed61aa9b7204cfd99e84e2a5c3a0deaf",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0027",
+    "source_ref": "#/texts/9"
+  },
+  {
+    "original_block_id": "57713b8dc82f21f5c09d955e19fbd76cf18c49623df0127a79d531a860cb3bf9",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0028",
+    "source_ref": "#/texts/10"
+  },
+  {
+    "original_block_id": "e006ad4e452f5be98354cbfb074db935817eb8e11940620a43fb558e6f99a9bb",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0029",
+    "source_ref": "#/texts/11"
+  },
+  {
+    "original_block_id": "9e02e2486cfbd3024af065c030475928e751ebcf530bc24205944c66086c34b3",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0030",
+    "source_ref": "#/texts/12"
+  },
+  {
+    "original_block_id": "870e90271c870f02d52c94b29c1fd900fa9e2a57a514be8d8c34dcee41e21245",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0031",
+    "source_ref": "#/tables/2/data/table_cells/0"
+  },
+  {
+    "original_block_id": "b21e9beb98ea3ea90570c29e954897e5c53ba36154d02dc5730cc6a5c38392b4",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0032",
+    "source_ref": "#/tables/2/data/table_cells/1"
+  },
+  {
+    "original_block_id": "603be741df6a4484523cc7d56a55e94c906438b8f6b06df6a5181ed9bbcf1de4",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0033",
+    "source_ref": "#/tables/2/data/table_cells/2"
+  },
+  {
+    "original_block_id": "95bc4bec4d700192ad91ebc4abf23c4252a3987bcd44c9cc7036d47d6a38eb95",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0034",
+    "source_ref": "#/tables/2/data/table_cells/3"
+  },
+  {
+    "original_block_id": "48a01d29ebd8c26a21ded2a3eabe0c64e1b1bc0898c397fa57bd0dc88cb916b2",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0035",
+    "source_ref": "#/tables/2/data/table_cells/4"
+  },
+  {
+    "original_block_id": "94e06f44e18dbfb6d62c8a77e738660123506b0d3845fb0f7781dbe949ecb8fb",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0036",
+    "source_ref": "#/tables/2/data/table_cells/5"
+  },
+  {
+    "original_block_id": "8902d2c2f5835733d0693ab72b5b7aff29b535fc74407ad53fc1c675315dbbee",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0037",
+    "source_ref": "#/tables/2/data/table_cells/6"
+  },
+  {
+    "original_block_id": "5a46185bb292d596351fe7e77fe60a2786d0fc61b8e22dbb0cfbc2a8188630d8",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0038",
+    "source_ref": "#/tables/2/data/table_cells/7"
+  },
+  {
+    "original_block_id": "c154649b3a7c9cf22e7096d18e4183769028779795f45707894fb1e9ffa0377e",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0039",
+    "source_ref": "#/tables/2/data/table_cells/8"
+  },
+  {
+    "original_block_id": "f6b29d54271c1177ebbab008584f486979b162f0a4ed6558626031a0ccfc412e",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0040",
+    "source_ref": "#/tables/2/data/table_cells/9"
+  },
+  {
+    "original_block_id": "f74ec63fe6965e97926fef6a40ed2bffcd7c20dc6c1003784b7391126eda9b15",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0041",
+    "source_ref": "#/texts/13"
+  },
+  {
+    "original_block_id": "608889d7d0265a78e6fccfe6c54f7035bcec5c1250d89b3fa05c03046fa2be93",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0042",
+    "source_ref": "#/texts/14"
+  },
+  {
+    "original_block_id": "17b98bdf81fb92e287a681af86514496c18e967dd25dbfd2a3d19e3a1005dda9",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0043",
+    "source_ref": "#/texts/15"
+  },
+  {
+    "original_block_id": "3297d280980202fb1199dbfe9073dbbe068db331542201cda1dad2a971a09f9d",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0044",
+    "source_ref": "#/texts/16"
+  },
+  {
+    "original_block_id": "c028c9999c4256a6a23364e3e76925a6423aa591cabd643b29473fdcd9251591",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0045",
+    "source_ref": "#/texts/17"
+  },
+  {
+    "original_block_id": "a48e8ad450e473b3db7676d552b571777dc9fc370fee01db104a0d6119e6920f",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0046",
+    "source_ref": "#/texts/18"
+  },
+  {
+    "original_block_id": "5d06feb8e14360ce75e8e0d8df5043b45cfdef9eac2b1e0c6336ab984e03ddb7",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0047",
+    "source_ref": "#/texts/19"
+  },
+  {
+    "original_block_id": "ee19cefedb10d8257fecf37399f8f0a52d1295a659f0f21d54d3148dd3cfedad",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0048",
+    "source_ref": "#/texts/20"
+  },
+  {
+    "original_block_id": "94a1d6ab24b4f1ff8bf261c799ccddd126d461cced67bd22f363cff7b346bf17",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0049",
+    "source_ref": "#/texts/21"
+  },
+  {
+    "original_block_id": "8ab3d67dfc4d06543478ce10e9a6764d0b696f4b2fa4b77603d3d8bb6ca65251",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0050",
+    "source_ref": "#/texts/22"
+  },
+  {
+    "original_block_id": "760d585c63a918d7242fe876561ac69ba58b3cbff0f1f732f4d017b53cae6927",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0051",
+    "source_ref": "#/texts/23"
+  },
+  {
+    "original_block_id": "50459d53260184147d7591457e58e45980969aa98c052359b26a06eb15c79450",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0052",
+    "source_ref": "#/texts/24"
+  },
+  {
+    "original_block_id": "acc0e0537fa0d0269ba64bb3c1fcf9f8865088853a1be8c8ce70d89483a2de77",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0053",
+    "source_ref": "#/tables/3/data/table_cells/0"
+  },
+  {
+    "original_block_id": "8edc2909fd8f0a30eaf3da38aa736a4e6dc61fdc732072a8a9f464b3cf0065d6",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0054",
+    "source_ref": "#/tables/3/data/table_cells/1"
+  },
+  {
+    "original_block_id": "9f650af1385be5426b5cfad475463bfcd767f67d98b5d49d7d84da01fdd9be32",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0055",
+    "source_ref": "#/tables/3/data/table_cells/2"
+  },
+  {
+    "original_block_id": "9de8400a9b50fe02e556ed3c8760d81e1ae81829bffc867b4d9240ae964f7f79",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0056",
+    "source_ref": "#/tables/3/data/table_cells/3"
+  },
+  {
+    "original_block_id": "b8b37215bbcd9e0e06b9e76b0244eeae75f78cc73127698615f544ce8e5f0a9b",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0057",
+    "source_ref": "#/tables/3/data/table_cells/4"
+  },
+  {
+    "original_block_id": "56641c845cad32aaed58dc45421b21001c737fa52c43d4d6954172ac7d5a10ce",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0058",
+    "source_ref": "#/tables/3/data/table_cells/5"
+  },
+  {
+    "original_block_id": "a0ddd098d76b93cb08aaa68b8e6f0b573adaa0596c02b9245f40a115c34b257e",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0059",
+    "source_ref": "#/tables/3/data/table_cells/6"
+  },
+  {
+    "original_block_id": "536d52a83432145c65fb31f8b9e4243f89eb3e23e366bdf539fcfea4a9e2996e",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0060",
+    "source_ref": "#/tables/3/data/table_cells/7"
+  },
+  {
+    "original_block_id": "6ccb00006e6fe8dcd747d436470374da0e850e2aafe7df67776c9341ab48643d",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0061",
+    "source_ref": "#/tables/3/data/table_cells/8"
+  },
+  {
+    "original_block_id": "3585af41d48c0499277151c28f4d03fe5e561be238ac5e6a98e019fcf7b6055d",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0062",
+    "source_ref": "#/tables/3/data/table_cells/9"
+  },
+  {
+    "original_block_id": "9fa73d97e6595657501b154005bb8bac39fa433317247715047674b6bb1373e3",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0063",
+    "source_ref": "#/tables/3/data/table_cells/10"
+  },
+  {
+    "original_block_id": "b3ad4bfccfbd1eb09d57fccf52908a6a268afd2d5ec479e56f0ff17a27d49060",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0064",
+    "source_ref": "#/tables/3/data/table_cells/11"
+  },
+  {
+    "original_block_id": "dd34cf8e16f06069d965538c77cdee8712780a77e3a5369c04284c9df2fac398",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0065",
+    "source_ref": "#/tables/3/data/table_cells/12"
+  },
+  {
+    "original_block_id": "278d9ead0c913690f23dd44b3baac66f9de0ace8ba63dffc5ae3f53c80f11a96",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0066",
+    "source_ref": "#/tables/3/data/table_cells/13"
+  },
+  {
+    "original_block_id": "407f4c37b09470e87475495f859fc89951c325d4175a90f83afeeee5acb566ca",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0067",
+    "source_ref": "#/tables/3/data/table_cells/14"
+  },
+  {
+    "original_block_id": "714503ee828c41f11a604e715e0bcab3e7b4e560751471abdb9b39150b139963",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0068",
+    "source_ref": "#/texts/25"
+  },
+  {
+    "original_block_id": "d7f07df775cf089f8c67919212808f0c652494875f3f6d26a394217f61a378ef",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0069",
+    "source_ref": "#/texts/26"
+  },
+  {
+    "original_block_id": "16e383548c53537d144b4b09aa6dbf029e2be67bd57144a40f3496ce08fcf5a6",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0070",
+    "source_ref": "#/texts/27"
+  },
+  {
+    "original_block_id": "0e6c08011b15ff99e2dfdaaea00934653621ea189e2e62fa1ce6f402d6799373",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0071",
+    "source_ref": "#/texts/28"
+  },
+  {
+    "original_block_id": "c5c6b4439bc9ba4a507be297a17bb7a14b2481b1a7beaa61314eb498a0c18784",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0072",
+    "source_ref": "#/texts/29"
+  },
+  {
+    "original_block_id": "b2368557a58a71b2f484704dcad280c2302a7fed8c330d6e1f47fc254bec4541",
+    "block_id": "doc_d482c12bb88c1c3868289b64490914a8d17daadfcc4fee69f08129dcb7daf80b_block_0073",
+    "source_ref": "#/texts/30"
+  }
+]

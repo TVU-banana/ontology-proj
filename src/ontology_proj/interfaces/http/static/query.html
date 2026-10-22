@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>精确查询 · 桥梁检测知识库</title><link rel="stylesheet" href="/static/query.css?v=20261013"></head>
+<body><a class="skip-link" href="#main">跳到主内容</a><header><h1>精确查询与原文回查</h1><label class="theme">显示主题<select id="theme"><option value="system">跟随系统</option><option value="light">浅色</option><option value="dark">深色</option></select></label><nav aria-label="页面导航"><a href="/">返回资料与证据工作台</a></nav></header>
+<main id="main"><section aria-labelledby="query-title"><h2 id="query-title">查询范围</h2><form id="query-form">
+<label>资料范围（多个用逗号分隔）<textarea id="documents" rows="2"></textarea></label>
+<label>桥梁<input id="bridge" placeholder="可留空；文档与桥梁至少填一项"></label>
+<div class="fields"><label>查询类型<select id="type"><option value="bridge_components">桥梁的构件</option><option value="component_observations">构件的观测</option><option value="defect_history">同一病害的观测</option><option value="record_by_id">按记录编号</option></select></label><label>接纳状态<select id="acceptance"><option value="accepted">已接纳</option><option value="pending_review">待复核（查看缺项）</option></select></label></div>
+<label>构件范围（多个用逗号分隔）<input id="components" placeholder="组件查询必填，其他查询可用于限定范围"></label>
+<label id="identity-label" hidden>病害 / 记录编号<input id="identity"></label>
+<details><summary>日期、面积与审核条件</summary><div class="fields"><label>起始观测日期<input type="date" id="date-from"></label><label>截止观测日期<input type="date" id="date-to"></label><label>最小面积（m²）<input id="area-min" inputmode="decimal" placeholder="例如 1.0"></label><label>最大面积（m²）<input id="area-max" inputmode="decimal"></label></div><label class="check"><input type="checkbox" id="synthetic" checked>包含合成演示素材</label><label class="check"><input type="checkbox" id="confirmed">仅人工确认记录</label></details>
+<button type="submit" id="submit">查询记录</button></form><p id="query-status" role="status" class="status"></p><div id="results"></div></section>
+<section id="evidence-panel" aria-labelledby="evidence-title"><h2 id="evidence-title">原文证据</h2><p id="evidence-status" role="status" class="status"></p><div id="evidence-meta"></div><pre id="quote"></pre><div id="controls" hidden><button id="zoom-out" type="button" aria-label="缩小">−</button><output id="zoom">100%</output><button id="zoom-in" type="button" aria-label="放大">＋</button><button id="rotate" type="button">旋转 90°</button><a id="pdf-link" target="_blank" rel="noopener">打开完整 PDF</a></div><div id="pdf-scroll"><div id="page" hidden><canvas id="canvas" aria-label="原 PDF 页面"></canvas><div id="highlight" hidden></div></div></div></section></main>
+<script type="module" src="/static/query.js?v=s51"></script></body></html>
